@@ -1,0 +1,5 @@
+{
+  "/policies": [
+    "./static/chunks/pages/policies.js"
+  ]
+}

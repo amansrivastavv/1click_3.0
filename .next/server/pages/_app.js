@@ -1,0 +1,10 @@
+var R=require("../chunks/ssr/[turbopack]_runtime.js")("server/pages/_app.js")
+R.c("server/chunks/ssr/f2ed1_next_ba0068fe._.js")
+R.c("server/chunks/ssr/f2ed1_rc-field-form_es_74cb8175._.js")
+R.c("server/chunks/ssr/f2ed1_antd_es_c09f64c3._.js")
+R.c("server/chunks/ssr/f2ed1_@ant-design_cssinjs_es_4f40bc34._.js")
+R.c("server/chunks/ssr/f2ed1_rc-menu_es_217a5871._.js")
+R.c("server/chunks/ssr/f2ed1_67b80d0f._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__7261205b._.js")
+R.m("[project]/Downloads/One click/src/pages/_app.tsx [ssr] (ecmascript)")
+module.exports=R.m("[project]/Downloads/One click/src/pages/_app.tsx [ssr] (ecmascript)").exports

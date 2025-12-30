@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+/* Improve table responsiveness */
+.policies-table .ant-table {
+  font-size: 0.875rem;
+}
+
+@media (max-width: 640px) {
+  .policies-table .ant-table {
+    font-size: 0.75rem;
+  }
+
+  .policies-table .ant-table-thead > tr > th {
+    padding: 8px 4px;
+  }
+
+  .policies-table .ant-table-tbody > tr > td {
+    padding: 8px 4px;
+  }
+}
