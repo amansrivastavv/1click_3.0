@@ -45,7 +45,6 @@ class ApiClient {
     if (requiresAuth) {
       const token = storage.getToken();
       if (token) {
-
         headers["customAuthorization"] = `Bearer ${token}`;
       }
     }
@@ -258,6 +257,35 @@ class ApiClient {
   }
 
   /**
+   * GET BLOB request
+   * USE WHEN: Fetching files (PDFs, Images) ensuring Auth headers are sent
+   */
+  async getBlob(endpoint: string): Promise<Blob | null> {
+    const url = endpoint.startsWith("http")
+      ? endpoint
+      : `${this.baseURL}${endpoint}`;
+    const headers = this.getHeaders({}, true);
+
+    console.log("[ApiClient] getBlob requesting:", url);
+
+    try {
+      const response = await fetch(url, {
+        method: "GET",
+        headers,
+      });
+
+      if (!response.ok) {
+        console.error("Failed to fetch blob:", response.statusText);
+        return null;
+      }
+      return await response.blob();
+    } catch (error) {
+      console.error("Network error fetching blob:", error);
+      return null;
+    }
+  }
+
+  /**
    * UPLOAD file
    * USE WHEN: Uploading files (images, documents, etc.)
    *
@@ -270,7 +298,7 @@ class ApiClient {
    * @param config - Optional configuration
    * @returns API response
    */
- async upload<T>(
+  async upload<T>(
     endpoint: string,
     formData: FormData,
     config?: RequestConfig
@@ -283,7 +311,7 @@ class ApiClient {
     if (requiresAuth) {
       const token = storage.getToken();
       if (token) {
-        headers["customAuthorization"] = `Bearer ${token}`;  
+        headers["customAuthorization"] = `Bearer ${token}`;
       }
     }
 

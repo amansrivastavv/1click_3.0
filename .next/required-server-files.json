@@ -90,6 +90,7 @@
     "compiler": {},
     "expireTime": 31536000,
     "staticPageGenerationTimeout": 60,
+    "output": "export",
     "modularizeImports": {
       "@mui/icons-material": {
         "transform": "@mui/icons-material/{{member}}"
@@ -291,12 +292,7 @@
     },
     "_originalRewrites": {
       "beforeFiles": [],
-      "afterFiles": [
-        {
-          "source": "/api/proxy/:path*",
-          "destination": "https://appapi.1clickpolicy.com/:path*"
-        }
-      ],
+      "afterFiles": [],
       "fallback": []
     }
   },

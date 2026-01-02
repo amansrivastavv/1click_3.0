@@ -18,6 +18,7 @@ import toast from "react-hot-toast";
 import type { UploadFile } from "antd/es/upload/interface";
 import { Company } from "@/api/types";
 import { companiesApi } from "@/api/companies";
+import { API_CONFIG } from "@/api/config";
 
 const CompaniesPage: React.FC = () => {
   const [companies, setCompanies] = useState<Company[]>([]);
@@ -32,6 +33,11 @@ const CompaniesPage: React.FC = () => {
   const [isImageModalOpen, setIsImageModalOpen] = useState(false);
   const [selectedLogo, setSelectedLogo] = useState<string | null>(null);
   const [selectedCompanyName, setSelectedCompanyName] = useState<string>("");
+
+  // Track logo errors
+  const [logoErrorMap, setLogoErrorMap] = useState<{ [id: string]: boolean }>(
+    {}
+  );
 
   const loadCompanies = async () => {
     setLoading(true);
@@ -124,6 +130,10 @@ const CompaniesPage: React.FC = () => {
     setFileList(fileList);
   };
 
+  const handleLogoError = (id: string) => {
+    setLogoErrorMap((prev) => ({ ...prev, [id]: true }));
+  };
+
   const columns: ColumnType<Company>[] = [
     {
       title: "Name",
@@ -136,19 +146,34 @@ const CompaniesPage: React.FC = () => {
       dataIndex: "image_url",
       key: "logo",
       align: "left",
-      render: (logo: string, record: Company) =>
-        logo ? (
+      render: (logo: string, record: Company) => {
+        const isError = logoErrorMap[record.id];
+        
+        if (!logo || isError) return "No Logo";
+
+        let fullUrl = logo;
+        if (!logo.startsWith("http")) {
+            const baseUrl = typeof API_CONFIG.BASE_URL === 'string' 
+                ? API_CONFIG.BASE_URL.replace(/\/api\/proxy$/, '') 
+                : "";
+            
+            const domain = baseUrl.startsWith("http") ? baseUrl : "https://appapi.1clickpolicy.com";
+            
+            const cleanPath = logo.startsWith("/") ? logo : `/${logo}`;
+            fullUrl = `${domain}${cleanPath}`;
+        }
+
+        return (
           <img
-            src={logo}
+            src={fullUrl}
             alt="logo"
             width={50}
             style={{ cursor: "pointer" }}
-            onClick={() => handleLogoClick(logo, record.name)}
-            onError={() => console.log("Invalid logo URL:", logo)}
+            onClick={() => handleLogoClick(fullUrl, record.name)}
+            onError={() => handleLogoError(record.id)}
           />
-        ) : (
-          "No Logo"
-        ),
+        );
+      },
     },
     {
       title: "Status",
@@ -244,6 +269,7 @@ const CompaniesPage: React.FC = () => {
         </Form>
       </Modal>
 
+      {/* Modal to view full logo */}
       <Modal
         open={isImageModalOpen}
         footer={null}

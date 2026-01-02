@@ -1,0 +1,15 @@
+__turbopack_load_page_chunks__("/insuranceTypes", [
+  "static/chunks/f7cbc701da85394c.js",
+  "static/chunks/ffb0ce3478256716.js",
+  "static/chunks/3db3a785e900bae9.js",
+  "static/chunks/4f89cc560d7721b7.js",
+  "static/chunks/13dc6e1bb289ef64.js",
+  "static/chunks/2f4cf5d6b9a496b5.js",
+  "static/chunks/66c638aa6c71ec83.js",
+  "static/chunks/d4ac912e65e10c71.js",
+  "static/chunks/e441fc2bb8a3f4ef.js",
+  "static/chunks/e45326576ea3a2e1.js",
+  "static/chunks/aafcd646f55b571a.js",
+  "static/chunks/cb30c005f1f8e28d.js",
+  "static/chunks/turbopack-6a8527569777a31e.js"
+])

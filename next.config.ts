@@ -1,7 +1,10 @@
 import type { NextConfig } from "next";
 
+const isProd = process.env.NODE_ENV === "production";
+
 const nextConfig: NextConfig = {
-  // output: "export", // Disabled to allow Rewrites (Proxy)
+  // Enable static export ONLY in production build
+  output: isProd ? "export" : undefined,
   trailingSlash: true,
   eslint: {
     ignoreDuringBuilds: true,
@@ -10,7 +13,9 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
+  // Enable Proxy Rewrites ONLY in development (when not using static export)
   async rewrites() {
+    if (isProd) return [];
     return [
       {
         source: "/api/proxy/:path*",

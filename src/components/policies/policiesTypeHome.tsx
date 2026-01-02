@@ -111,7 +111,7 @@ const PoliciesTypeHome: React.FC<Props> = ({
       let finalUrl = rawUrl;
 
       if (!rawUrl.startsWith("http")) {
-        finalUrl = `${API_CONFIG.BASE_URL.replace("/api", "")}/${rawUrl}`;
+        finalUrl = rawUrl;
       }
 
       const fileName = rawUrl.split("/").pop() || "Document.pdf";
@@ -232,30 +232,41 @@ const PoliciesTypeHome: React.FC<Props> = ({
   
       formData.append("ids[]", record.id);
 
-      formData.append("policy_status", status); // "1" or "0"
       formData.append("is_verified", status); 
       
-      // formData.append("policy_status", status === "1" ? "Approved" : "Rejected");
+    
+      
+      if (status === "1") {
+          formData.append("policy_status", "Active");
+      } else {
+          formData.append("policy_status", "Pending");
+      }
 
-      if (record.insurer_name) formData.append("insurer_name", record.insurer_name);
-      
-      if (record.client_name) formData.append("client_name", record.client_name);
-      if (record.insurance_category) formData.append("insurance_category", record.insurance_category);
-      if (record.policy_no) formData.append("policy_no", record.policy_no);
-   
-      if (record.sum_insured) formData.append("sum_insured", record.sum_insured);
-      if (record.gross_premium) formData.append("gross_premium", record.gross_premium);
-      if (record.policy_start_date) formData.append("policy_start_date", record.policy_start_date);
-      if (record.policy_end_date) formData.append("policy_end_date", record.policy_end_date);
-      
+      console.log("Sending toggleVerification:", {
+        id: record.id,
+        is_verified: status,
+        policy_status: formData.get("policy_status")
+      });
+
       const res = await apiClient.upload(API_ENDPOINTS.ADMIN_UPDATE_POLICY, formData);
 
       if (res.status === "error") {
+        if (res.message?.includes("Insurer not found")) {
+            throw new Error(`Invalid Insurer Name: "${record.insurer_name}". Please Click Edit -> Re-select Insurer -> Save.`);
+        }
         throw new Error(res.message);
       }
 
       toast.success(status === "1" ? "Approved" : "Rejected");
-      fetchFilteredPolicies(filterStatus, currentPage);
+      
+      setPolicies((prev) =>
+        prev.map((p) => (p.id === record.id ? { ...p, is_verified: status } : p))
+      );
+
+      // Delay re-fetch to allow server consistency
+      setTimeout(() => {
+        fetchFilteredPolicies(filterStatus, currentPage);
+      }, 1500);
     } catch (err: any) {
       console.error(err);
       toast.error(err?.message || "Update failed");
@@ -316,20 +327,21 @@ const PoliciesTypeHome: React.FC<Props> = ({
     {
       title: "Status",
       dataIndex: "is_verified",
-      render: (v) =>
-        v === "1" ? (
-          <Tag color="green" className="text-xs">
-            Approved
-          </Tag>
-        ) : v === "0" ? (
-          <Tag color="red" className="text-xs">
-            Rejected
-          </Tag>
+      render: (v, r) => {
+        // Fallback: If is_verified is not saving (backend issue), check policy_status
+        const isApproved = v === "1" || r.policy_status?.toLowerCase() === "active";
+        
+        if (isApproved) {
+            return <Tag color="green" className="text-xs">Approved</Tag>;
+        }
+        
+        return v === "0" ? (
+          <Tag color="red" className="text-xs">Rejected</Tag>
         ) : (
-          <Tag color="orange" className="text-xs">
-            Pending
-          </Tag>
-        ),
+          <Tag color="orange" className="text-xs">Pending</Tag>
+        );
+      },
+
     },
     {
       title: "Actions",
@@ -450,14 +462,29 @@ const PoliciesTypeHome: React.FC<Props> = ({
         title={null}
         onCancel={() => setEditingPolicy(null)}
         footer={null}
-        width="95%"
-        style={{ maxWidth: "1000px", top: 20 }}
+        centered
+        width={1000}
+        style={{ top: 20 }}
         styles={{
           body: {
-            maxHeight: "calc(100vh - 100px)",
-            overflowY: "auto",
+            height: "80vh",
+            maxHeight: "800px",
+            overflow: "hidden",
             padding: 0,
+            borderRadius: "0.75rem", // rounded-xl
+            display: "flex",
+            flexDirection: "column",
           },
+          content: {
+            padding: 0,
+            borderRadius: "0.75rem",
+            overflow: "hidden",
+            boxShadow: "0 25px 50px -12px rgba(0, 0, 0, 0.25)",
+            background: "transparent",
+          },
+          wrapper: {
+             backdropFilter: "blur(4px)",
+          }
         }}
         destroyOnClose
       >

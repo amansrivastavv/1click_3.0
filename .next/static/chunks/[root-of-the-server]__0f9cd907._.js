@@ -480,8 +480,10 @@ __turbopack_context__.s([
     "API_ENDPOINTS",
     ()=>API_ENDPOINTS
 ]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/Downloads/One click/node_modules/next/dist/build/polyfills/process.js [client] (ecmascript)");
+const isProd = ("TURBOPACK compile-time value", "development") === "production";
 const API_CONFIG = {
-    BASE_URL: "/api/proxy",
+    BASE_URL: ("TURBOPACK compile-time falsy", 0) ? "TURBOPACK unreachable" : "/api/proxy",
     TOKEN_KEY: "auth_token",
     USER_KEY: "user_data"
 };
@@ -783,6 +785,28 @@ class ApiClient {
         });
     }
     /**
+   * GET BLOB request
+   * USE WHEN: Fetching files (PDFs, Images) ensuring Auth headers are sent
+   */ async getBlob(endpoint) {
+        const url = endpoint.startsWith("http") ? endpoint : "".concat(this.baseURL).concat(endpoint);
+        const headers = this.getHeaders({}, true);
+        console.log("[ApiClient] getBlob requesting:", url);
+        try {
+            const response = await fetch(url, {
+                method: "GET",
+                headers
+            });
+            if (!response.ok) {
+                console.error("Failed to fetch blob:", response.statusText);
+                return null;
+            }
+            return await response.blob();
+        } catch (error) {
+            console.error("Network error fetching blob:", error);
+            return null;
+        }
+    }
+    /**
    * UPLOAD file
    * USE WHEN: Uploading files (images, documents, etc.)
    *
@@ -908,6 +932,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$n
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$MenuOutlined$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MenuOutlined$3e$__ = __turbopack_context__.i("[project]/Downloads/One click/node_modules/@ant-design/icons/es/icons/MenuOutlined.js [client] (ecmascript) <export default as MenuOutlined>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$HomeOutlined$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__HomeOutlined$3e$__ = __turbopack_context__.i("[project]/Downloads/One click/node_modules/@ant-design/icons/es/icons/HomeOutlined.js [client] (ecmascript) <export default as HomeOutlined>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$ProfileOutlined$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ProfileOutlined$3e$__ = __turbopack_context__.i("[project]/Downloads/One click/node_modules/@ant-design/icons/es/icons/ProfileOutlined.js [client] (ecmascript) <export default as ProfileOutlined>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$DashboardOutlined$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__DashboardOutlined$3e$__ = __turbopack_context__.i("[project]/Downloads/One click/node_modules/@ant-design/icons/es/icons/DashboardOutlined.js [client] (ecmascript) <export default as DashboardOutlined>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/One click/node_modules/next/link.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$next$2f$image$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/One click/node_modules/next/image.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$next$2f$router$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/One click/node_modules/next/router.js [client] (ecmascript)");
@@ -927,7 +952,7 @@ const menuItems = [
         key: "/dashboard",
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$HomeOutlined$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__HomeOutlined$3e$__["HomeOutlined"], {}, void 0, false, {
             fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-            lineNumber: 20,
+            lineNumber: 21,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0)),
         label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -935,7 +960,7 @@ const menuItems = [
             children: "Home"
         }, void 0, false, {
             fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-            lineNumber: 21,
+            lineNumber: 22,
             columnNumber: 12
         }, ("TURBOPACK compile-time value", void 0))
     },
@@ -948,7 +973,7 @@ const menuItems = [
         key: "/companies",
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$BankOutlined$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__BankOutlined$3e$__["BankOutlined"], {}, void 0, false, {
             fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-            lineNumber: 30,
+            lineNumber: 31,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0)),
         label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -956,7 +981,7 @@ const menuItems = [
             children: "Companies"
         }, void 0, false, {
             fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-            lineNumber: 31,
+            lineNumber: 32,
             columnNumber: 12
         }, ("TURBOPACK compile-time value", void 0))
     },
@@ -964,7 +989,7 @@ const menuItems = [
         key: "/upcomingExpiries",
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$ProfileOutlined$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ProfileOutlined$3e$__["ProfileOutlined"], {}, void 0, false, {
             fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-            lineNumber: 35,
+            lineNumber: 36,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0)),
         label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -972,7 +997,7 @@ const menuItems = [
             children: "Upcoming Expiries"
         }, void 0, false, {
             fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-            lineNumber: 36,
+            lineNumber: 37,
             columnNumber: 12
         }, ("TURBOPACK compile-time value", void 0))
     },
@@ -980,7 +1005,7 @@ const menuItems = [
         key: "/policies",
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$ProfileOutlined$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ProfileOutlined$3e$__["ProfileOutlined"], {}, void 0, false, {
             fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-            lineNumber: 40,
+            lineNumber: 41,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0)),
         label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -988,7 +1013,7 @@ const menuItems = [
             children: "Policies"
         }, void 0, false, {
             fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-            lineNumber: 41,
+            lineNumber: 42,
             columnNumber: 12
         }, ("TURBOPACK compile-time value", void 0))
     },
@@ -996,7 +1021,7 @@ const menuItems = [
         key: "/users",
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$UserOutlined$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__UserOutlined$3e$__["UserOutlined"], {}, void 0, false, {
             fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-            lineNumber: 45,
+            lineNumber: 46,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0)),
         label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1004,15 +1029,15 @@ const menuItems = [
             children: "Users"
         }, void 0, false, {
             fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-            lineNumber: 46,
+            lineNumber: 47,
             columnNumber: 12
         }, ("TURBOPACK compile-time value", void 0))
     },
     {
         key: "/manage-dashboard",
-        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$UserOutlined$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__UserOutlined$3e$__["UserOutlined"], {}, void 0, false, {
+        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$DashboardOutlined$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__DashboardOutlined$3e$__["DashboardOutlined"], {}, void 0, false, {
             fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-            lineNumber: 50,
+            lineNumber: 51,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0)),
         label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$next$2f$link$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1020,7 +1045,7 @@ const menuItems = [
             children: "Manage Dashboard"
         }, void 0, false, {
             fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-            lineNumber: 51,
+            lineNumber: 52,
             columnNumber: 12
         }, ("TURBOPACK compile-time value", void 0))
     }
@@ -1068,7 +1093,7 @@ const Sidebar = ()=>{
                         onError: ()=>console.error("Failed to load logo")
                     }, void 0, false, {
                         fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-                        lineNumber: 92,
+                        lineNumber: 93,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$button$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Button$3e$__["Button"], {
@@ -1077,7 +1102,7 @@ const Sidebar = ()=>{
                             className: "text-xl"
                         }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-                            lineNumber: 102,
+                            lineNumber: 103,
                             columnNumber: 17
                         }, void 0),
                         onClick: ()=>setDrawerOpen(true),
@@ -1085,13 +1110,13 @@ const Sidebar = ()=>{
                         disabled: isLoading
                     }, void 0, false, {
                         fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-                        lineNumber: 100,
+                        lineNumber: 101,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-                lineNumber: 91,
+                lineNumber: 92,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1108,12 +1133,12 @@ const Sidebar = ()=>{
                             onError: ()=>console.error("Failed to load logo")
                         }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-                            lineNumber: 115,
+                            lineNumber: 116,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-                        lineNumber: 111,
+                        lineNumber: 112,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1129,12 +1154,12 @@ const Sidebar = ()=>{
                             }
                         }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-                            lineNumber: 125,
+                            lineNumber: 126,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-                        lineNumber: 124,
+                        lineNumber: 125,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1143,7 +1168,7 @@ const Sidebar = ()=>{
                             type: "default",
                             icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$LogoutOutlined$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__LogoutOutlined$3e$__["LogoutOutlined"], {}, void 0, false, {
                                 fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-                                lineNumber: 136,
+                                lineNumber: 137,
                                 columnNumber: 19
                             }, void 0),
                             className: "w-full flex items-center gap-2 px-3 py-2 bg-red-600 text-white hover:bg-red-700 hover:text-white transition-all logout-button",
@@ -1153,18 +1178,18 @@ const Sidebar = ()=>{
                             children: "Logout"
                         }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-                            lineNumber: 134,
+                            lineNumber: 135,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-                        lineNumber: 133,
+                        lineNumber: 134,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-                lineNumber: 110,
+                lineNumber: 111,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$drawer$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Drawer$3e$__["Drawer"], {
@@ -1179,12 +1204,12 @@ const Sidebar = ()=>{
                         onError: ()=>console.error("Failed to load logo")
                     }, void 0, false, {
                         fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-                        lineNumber: 151,
+                        lineNumber: 152,
                         columnNumber: 13
                     }, void 0)
                 }, void 0, false, {
                     fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-                    lineNumber: 150,
+                    lineNumber: 151,
                     columnNumber: 11
                 }, void 0),
                 placement: "left",
@@ -1203,12 +1228,12 @@ const Sidebar = ()=>{
                             className: "custom-menu"
                         }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-                            lineNumber: 167,
+                            lineNumber: 168,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-                        lineNumber: 166,
+                        lineNumber: 167,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1217,7 +1242,7 @@ const Sidebar = ()=>{
                             type: "default",
                             icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$LogoutOutlined$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__LogoutOutlined$3e$__["LogoutOutlined"], {}, void 0, false, {
                                 fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-                                lineNumber: 177,
+                                lineNumber: 178,
                                 columnNumber: 19
                             }, void 0),
                             className: "w-full flex items-center gap-2 px-3 py-2 bg-red-500 text-white hover:bg-red-600 hover:text-white transition-all logout-button",
@@ -1227,18 +1252,18 @@ const Sidebar = ()=>{
                             children: "Logout"
                         }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-                            lineNumber: 175,
+                            lineNumber: 176,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-                        lineNumber: 174,
+                        lineNumber: 175,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-                lineNumber: 148,
+                lineNumber: 149,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"], {

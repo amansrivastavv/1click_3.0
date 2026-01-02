@@ -1,7 +1,7 @@
 (globalThis.TURBOPACK_CHUNK_LISTS || (globalThis.TURBOPACK_CHUNK_LISTS = [])).push({
     script: typeof document === "object" ? document.currentScript : undefined,
     chunks: [
-  "static/chunks/[root-of-the-server]__15fd591b._.js",
+  "static/chunks/[root-of-the-server]__d7d2089e._.js",
   "static/chunks/f2ed1_next_dist_compiled_next-devtools_index_3fa62034.js",
   "static/chunks/f2ed1_next_dist_compiled_14a1b450._.js",
   "static/chunks/f2ed1_next_dist_shared_lib_a93b8a32._.js",
@@ -16,8 +16,8 @@
   "static/chunks/f2ed1_antd_es_input_550dc888._.js",
   "static/chunks/f2ed1_antd_es_typography_901d5295._.js",
   "static/chunks/f2ed1_antd_es_table_3e55e9be._.js",
-  "static/chunks/f2ed1_antd_es_07825b0e._.js",
-  "static/chunks/f2ed1_335c434c._.js",
+  "static/chunks/f2ed1_antd_es_3ab4f8ca._.js",
+  "static/chunks/f2ed1_85214b71._.js",
   "static/chunks/f2ed1_rc-picker_es_8e819e9b._.js",
   "static/chunks/f2ed1_rc-tabs_es_828729d7._.js",
   "static/chunks/f2ed1_rc-menu_es_76d045ae._.js",
@@ -27,9 +27,9 @@
   "static/chunks/f2ed1_rc-select_es_027092a1._.js",
   "static/chunks/f2ed1_motion-dom_dist_es_3297d98f._.js",
   "static/chunks/f2ed1_framer-motion_dist_es_b578e3e0._.js",
-  "static/chunks/f2ed1_@ant-design_81dc1f84._.js",
+  "static/chunks/f2ed1_@ant-design_89913f80._.js",
   "static/chunks/f2ed1_@rc-component_f5bd9b72._.js",
-  "static/chunks/f2ed1_be560683._.js"
+  "static/chunks/f2ed1_20bc0aa6._.js"
 ],
     source: "entry"
 });

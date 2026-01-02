@@ -2,6 +2,7 @@ import React from "react";
 import { Table, Button } from "antd";
 import Image from "next/image";
 import { Company } from "@/api/types";
+import { API_CONFIG } from "@/api/config";
 
 interface CompanyTableProps {
   companies: Company[];
@@ -9,6 +10,47 @@ interface CompanyTableProps {
   loading: boolean;
 }
 
+const LogoCell = ({ src }: { src: string }) => {
+  const [error, setError] = React.useState(false);
+
+  // Filter out obviously bad data
+  if (!src || src === "null" || src.trim() === "") {
+    return <span className="text-gray-400 text-xs text-center block">No Logo</span>;
+  }
+
+  if (error) {
+    return <span className="text-gray-400 text-xs text-center block">No Logo</span>;
+  }
+
+  // Handle URL construction
+  let imageUrl = src;
+  if (src && !src.startsWith("http")) {
+      let baseUrl = API_CONFIG.BASE_URL;
+      if (baseUrl.endsWith('/api/proxy')) {
+           baseUrl = baseUrl.replace('/api/proxy', ''); 
+      } else if (baseUrl.endsWith('/')) {
+           baseUrl = baseUrl.slice(0, -1);
+      }
+      
+      const cleanPath = src.startsWith('/') ? src : `/${src}`;
+      imageUrl = `${baseUrl}${cleanPath}`;
+  }
+
+  return (
+    <img
+      src={imageUrl}
+      alt="logo"
+      style={{ 
+          width: '50px', 
+          height: '50px', 
+          objectFit: 'contain' 
+      }}
+      onError={() => setError(true)}
+    />
+  );
+};
+
+// Main Component
 const CompanyTable: React.FC<CompanyTableProps> = ({
   companies,
   onEdit,
@@ -19,18 +61,7 @@ const CompanyTable: React.FC<CompanyTableProps> = ({
       title: "Logo",
       dataIndex: "logo",
       key: "logo",
-      render: (text: string) =>
-        text ? (
-          <Image
-            src={text}
-            alt="logo"
-            width={50} // specify width
-            height={50} // specify height (Next.js maintains aspect ratio if you use 'style={{ objectFit: "contain" }}')
-            style={{ objectFit: "contain" }} // optional, maintains aspect ratio
-          />
-        ) : (
-          "-"
-        ),
+      render: (text: string) => <LogoCell src={text} />,
     },
 
     {

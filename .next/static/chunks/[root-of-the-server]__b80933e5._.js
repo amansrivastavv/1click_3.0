@@ -480,8 +480,10 @@ __turbopack_context__.s([
     "API_ENDPOINTS",
     ()=>API_ENDPOINTS
 ]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/Downloads/One click/node_modules/next/dist/build/polyfills/process.js [client] (ecmascript)");
+const isProd = ("TURBOPACK compile-time value", "development") === "production";
 const API_CONFIG = {
-    BASE_URL: "/api/proxy",
+    BASE_URL: ("TURBOPACK compile-time falsy", 0) ? "TURBOPACK unreachable" : "/api/proxy",
     TOKEN_KEY: "auth_token",
     USER_KEY: "user_data"
 };

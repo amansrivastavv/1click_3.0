@@ -8,6 +8,7 @@ import {
   SafetyOutlined,
   HomeOutlined,
   ProfileOutlined,
+  DashboardOutlined,
 } from "@ant-design/icons";
 import Link from "next/link";
 import Image from "next/image";
@@ -47,7 +48,7 @@ const menuItems = [
   },
   {
     key: "/manage-dashboard",
-    icon: <UserOutlined />,
+    icon: <DashboardOutlined />,
     label: <Link href="/manage-dashboard">Manage Dashboard</Link>,
   },
 ];

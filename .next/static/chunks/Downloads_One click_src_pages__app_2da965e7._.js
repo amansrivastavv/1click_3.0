@@ -12,7 +12,9 @@
   "static/chunks/f2ed1_antd_es_2267f49d._.js",
   "static/chunks/f2ed1_@ant-design_cssinjs_es_0b6519cb._.js",
   "static/chunks/f2ed1_rc-menu_es_4e06bf99._.js",
-  "static/chunks/f2ed1_93a59b4a._.js",
+  "static/chunks/f2ed1_@rc-component_98e55b77._.js",
+  "static/chunks/f2ed1_@ant-design_3ff2524e._.js",
+  "static/chunks/f2ed1_00cada93._.js",
   "static/chunks/[root-of-the-server]__0f9cd907._.js",
   "static/chunks/Downloads_One click_src_styles_globals_60b7d338.css"
 ],

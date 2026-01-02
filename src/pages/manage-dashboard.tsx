@@ -197,7 +197,7 @@ const Home: NextPage = () => {
               type="primary"
               onClick={() => openModal(item)}
             >
-              Edit Card
+              Edit
             </Button>
           </div>
         ))}
@@ -205,7 +205,7 @@ const Home: NextPage = () => {
 
       {/* ---------- MODAL ---------- */}
       <Modal
-        title="Edit Card"
+        title="Edit"
         open={isModalOpen}
         onOk={handleOk}
         onCancel={closeModal}

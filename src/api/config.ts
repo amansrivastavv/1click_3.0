@@ -1,5 +1,7 @@
+const isProd = process.env.NODE_ENV === "production";
+
 export const API_CONFIG = {
-  BASE_URL: "/api/proxy", // Request via local proxy to bypass CORS
+  BASE_URL: isProd ? "https://appapi.1clickpolicy.com" : "/api/proxy",
   TOKEN_KEY: "auth_token",
   USER_KEY: "user_data",
 };

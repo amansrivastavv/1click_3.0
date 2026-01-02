@@ -257,7 +257,7 @@ const Home = ()=>{
                                 className: "mt-auto w-full my-4",
                                 type: "primary",
                                 onClick: ()=>openModal(item),
-                                children: "Edit Card"
+                                children: "Edit"
                             }, void 0, false, {
                                 fileName: "[project]/Downloads/One click/src/pages/manage-dashboard.tsx",
                                 lineNumber: 195,
@@ -275,7 +275,7 @@ const Home = ()=>{
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$modal$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Modal$3e$__["Modal"], {
-                title: "Edit Card",
+                title: "Edit",
                 open: isModalOpen,
                 onOk: handleOk,
                 onCancel: closeModal,

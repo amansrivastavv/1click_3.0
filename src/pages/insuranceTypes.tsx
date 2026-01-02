@@ -53,26 +53,25 @@ const InsuranceTypes: React.FC = () => {
     }
   };
 
-  // Save new or updated insurance type
 
   const saveInsuranceType = async () => {
     try {
       setSaving(true);
       const values = await form.validateFields();
 
-      // Convert boolean switch to string
+
       const status = values.status ? "active" : "inactive";
 
       const payload = {
-        id: values.id, // will be undefined for new entries
+        id: values.id, 
         name: values.name,
         status,
       };
 
-      // Dynamic API URL (like fetchInsuranceTypes)
+
       const apiUrl = `${API_CONFIG.BASE_URL}${API_ENDPOINTS.SAVE_INSURANCE}`;
 
-      // Wrap the API call with toast.promise
+
       const res = await toast.promise(api.post(apiUrl, payload), {
         loading: "Saving insurance type...",
         success: "Insurance type saved successfully!",
@@ -149,7 +148,7 @@ const InsuranceTypes: React.FC = () => {
           <Form.Item
             label="Status"
             name="status"
-            valuePropName="checked" // Important for Switch to work with Form
+            valuePropName="checked" 
           >
             <Switch checkedChildren="Active" unCheckedChildren="Inactive" />
           </Form.Item>

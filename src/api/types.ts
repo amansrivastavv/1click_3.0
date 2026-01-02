@@ -215,7 +215,20 @@ export interface YearData {
   months: Record<string, MonthData>;
 }
 
-// Full API response for chart
+// Dashboard Policy Options
+export interface InsuranceItem {
+  id: string;
+  title: string;
+  subtitle: string;
+  tag: string;
+  badge: string;
+  url: string;
+  image: string;
+  tag_color?: string;
+  tag_text_color?: string;
+  badge_color?: string;
+}
+
 export interface GetChartDataResponse {
   status: "success" | "error";
   data: YearData[];

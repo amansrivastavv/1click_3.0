@@ -1,10 +1,11 @@
-// src/components/policies/PolicyEditFormHealth.tsx
 "use client";
 
 import React from "react";
-import { Form, Input, DatePicker, Select, Upload, Button } from "antd";
-import { UploadOutlined } from "@ant-design/icons";
+import { Form, Input, DatePicker, Select, Upload } from "antd";
+import { User, Activity, Calendar, FileText, Upload as UploadIcon, Users, HeartPulse } from "lucide-react";
 import type { FormInstance } from "antd";
+import PolicyLayout from "./PolicyLayout";
+import PDFPreview from "./PDFPreview";
 
 interface PolicyEditFormHealthProps {
   form: FormInstance;
@@ -20,186 +21,247 @@ const PolicyEditFormHealth: React.FC<PolicyEditFormHealthProps> = ({
   onCancel,
 }) => {
   return (
-    <div className="bg-white px-2">
-      <Form layout="vertical" form={form} requiredMark={false}>
-        {/* ===== Policy Document Section ===== */}
-        <div className="mb-8">
-          <h3 className="text-lg font-semibold text-gray-800 mb-4 border-l-4 border-green-600 pl-3">
-            Policy Document
-          </h3>
-          
-          <div className="bg-gray-50 rounded-xl p-4 border border-dashed border-gray-300 hover:border-green-500 transition-all duration-300 group">
-            <Form.Item
-              name="policy_pdf"
-              valuePropName="fileList"
-              getValueFromEvent={(e) => e?.fileList}
-              className="mb-0"
-            >
-              <Upload.Dragger
-                beforeUpload={() => false}
-                accept=".pdf"
-                className="!border-0 !bg-transparent"
-                showUploadList={{
-                  showRemoveIcon: true,
-                }}
-              >
-                <div className="py-4">
-                  <div className="w-16 h-16 bg-green-50 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
-                    <UploadOutlined style={{ fontSize: 28, color: '#16A34A' }} />
-                  </div>
-                  <p className="text-gray-900 text-sm font-medium mb-1">
-                    Click or drag file to upload
-                  </p>
-                  <p className="text-gray-500 text-xs text-center">
-                    PDF format only (Max 20MB)
-                  </p>
+    <PolicyLayout
+      title="Edit Health Policy"
+      subtitle="Manage health coverage & members"
+      icon={<Activity className="w-6 h-6" />}
+      themeColor="green"
+      sections={[
+        { id: "basic", label: "Basic Info", icon: <User className="w-4 h-4" /> },
+        { id: "details", label: "Policy Details", icon: <HeartPulse className="w-4 h-4" /> },
+        { id: "coverage", label: "Coverage & Members", icon: <Users className="w-4 h-4" /> },
+        { id: "documents", label: "Documents", icon: <FileText className="w-4 h-4" /> },
+      ]}
+      onCancel={onCancel}
+      onSave={onSubmit}
+      loading={loading}
+    >
+      <Form layout="vertical" form={form} requiredMark={false} className="py-2">
+        
+        {/* ================= BASIC INFO ================= */}
+        <div id="basic" className="scroll-mt-6 mb-12">
+            <h3 className="text-lg font-bold text-gray-800 mb-6 flex items-center gap-2">
+                <div className="w-8 h-8 rounded-lg bg-green-50 text-green-600 flex items-center justify-center">
+                    <User size={16} />
                 </div>
-              </Upload.Dragger>
-            </Form.Item>
-          </div>
+                Basic Information
+            </h3>
+            <div className="bg-white rounded-xl border border-gray-100 p-6 shadow-sm">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <Form.Item
+                    name="client_name"
+                    label="Client Name"
+                    rules={[{ required: true, message: "Required" }]}
+                >
+                    <Input size="large" placeholder="Full Client Name" className="rounded-lg" prefix={<User className="w-4 h-4 text-gray-400 mr-2" />} />
+                </Form.Item>
+
+                <Form.Item
+                    name="insurer_name"
+                    label="Insurer Company"
+                    rules={[{ required: true, message: "Required" }]}
+                >
+                    <Select size="large" placeholder="Select Insurer" className="rounded-lg" showSearch>
+                        <Select.Option value="Reliance Digital">Reliance Digital</Select.Option>
+                        <Select.Option value="Bajaj Allianz">Bajaj Allianz</Select.Option>
+                        <Select.Option value="Digit">Digit</Select.Option>
+                        <Select.Option value="Max Life Insurance">Max Life Insurance</Select.Option>
+                        <Select.Option value="New India Assurance">New India Assurance</Select.Option>
+                        <Select.Option value="Tata AIG Insurance">Tata AIG Insurance</Select.Option>
+                        <Select.Option value="PPAP">PPAP</Select.Option>
+                        <Select.Option value="Star Health">Star Health</Select.Option>
+                        <Select.Option value="Care Health">Care Health</Select.Option>
+                        <Select.Option value="Niva Bupa">Niva Bupa</Select.Option>
+                    </Select>
+                </Form.Item>
+
+                <Form.Item
+                    name="policy_no"
+                    label="Policy Number"
+                    rules={[{ required: true, message: "Required" }]}
+                >
+                    <Input size="large" placeholder="Enter Policy Number" className="rounded-lg font-medium" />
+                </Form.Item>
+
+                <Form.Item
+                    name="policy_name"
+                    label="Policy Name / Product"
+                    rules={[{ required: true, message: "Required" }]}
+                >
+                    <Input size="large" placeholder="e.g. Optima Restore" className="rounded-lg" />
+                </Form.Item>
+                </div>
+            </div>
         </div>
 
-        {/* ===== Health Insurance Policy Section ===== */}
-        <div className="mb-6">
-          <h3 className="text-lg font-semibold text-gray-800 mb-6 border-l-4 border-green-600 pl-3">
-            Health Insurance Policy
-          </h3>
+        {/* ================= POLICY DETAILS ================= */}
+        <div id="details" className="scroll-mt-6 mb-12">
+             <h3 className="text-lg font-bold text-gray-800 mb-6 flex items-center gap-2">
+                <div className="w-8 h-8 rounded-lg bg-green-50 text-green-600 flex items-center justify-center">
+                    <HeartPulse size={16} />
+                </div>
+                Policy Details
+            </h3>
+            <div className="bg-white rounded-xl border border-gray-100 p-6 shadow-sm">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <Form.Item
+                    name="type_of_business"
+                    label="Type of Business"
+                    rules={[{ required: true, message: "Required" }]}
+                >
+                    <Select size="large" placeholder="Select Type" className="rounded-lg">
+                    <Select.Option value="New">New Policy</Select.Option>
+                    <Select.Option value="Renewal">Renewal</Select.Option>
+                    <Select.Option value="Port">Portability</Select.Option>
+                    </Select>
+                </Form.Item>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-4">
-            <Form.Item
-              name="client_name"
-              label={<span className="font-medium text-gray-700">Client Name</span>}
-              rules={[{ required: true, message: "Please enter client name" }]}
-            >
-              <Input placeholder="Your full name" size="large" className="rounded-lg" />
-            </Form.Item>
+                <Form.Item
+                    name="plan_type"
+                    label="Plan Type"
+                    rules={[{ required: true, message: "Required" }]}
+                >
+                    <Select size="large" placeholder="Select Plan Type" className="rounded-lg">
+                    <Select.Option value="Family Floater">Family Floater</Select.Option>
+                    <Select.Option value="Individual">Individual</Select.Option>
+                    <Select.Option value="Multi Individual">Multi Individual</Select.Option>
+                    <Select.Option value="Top Up">Top Up</Select.Option>
+                    <Select.Option value="Super Top Up">Super Top Up</Select.Option>
+                    </Select>
+                </Form.Item>
 
-            <Form.Item
-              name="insurer_name"
-              label={<span className="font-medium text-gray-700">Insurer Name</span>}
-              rules={[{ required: true, message: "Please select insurer name" }]}
-            >
-              <Select placeholder="Select insurer" size="large" className="rounded-lg">
-                <Select.Option value="Reliance Digital">Reliance Digital</Select.Option>
-                <Select.Option value="Bajaj Allianz">Bajaj Allianz</Select.Option>
-                <Select.Option value="Digit">Digit</Select.Option>
-                <Select.Option value="Max Life Insurance">Max Life Insurance</Select.Option>
-                <Select.Option value="New India Assurance">New India Assurance</Select.Option>
-                <Select.Option value="Tata AIG Insurance">Tata AIG Insurance</Select.Option>
-                <Select.Option value="PPAP">PPAP</Select.Option>
-              </Select>
-            </Form.Item>
+                <Form.Item
+                    name="policy_start_date"
+                    label="Policy Start Date"
+                    rules={[{ required: true, message: "Required" }]}
+                >
+                    <DatePicker size="large" className="w-full rounded-lg" format="DD-MM-YYYY" suffixIcon={<Calendar className="w-4 h-4" />} />
+                </Form.Item>
 
-            <Form.Item
-              name="policy_no"
-              label={<span className="font-medium text-gray-700">Policy Number</span>}
-              rules={[{ required: true, message: "Please enter policy number" }]}
-            >
-              <Input placeholder="e.g. HLTH123456" size="large" className="rounded-lg" />
-            </Form.Item>
+                <Form.Item
+                    name="policy_end_date"
+                    label="Policy End Date"
+                    rules={[{ required: true, message: "Required" }]}
+                >
+                    <DatePicker size="large" className="w-full rounded-lg" format="DD-MM-YYYY" suffixIcon={<Calendar className="w-4 h-4" />} />
+                </Form.Item>
 
-            <Form.Item
-              name="type_of_business"
-              label={<span className="font-medium text-gray-700">Type of Business</span>}
-              rules={[{ required: true, message: "Please select business type" }]}
-            >
-              <Select placeholder="Select type" size="large" className="rounded-lg">
-                <Select.Option value="New">New</Select.Option>
-                <Select.Option value="Port">Port</Select.Option>
-                <Select.Option value="Renewal">Renewal</Select.Option>
-              </Select>
-            </Form.Item>
-
-            <Form.Item
-              name="plan_type"
-              label={<span className="font-medium text-gray-700">Plan Type</span>}
-              rules={[{ required: true, message: "Please select plan type" }]}
-            >
-              <Select placeholder="Select plan type" size="large" className="rounded-lg">
-                <Select.Option value="Family Floater">Family Floater</Select.Option>
-                <Select.Option value="Individual">Individual</Select.Option>
-                <Select.Option value="Multi Individual">Multi Individual</Select.Option>
-                <Select.Option value="Top Up">Top Up</Select.Option>
-                <Select.Option value="Super Top Up">Super Top Up</Select.Option>
-              </Select>
-            </Form.Item>
-
-            <Form.Item
-              name="policy_start_date"
-              label={<span className="font-medium text-gray-700">Start Date</span>}
-              rules={[{ required: true, message: "Please select start date" }]}
-            >
-              <DatePicker className="w-full rounded-lg" format="DD-MM-YYYY" size="large" />
-            </Form.Item>
-
-            <Form.Item
-              name="policy_end_date"
-              label={<span className="font-medium text-gray-700">End Date</span>}
-              rules={[{ required: true, message: "Please select end date" }]}
-            >
-              <DatePicker className="w-full rounded-lg" format="DD-MM-YYYY" size="large" />
-            </Form.Item>
-
-            <Form.Item
-              name="sum_insured"
-              label={<span className="font-medium text-gray-700">Sum Insured / Assured</span>}
-              rules={[{ required: true, message: "Please enter sum insured" }]}
-            >
-              <Input placeholder="e.g. 500000.00" size="large" type="number" className="rounded-lg" />
-            </Form.Item>
-
-            <Form.Item
-              name="gross_premium"
-              label={<span className="font-medium text-gray-700">Gross Premium</span>}
-              rules={[{ required: true, message: "Please enter gross premium" }]}
-            >
-              <Input placeholder="e.g. 15000.00" size="large" type="number" className="rounded-lg" />
-            </Form.Item>
-
-            <Form.Item
-              name="number_of_insured"
-              label={<span className="font-medium text-gray-700">Number of Insured</span>}
-              rules={[{ required: true, message: "Please enter number of insured" }]}
-            >
-              <Input
-                placeholder="e.g. 4"
-                size="large"
-                type="number"
-                min="1"
-                className="rounded-lg"
-              />
-            </Form.Item>
-
-            <Form.Item
-              name="no_claim_bonus"
-              label={<span className="font-medium text-gray-700">No Claim Bonus</span>}
-            >
-              <Input placeholder="e.g. 10% or 50000" size="large" className="rounded-lg" />
-            </Form.Item>
-          </div>
+                    <Form.Item
+                    name="tpa"
+                    label="TPA (Third Party Administrator)"
+                    >
+                    <Input size="large" placeholder="e.g. Medi Assist" className="rounded-lg" />
+                </Form.Item>
+                </div>
+            </div>
         </div>
 
-        {/* ===== Action Buttons ===== */}
-        <div className="flex flex-col-reverse sm:flex-row justify-end gap-3 pt-4 border-t border-gray-100">
-          <Button
-            size="large"
-            onClick={onCancel}
-            className="w-full sm:w-auto px-8 rounded-lg"
-          >
-            Cancel
-          </Button>
-          <Button
-            type="primary"
-            size="large"
-            loading={loading}
-            onClick={onSubmit}
-            className="w-full sm:w-auto px-8 rounded-lg bg-green-600 hover:bg-green-700"
-          >
-            Update Policy
-          </Button>
+        {/* ================= COVERAGE ================= */}
+        <div id="coverage" className="scroll-mt-6 mb-12">
+            <h3 className="text-lg font-bold text-gray-800 mb-6 flex items-center gap-2">
+                <div className="w-8 h-8 rounded-lg bg-green-50 text-green-600 flex items-center justify-center">
+                    <Users size={16} />
+                </div>
+                Coverage & Members
+            </h3>
+            <div className="bg-white rounded-xl border border-gray-100 p-6 shadow-sm">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <Form.Item
+                    name="sum_insured"
+                    label="Sum Insured"
+                    rules={[{ required: true, message: "Required" }]}
+                >
+                    <Input size="large" prefix="₹" placeholder="0.00" className="rounded-lg" type="number" />
+                </Form.Item>
+
+                <Form.Item
+                    name="gross_premium"
+                    label="Gross Premium"
+                    rules={[{ required: true, message: "Required" }]}
+                >
+                    <Input size="large" prefix="₹" placeholder="0.00" className="rounded-lg font-semibold" type="number" />
+                </Form.Item>
+
+                <Form.Item
+                    name="number_of_insured"
+                    label="Number of Insured Members"
+                    rules={[{ required: true, message: "Required" }]}
+                >
+                    <Input
+                    size="large"
+                    placeholder="e.g. 4"
+                    type="number"
+                    min="1"
+                    className="rounded-lg"
+                    suffix={<Users className="w-4 h-4 text-gray-400" />}
+                    />
+                </Form.Item>
+                </div>
+            </div>
         </div>
+
+        {/* ================= DOCUMENTS ================= */}
+        <div id="documents" className="scroll-mt-6 mb-12">
+            <h3 className="text-lg font-bold text-gray-800 mb-6 flex items-center gap-2">
+                <div className="w-8 h-8 rounded-lg bg-green-50 text-green-600 flex items-center justify-center">
+                    <FileText size={16} />
+                </div>
+                Documents
+            </h3>
+            <div className="bg-white rounded-xl border border-gray-100 p-6 shadow-sm">
+                <div className="h-[500px] grid grid-cols-1 md:grid-cols-2 gap-6">
+                    {/* Upload */}
+                    <div className="flex flex-col gap-4">
+                        <div className="bg-gray-50/50 p-4 rounded-xl border border-gray-200 border-dashed">
+                             <Form.Item
+                                name="policy_pdf"
+                                valuePropName="fileList"
+                                getValueFromEvent={(e) => e?.fileList}
+                                className="mb-0"
+                            >
+                                <Upload.Dragger
+                                    beforeUpload={() => false}
+                                    accept=".pdf"
+                                    maxCount={1}
+                                    className="!bg-transparent hover:!border-green-400 transition-all rounded-lg overflow-hidden"
+                                    showUploadList={{ showRemoveIcon: true }}
+                                    height={150}
+                                >
+                                    <div className="flex flex-col items-center justify-center p-4">
+                                        <div className="w-10 h-10 bg-white rounded-full shadow-sm flex items-center justify-center mb-2 text-green-500">
+                                            <UploadIcon size={20} />
+                                        </div>
+                                        <p className="text-gray-900 font-medium text-sm">Click or drag PDF</p>
+                                        <p className="text-gray-400 text-xs mt-1">Max 20MB</p>
+                                    </div>
+                                </Upload.Dragger>
+                            </Form.Item>
+                        </div>
+                        <div className="bg-green-50 p-4 rounded-xl flex-1 border border-green-100">
+                             <h4 className="font-semibold text-green-900 mb-2 text-sm">Health Policy Tips</h4>
+                             <p className="text-xs text-green-700 leading-relaxed">
+                                Ensure the member details in the policy match exactly with the uploaded document to avoid ID card issuance delays.
+                             </p>
+                        </div>
+                    </div>
+
+                    {/* Preview */}
+                    <div className="h-full bg-gray-100 rounded-xl overflow-hidden border border-gray-200">
+                         <Form.Item
+                            noStyle
+                            shouldUpdate={(prev, curr) => prev.policy_pdf !== curr.policy_pdf}
+                        >
+                            {({ getFieldValue }) => (
+                                <PDFPreview fileList={getFieldValue('policy_pdf')} />
+                            )}
+                        </Form.Item>
+                    </div>
+                </div>
+            </div>
+        </div>
+
       </Form>
-    </div>
+    </PolicyLayout>
   );
 };
 
