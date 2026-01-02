@@ -53,40 +53,40 @@ const UserTable: React.FC = () => {
     fetchData();
   }, []);
 
-  const onSelectChange = (newSelectedRowKeys: React.Key[]) => {
-    console.log("selectedRowKeys changed: ", newSelectedRowKeys);
-    setSelectedRowKeys(newSelectedRowKeys);
-  };
+  // const onSelectChange = (newSelectedRowKeys: React.Key[]) => {
+  //   console.log("selectedRowKeys changed: ", newSelectedRowKeys);
+  //   setSelectedRowKeys(newSelectedRowKeys);
+  // };
 
-  const rowSelection: TableRowSelection<UserDataType> = {
-    selectedRowKeys,
-    onChange: onSelectChange,
-    selections: [
-      Table.SELECTION_ALL,
-      Table.SELECTION_INVERT,
-      Table.SELECTION_NONE,
-      {
-        key: "odd",
-        text: "Select Odd Row",
-        onSelect: (changeableRowKeys) => {
-          const newSelectedRowKeys = changeableRowKeys.filter(
-            (_, index) => index % 2 === 0
-          );
-          setSelectedRowKeys(newSelectedRowKeys);
-        },
-      },
-      {
-        key: "even",
-        text: "Select Even Row",
-        onSelect: (changeableRowKeys) => {
-          const newSelectedRowKeys = changeableRowKeys.filter(
-            (_, index) => index % 2 !== 0
-          );
-          setSelectedRowKeys(newSelectedRowKeys);
-        },
-      },
-    ],
-  };
+  // const rowSelection: TableRowSelection<UserDataType> = {
+  //   selectedRowKeys,
+  //   onChange: onSelectChange,
+  //   selections: [
+  //     Table.SELECTION_ALL,
+  //     Table.SELECTION_INVERT,
+  //     Table.SELECTION_NONE,
+  //     {
+  //       key: "odd",
+  //       text: "Select Odd Row",
+  //       onSelect: (changeableRowKeys) => {
+  //         const newSelectedRowKeys = changeableRowKeys.filter(
+  //           (_, index) => index % 2 === 0
+  //         );
+  //         setSelectedRowKeys(newSelectedRowKeys);
+  //       },
+  //     },
+  //     {
+  //       key: "even",
+  //       text: "Select Even Row",
+  //       onSelect: (changeableRowKeys) => {
+  //         const newSelectedRowKeys = changeableRowKeys.filter(
+  //           (_, index) => index % 2 !== 0
+  //         );
+  //         setSelectedRowKeys(newSelectedRowKeys);
+  //       },
+  //     },
+  //   ],
+  // };
 
   return (
     <>
@@ -94,7 +94,7 @@ const UserTable: React.FC = () => {
         <h1 className="text-xl font-semibold">Users</h1>
       </div>
       <Table<UserDataType>
-        rowSelection={rowSelection}
+        // rowSelection={rowSelection}
         columns={columns}
         dataSource={dataSource}
       />
