@@ -14,6 +14,6 @@ R.c("server/chunks/ssr/f2ed1_antd_es_588c74c2._.js")
 R.c("server/chunks/ssr/f2ed1_rc-tree_es_66c50643._.js")
 R.c("server/chunks/ssr/f2ed1_rc-select_es_7714ef1c._.js")
 R.c("server/chunks/ssr/f2ed1_3ea30e69._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__c9029ee3._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__bbe25b02._.js")
 R.m("[project]/Downloads/One click/node_modules/next/dist/esm/build/templates/pages.js { INNER_PAGE => \"[project]/Downloads/One click/src/pages/users.tsx [ssr] (ecmascript)\", INNER_DOCUMENT => \"[project]/Downloads/One click/src/pages/_document.tsx [ssr] (ecmascript)\", INNER_APP => \"[project]/Downloads/One click/src/pages/_app.tsx [ssr] (ecmascript)\" } [ssr] (ecmascript)")
 module.exports=R.m("[project]/Downloads/One click/node_modules/next/dist/esm/build/templates/pages.js { INNER_PAGE => \"[project]/Downloads/One click/src/pages/users.tsx [ssr] (ecmascript)\", INNER_DOCUMENT => \"[project]/Downloads/One click/src/pages/_document.tsx [ssr] (ecmascript)\", INNER_APP => \"[project]/Downloads/One click/src/pages/_app.tsx [ssr] (ecmascript)\" } [ssr] (ecmascript)").exports

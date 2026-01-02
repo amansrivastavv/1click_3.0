@@ -2,7 +2,7 @@
     script: typeof document === "object" ? document.currentScript : undefined,
     chunks: [
   "static/chunks/f2ed1_next_dist_compiled_next-devtools_index_3fa62034.js",
-  "static/chunks/f2ed1_next_dist_compiled_33a6b86a._.js",
+  "static/chunks/f2ed1_next_dist_compiled_14a1b450._.js",
   "static/chunks/f2ed1_next_dist_shared_lib_a93b8a32._.js",
   "static/chunks/f2ed1_next_dist_client_2d97a445._.js",
   "static/chunks/f2ed1_next_dist_01d6a2e3._.js",
@@ -15,10 +15,11 @@
   "static/chunks/f2ed1_rc-field-form_es_e456890f._.js",
   "static/chunks/f2ed1_rc-menu_es_4e06bf99._.js",
   "static/chunks/f2ed1_rc-select_es_027092a1._.js",
+  "static/chunks/f2ed1_axios_lib_22aba3f6._.js",
   "static/chunks/f2ed1_@rc-component_5662b642._.js",
   "static/chunks/f2ed1_@ant-design_0879a5ad._.js",
   "static/chunks/f2ed1_326fd383._.js",
-  "static/chunks/[root-of-the-server]__1e0262ef._.js"
+  "static/chunks/[root-of-the-server]__b80933e5._.js"
 ],
     source: "entry"
 });

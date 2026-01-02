@@ -36,7 +36,15 @@ const API_ENDPOINTS = {
     ADMIN_GET_USER_POLICIES: "/admin_get_user_policy_v2.php",
     ADMIN_UPDATE_POLICY: "/admin_upload_policy_v2.php",
     //Bar chart Data yearly/monthly/daily
-    GET_USER_CHART_DATA: "/admin_barchart_report.php"
+    GET_USER_CHART_DATA: "/admin_barchart_report.php",
+    //user data
+    GET_USERS_DATA: "/user_policy_data.php",
+    //Data
+    GET_read_csv: "/admin_read-csv.php",
+    GET_sync_csv: "/admin_sync_csv.php",
+    // Manage Dashboard
+    GET_POLICY_OPTIONS: "/get_policy_options.php",
+    UPDATE_POLICY_OPTIONS: "/admin_update_policy_option.php"
 };
 }),
 "[project]/Downloads/One click/src/api/storage.ts [ssr] (ecmascript)", ((__turbopack_context__) => {
@@ -554,6 +562,22 @@ const menuItems = [
             lineNumber: 46,
             columnNumber: 12
         }, ("TURBOPACK compile-time value", void 0))
+    },
+    {
+        key: "/manage-dashboard",
+        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$UserOutlined$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__UserOutlined$3e$__["UserOutlined"], {}, void 0, false, {
+            fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
+            lineNumber: 50,
+            columnNumber: 11
+        }, ("TURBOPACK compile-time value", void 0)),
+        label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+            href: "/manage-dashboard",
+            children: "Manage Dashboard"
+        }, void 0, false, {
+            fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
+            lineNumber: 51,
+            columnNumber: 12
+        }, ("TURBOPACK compile-time value", void 0))
     }
 ];
 const Sidebar = ()=>{
@@ -598,7 +622,7 @@ const Sidebar = ()=>{
                         onError: ()=>console.error("Failed to load logo")
                     }, void 0, false, {
                         fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-                        lineNumber: 87,
+                        lineNumber: 92,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$button$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Button$3e$__["Button"], {
@@ -607,7 +631,7 @@ const Sidebar = ()=>{
                             className: "text-xl"
                         }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-                            lineNumber: 97,
+                            lineNumber: 102,
                             columnNumber: 17
                         }, void 0),
                         onClick: ()=>setDrawerOpen(true),
@@ -615,13 +639,13 @@ const Sidebar = ()=>{
                         disabled: isLoading
                     }, void 0, false, {
                         fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-                        lineNumber: 95,
+                        lineNumber: 100,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-                lineNumber: 86,
+                lineNumber: 91,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -638,12 +662,12 @@ const Sidebar = ()=>{
                             onError: ()=>console.error("Failed to load logo")
                         }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-                            lineNumber: 110,
+                            lineNumber: 115,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-                        lineNumber: 106,
+                        lineNumber: 111,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -659,12 +683,12 @@ const Sidebar = ()=>{
                             }
                         }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-                            lineNumber: 120,
+                            lineNumber: 125,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-                        lineNumber: 119,
+                        lineNumber: 124,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -673,7 +697,7 @@ const Sidebar = ()=>{
                             type: "default",
                             icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$LogoutOutlined$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__LogoutOutlined$3e$__["LogoutOutlined"], {}, void 0, false, {
                                 fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-                                lineNumber: 131,
+                                lineNumber: 136,
                                 columnNumber: 19
                             }, void 0),
                             className: "w-full flex items-center gap-2 px-3 py-2 bg-red-600 text-white hover:bg-red-700 hover:text-white transition-all logout-button",
@@ -683,18 +707,18 @@ const Sidebar = ()=>{
                             children: "Logout"
                         }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-                            lineNumber: 129,
+                            lineNumber: 134,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-                        lineNumber: 128,
+                        lineNumber: 133,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-                lineNumber: 105,
+                lineNumber: 110,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$drawer$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Drawer$3e$__["Drawer"], {
@@ -709,12 +733,12 @@ const Sidebar = ()=>{
                         onError: ()=>console.error("Failed to load logo")
                     }, void 0, false, {
                         fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-                        lineNumber: 146,
+                        lineNumber: 151,
                         columnNumber: 13
                     }, void 0)
                 }, void 0, false, {
                     fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-                    lineNumber: 145,
+                    lineNumber: 150,
                     columnNumber: 11
                 }, void 0),
                 placement: "left",
@@ -733,12 +757,12 @@ const Sidebar = ()=>{
                             className: "custom-menu"
                         }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-                            lineNumber: 162,
+                            lineNumber: 167,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-                        lineNumber: 161,
+                        lineNumber: 166,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -747,7 +771,7 @@ const Sidebar = ()=>{
                             type: "default",
                             icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$LogoutOutlined$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__LogoutOutlined$3e$__["LogoutOutlined"], {}, void 0, false, {
                                 fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-                                lineNumber: 172,
+                                lineNumber: 177,
                                 columnNumber: 19
                             }, void 0),
                             className: "w-full flex items-center gap-2 px-3 py-2 bg-red-500 text-white hover:bg-red-600 hover:text-white transition-all logout-button",
@@ -757,18 +781,18 @@ const Sidebar = ()=>{
                             children: "Logout"
                         }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-                            lineNumber: 170,
+                            lineNumber: 175,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-                        lineNumber: 169,
+                        lineNumber: 174,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/Downloads/One click/src/components/sidebar.tsx",
-                lineNumber: 143,
+                lineNumber: 148,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$externals$5d2f$styled$2d$jsx$2f$style$2e$js__$5b$external$5d$__$28$styled$2d$jsx$2f$style$2e$js$2c$__cjs$29$__["default"], {

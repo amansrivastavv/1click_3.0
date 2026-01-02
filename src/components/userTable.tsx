@@ -1,48 +1,64 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Table } from "antd";
 import type { TableColumnsType, TableProps } from "antd";
+import axios from "axios";
+import { API_CONFIG, API_ENDPOINTS } from "@/api/config";
 
 type TableRowSelection<T extends object = object> =
   TableProps<T>["rowSelection"];
 
-interface DataType {
+interface UserDataType {
   key: React.Key;
-  name: string;
-  age: number;
-  address: string;
+  id: string;
+  full_name: string;
+  email: string;
+  mobile: string;
+  dob: string | null;
+  gender: string | null;
+  state_id: string | null;
 }
 
-const columns: TableColumnsType<DataType> = [
-  {
-    title: "Name",
-    dataIndex: "name",
-  },
-  {
-    title: "Age",
-    dataIndex: "age",
-  },
-  {
-    title: "Address",
-    dataIndex: "address",
-  },
+const columns: TableColumnsType<UserDataType> = [
+  { title: "Name", dataIndex: "full_name" },
+  { title: "Email", dataIndex: "email" },
+  { title: "Mobile", dataIndex: "mobile" },
+  { title: "DOB", dataIndex: "dob" },
+  { title: "Gender", dataIndex: "gender" },
 ];
 
-const dataSource = Array.from({ length: 46 }).map<DataType>((_, i) => ({
-  key: i,
-  name: `Edward King ${i}`,
-  age: 32,
-  address: `London, Park Lane no. ${i}`,
-}));
-
 const UserTable: React.FC = () => {
+  const [dataSource, setDataSource] = useState<UserDataType[]>([]);
   const [selectedRowKeys, setSelectedRowKeys] = useState<React.Key[]>([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await axios.get(
+          `${API_CONFIG.BASE_URL}${API_ENDPOINTS.GET_USERS_DATA}`
+        );
+        const result = response.data;
+
+        if (result.status === "success") {
+          const formattedData = result.data.map((item: any) => ({
+            key: item.id,
+            ...item,
+          }));
+          setDataSource(formattedData);
+        }
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
+    };
+
+    fetchData();
+  }, []);
 
   const onSelectChange = (newSelectedRowKeys: React.Key[]) => {
     console.log("selectedRowKeys changed: ", newSelectedRowKeys);
     setSelectedRowKeys(newSelectedRowKeys);
   };
 
-  const rowSelection: TableRowSelection<DataType> = {
+  const rowSelection: TableRowSelection<UserDataType> = {
     selectedRowKeys,
     onChange: onSelectChange,
     selections: [
@@ -53,13 +69,9 @@ const UserTable: React.FC = () => {
         key: "odd",
         text: "Select Odd Row",
         onSelect: (changeableRowKeys) => {
-          let newSelectedRowKeys = [];
-          newSelectedRowKeys = changeableRowKeys.filter((_, index) => {
-            if (index % 2 !== 0) {
-              return false;
-            }
-            return true;
-          });
+          const newSelectedRowKeys = changeableRowKeys.filter(
+            (_, index) => index % 2 === 0
+          );
           setSelectedRowKeys(newSelectedRowKeys);
         },
       },
@@ -67,13 +79,9 @@ const UserTable: React.FC = () => {
         key: "even",
         text: "Select Even Row",
         onSelect: (changeableRowKeys) => {
-          let newSelectedRowKeys = [];
-          newSelectedRowKeys = changeableRowKeys.filter((_, index) => {
-            if (index % 2 !== 0) {
-              return true;
-            }
-            return false;
-          });
+          const newSelectedRowKeys = changeableRowKeys.filter(
+            (_, index) => index % 2 !== 0
+          );
           setSelectedRowKeys(newSelectedRowKeys);
         },
       },
@@ -81,11 +89,16 @@ const UserTable: React.FC = () => {
   };
 
   return (
-    <Table<DataType>
-      rowSelection={rowSelection}
-      columns={columns}
-      dataSource={dataSource}
-    />
+    <>
+      <div className="flex justify-between items-center mb-4">
+        <h1 className="text-xl font-semibold">Users</h1>
+      </div>
+      <Table<UserDataType>
+        rowSelection={rowSelection}
+        columns={columns}
+        dataSource={dataSource}
+      />
+    </>
   );
 };
 

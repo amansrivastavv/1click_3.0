@@ -41,7 +41,7 @@ export default function FilterDropdown({
 
   return (
     <div className="relative inline-block text-left">
-      <div className="flex items-center gap-3">
+      <div className="flex items-center gap-3 mb-4">
         <span className="text-sm font-medium text-black">Filter by:</span>
 
         <motion.button

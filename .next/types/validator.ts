@@ -69,6 +69,12 @@ type PagesPageConfig = {
   handler satisfies PagesPageConfig
 }
 
+// Validate ../../src/pages/manage-dashboard.tsx
+{
+  const handler = {} as typeof import("../../src/pages/manage-dashboard.js")
+  handler satisfies PagesPageConfig
+}
+
 // Validate ../../src/pages/policies.tsx
 {
   const handler = {} as typeof import("../../src/pages/policies.js")

@@ -45,6 +45,11 @@ const menuItems = [
     icon: <UserOutlined />,
     label: <Link href="/users">Users</Link>,
   },
+  {
+    key: "/manage-dashboard",
+    icon: <UserOutlined />,
+    label: <Link href="/manage-dashboard">Manage Dashboard</Link>,
+  },
 ];
 
 const Sidebar: React.FC = () => {

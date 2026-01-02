@@ -156,7 +156,7 @@ function FilterDropdown({ onFilterChange }) {
         className: "relative inline-block text-left",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                className: "flex items-center gap-3",
+                className: "flex items-center gap-3 mb-4",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
                         className: "text-sm font-medium text-black",
@@ -289,41 +289,25 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$n
 ;
 const PolicyEditForm = ({ form, loading, onSubmit, onCancel })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-        className: "bg-white",
+        className: "bg-white px-2",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"], {
             layout: "vertical",
             form: form,
+            requiredMark: false,
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                    className: "rounded-none sm:rounded-xl shadow-md overflow-hidden mb-4 sm:mb-6",
+                    className: "mb-8",
                     children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                            className: "bg-gradient-to-r from-blue-600 to-blue-500 px-4 sm:px-6 py-3 text-white",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
-                                    className: "font-semibold text-base sm:text-lg m-0",
-                                    children: "Policy Document"
-                                }, void 0, false, {
-                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
-                                    lineNumber: 27,
-                                    columnNumber: 13
-                                }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                    className: "text-xs sm:text-sm font-normal text-blue-100 mt-1 mb-0",
-                                    children: "Upload your policy PDF document"
-                                }, void 0, false, {
-                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
-                                    lineNumber: 30,
-                                    columnNumber: 13
-                                }, ("TURBOPACK compile-time value", void 0))
-                            ]
-                        }, void 0, true, {
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
+                            className: "text-lg font-semibold text-gray-800 mb-4 border-l-4 border-blue-600 pl-3",
+                            children: "Policy Document"
+                        }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
                             lineNumber: 26,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                            className: "p-4 sm:p-6 bg-white",
+                            className: "bg-gray-50 rounded-xl p-4 border border-dashed border-gray-300 hover:border-blue-500 transition-all duration-300 group",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
                                 name: "policy_pdf",
                                 valuePropName: "fileList",
@@ -332,65 +316,65 @@ const PolicyEditForm = ({ form, loading, onSubmit, onCancel })=>{
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$upload$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Upload$3e$__["Upload"].Dragger, {
                                     beforeUpload: ()=>false,
                                     accept: ".pdf",
-                                    className: "hover:border-blue-500 transition-colors",
-                                    style: {
-                                        padding: "20px"
+                                    className: "!border-0 !bg-transparent",
+                                    showUploadList: {
+                                        showRemoveIcon: true
                                     },
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                            className: "ant-upload-drag-icon text-blue-600 mb-2",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$UploadOutlined$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__UploadOutlined$3e$__["UploadOutlined"], {
-                                                style: {
-                                                    fontSize: 40
-                                                }
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                        className: "py-4",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                className: "w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$UploadOutlined$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__UploadOutlined$3e$__["UploadOutlined"], {
+                                                    style: {
+                                                        fontSize: 28,
+                                                        color: '#2563EB'
+                                                    }
+                                                }, void 0, false, {
+                                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
+                                                    lineNumber: 47,
+                                                    columnNumber: 21
+                                                }, ("TURBOPACK compile-time value", void 0))
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
+                                                lineNumber: 46,
+                                                columnNumber: 19
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                                                className: "text-gray-900 text-sm font-medium mb-1",
+                                                children: "Click or drag file to upload"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
                                                 lineNumber: 49,
                                                 columnNumber: 19
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                                                className: "text-gray-500 text-xs text-center",
+                                                children: "PDF format only (Max 20MB)"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
+                                                lineNumber: 52,
+                                                columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
-                                            lineNumber: 48,
-                                            columnNumber: 17
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                            className: "text-base sm:text-lg font-semibold mb-1",
-                                            children: "Drop your Policy PDF here"
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
-                                            lineNumber: 51,
-                                            columnNumber: 17
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                            className: "text-gray-500 text-xs sm:text-sm mb-0",
-                                            children: [
-                                                "or click to browse",
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
-                                                    lineNumber: 56,
-                                                    columnNumber: 19
-                                                }, ("TURBOPACK compile-time value", void 0)),
-                                                "PDF only · Maximum size 20MB"
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
-                                            lineNumber: 54,
-                                            columnNumber: 17
-                                        }, ("TURBOPACK compile-time value", void 0))
-                                    ]
-                                }, void 0, true, {
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
+                                        lineNumber: 45,
+                                        columnNumber: 17
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
                                     fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
-                                    lineNumber: 42,
+                                    lineNumber: 37,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
-                                lineNumber: 36,
+                                lineNumber: 31,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
-                            lineNumber: 35,
+                            lineNumber: 30,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
@@ -400,390 +384,427 @@ const PolicyEditForm = ({ form, loading, onSubmit, onCancel })=>{
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                    className: "rounded-none sm:rounded-xl shadow-md overflow-hidden",
+                    className: "mb-6",
                     children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                            className: "bg-gradient-to-r from-blue-600 to-blue-500 px-4 sm:px-6 py-3 text-white",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
-                                    className: "font-semibold text-base sm:text-lg m-0",
-                                    children: "Policy Information"
-                                }, void 0, false, {
-                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
-                                    lineNumber: 67,
-                                    columnNumber: 13
-                                }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                    className: "text-xs sm:text-sm font-normal text-blue-100 mt-1 mb-0",
-                                    children: "Enter your policy details accurately"
-                                }, void 0, false, {
-                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
-                                    lineNumber: 70,
-                                    columnNumber: 13
-                                }, ("TURBOPACK compile-time value", void 0))
-                            ]
-                        }, void 0, true, {
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
+                            className: "text-lg font-semibold text-gray-800 mb-6 border-l-4 border-blue-600 pl-3",
+                            children: "Policy Information"
+                        }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
-                            lineNumber: 66,
+                            lineNumber: 63,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                            className: "p-4 sm:p-6 bg-white",
+                            className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-4",
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                    className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                            name: "client_name",
-                                            label: "Client Name",
-                                            rules: [
-                                                {
-                                                    required: true,
-                                                    message: "Please enter client name"
-                                                }
-                                            ],
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
-                                                placeholder: "Your full name",
-                                                size: "large"
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                    name: "client_name",
+                                    label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        className: "font-medium text-gray-700",
+                                        children: "Client Name"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
+                                        lineNumber: 70,
+                                        columnNumber: 22
+                                    }, void 0),
+                                    rules: [
+                                        {
+                                            required: true,
+                                            message: "Please enter client name"
+                                        }
+                                    ],
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
+                                        placeholder: "Enter full name",
+                                        size: "large",
+                                        className: "rounded-lg"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
+                                        lineNumber: 73,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
+                                    lineNumber: 68,
+                                    columnNumber: 13
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                    name: "insurer_name",
+                                    label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        className: "font-medium text-gray-700",
+                                        children: "Insurer Name"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
+                                        lineNumber: 78,
+                                        columnNumber: 22
+                                    }, void 0),
+                                    rules: [
+                                        {
+                                            required: true,
+                                            message: "Please select insurer name"
+                                        }
+                                    ],
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"], {
+                                        placeholder: "Select insurer",
+                                        size: "large",
+                                        className: "rounded-lg",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "Reliance Digital",
+                                                children: "Reliance Digital"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
+                                                lineNumber: 82,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "Bajaj Allianz",
+                                                children: "Bajaj Allianz"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
+                                                lineNumber: 83,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "Digit",
+                                                children: "Digit"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
+                                                lineNumber: 84,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "Max Life Insurance",
+                                                children: "Max Life Insurance"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
                                                 lineNumber: 85,
                                                 columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
-                                            lineNumber: 77,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                            name: "insurer_name",
-                                            label: "Insurer Name",
-                                            rules: [
-                                                {
-                                                    required: true,
-                                                    message: "Please select insurer name"
-                                                }
-                                            ],
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"], {
-                                                placeholder: "Select insurer",
-                                                size: "large",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Reliance Digital",
-                                                        children: "Reliance Digital"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
-                                                        lineNumber: 97,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Bajaj Allianz",
-                                                        children: "Bajaj Allianz"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
-                                                        lineNumber: 100,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Digit",
-                                                        children: "Digit"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
-                                                        lineNumber: 103,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Max Life Insurance",
-                                                        children: "Max Life Insurance"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
-                                                        lineNumber: 104,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "New India Assurance",
-                                                        children: "New India Assurance"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
-                                                        lineNumber: 107,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Tata AIG Insurance",
-                                                        children: "Tata AIG Insurance"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
-                                                        lineNumber: 110,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "PPAP",
-                                                        children: "PPAP"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
-                                                        lineNumber: 113,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0))
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
-                                                lineNumber: 96,
-                                                columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
-                                            lineNumber: 88,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                            name: "policy_no",
-                                            label: "Policy Number",
-                                            rules: [
-                                                {
-                                                    required: true,
-                                                    message: "Please enter policy number"
-                                                }
-                                            ],
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
-                                                placeholder: "e.g. ABC123456",
-                                                size: "large"
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "New India Assurance",
+                                                children: "New India Assurance"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
-                                                lineNumber: 125,
+                                                lineNumber: 86,
                                                 columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
-                                            lineNumber: 117,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                            name: "policy_start_date",
-                                            label: "Policy Start Date",
-                                            rules: [
-                                                {
-                                                    required: true,
-                                                    message: "Please select start date"
-                                                }
-                                            ],
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$date$2d$picker$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__DatePicker$3e$__["DatePicker"], {
-                                                className: "w-full",
-                                                format: "DD-MM-YYYY",
-                                                size: "large"
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "Tata AIG Insurance",
+                                                children: "Tata AIG Insurance"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
-                                                lineNumber: 136,
+                                                lineNumber: 87,
                                                 columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
-                                            lineNumber: 128,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                            name: "policy_end_date",
-                                            label: "Policy End Date",
-                                            rules: [
-                                                {
-                                                    required: true,
-                                                    message: "Please select end date"
-                                                }
-                                            ],
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$date$2d$picker$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__DatePicker$3e$__["DatePicker"], {
-                                                className: "w-full",
-                                                format: "DD-MM-YYYY",
-                                                size: "large"
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "PPAP",
+                                                children: "PPAP"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
-                                                lineNumber: 149,
+                                                lineNumber: 88,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
-                                            lineNumber: 143,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                            name: "sum_insured",
-                                            label: "Sum Insured / Vehicle IDV",
-                                            rules: [
-                                                {
-                                                    required: true,
-                                                    message: "Please enter sum insured"
-                                                }
-                                            ],
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
-                                                placeholder: "e.g. 400000.00",
-                                                size: "large"
-                                            }, void 0, false, {
-                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
-                                                lineNumber: 164,
-                                                columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
-                                            lineNumber: 156,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                            name: "gross_premium",
-                                            label: "Gross Premium",
-                                            rules: [
-                                                {
-                                                    required: true,
-                                                    message: "Please enter gross premium"
-                                                }
-                                            ],
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
-                                                placeholder: "e.g. 18000.00",
-                                                size: "large"
-                                            }, void 0, false, {
-                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
-                                                lineNumber: 175,
-                                                columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
-                                            lineNumber: 167,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                            name: "vehicle_number",
-                                            label: "Vehicle Number",
-                                            rules: [
-                                                {
-                                                    required: true,
-                                                    message: "Please enter vehicle number"
-                                                }
-                                            ],
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
-                                                placeholder: "e.g. UP00XY0000",
-                                                style: {
-                                                    textTransform: "uppercase"
-                                                },
-                                                size: "large"
-                                            }, void 0, false, {
-                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
-                                                lineNumber: 186,
-                                                columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
-                                            lineNumber: 178,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                            name: "fuel_type",
-                                            label: "Fuel Type",
-                                            rules: [
-                                                {
-                                                    required: true,
-                                                    message: "Please select fuel type"
-                                                }
-                                            ],
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"], {
-                                                placeholder: "Select fuel type",
-                                                size: "large",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Petrol",
-                                                        children: "Petrol"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
-                                                        lineNumber: 200,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Diesel",
-                                                        children: "Diesel"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
-                                                        lineNumber: 201,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "CNG",
-                                                        children: "CNG"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
-                                                        lineNumber: 202,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Electric",
-                                                        children: "Electric"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
-                                                        lineNumber: 203,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0))
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
-                                                lineNumber: 199,
-                                                columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
-                                            lineNumber: 193,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0))
-                                    ]
-                                }, void 0, true, {
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
+                                        lineNumber: 81,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
                                     fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
                                     lineNumber: 76,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                    className: "flex flex-col-reverse sm:flex-row justify-center gap-3 mt-6 pb-2",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$button$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Button$3e$__["Button"], {
-                                            size: "large",
-                                            onClick: onCancel,
-                                            className: "w-full sm:w-auto min-w-[120px] rounded-lg",
-                                            children: "Cancel"
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
-                                            lineNumber: 210,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$button$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Button$3e$__["Button"], {
-                                            type: "primary",
-                                            size: "large",
-                                            loading: loading,
-                                            onClick: onSubmit,
-                                            className: "w-full sm:w-auto min-w-[140px] rounded-lg",
-                                            children: "Update Policy"
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
-                                            lineNumber: 217,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0))
-                                    ]
-                                }, void 0, true, {
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                    name: "policy_no",
+                                    label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        className: "font-medium text-gray-700",
+                                        children: "Policy Number"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
+                                        lineNumber: 94,
+                                        columnNumber: 22
+                                    }, void 0),
+                                    rules: [
+                                        {
+                                            required: true,
+                                            message: "Please enter policy number"
+                                        }
+                                    ],
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
+                                        placeholder: "Enter policy number",
+                                        size: "large",
+                                        className: "rounded-lg"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
+                                        lineNumber: 97,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
                                     fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
-                                    lineNumber: 209,
+                                    lineNumber: 92,
+                                    columnNumber: 13
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                    name: "policy_start_date",
+                                    label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        className: "font-medium text-gray-700",
+                                        children: "Start Date"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
+                                        lineNumber: 102,
+                                        columnNumber: 22
+                                    }, void 0),
+                                    rules: [
+                                        {
+                                            required: true,
+                                            message: "Please select start date"
+                                        }
+                                    ],
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$date$2d$picker$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__DatePicker$3e$__["DatePicker"], {
+                                        className: "w-full rounded-lg",
+                                        format: "DD-MM-YYYY",
+                                        size: "large"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
+                                        lineNumber: 105,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
+                                    lineNumber: 100,
+                                    columnNumber: 13
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                    name: "policy_end_date",
+                                    label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        className: "font-medium text-gray-700",
+                                        children: "End Date"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
+                                        lineNumber: 110,
+                                        columnNumber: 22
+                                    }, void 0),
+                                    rules: [
+                                        {
+                                            required: true,
+                                            message: "Please select end date"
+                                        }
+                                    ],
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$date$2d$picker$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__DatePicker$3e$__["DatePicker"], {
+                                        className: "w-full rounded-lg",
+                                        format: "DD-MM-YYYY",
+                                        size: "large"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
+                                        lineNumber: 113,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
+                                    lineNumber: 108,
+                                    columnNumber: 13
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                    name: "sum_insured",
+                                    label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        className: "font-medium text-gray-700",
+                                        children: "Sum Insured (IDV)"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
+                                        lineNumber: 118,
+                                        columnNumber: 22
+                                    }, void 0),
+                                    rules: [
+                                        {
+                                            required: true,
+                                            message: "Please enter sum insured"
+                                        }
+                                    ],
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
+                                        placeholder: "0.00",
+                                        prefix: "₹",
+                                        size: "large",
+                                        className: "rounded-lg"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
+                                        lineNumber: 121,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
+                                    lineNumber: 116,
+                                    columnNumber: 13
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                    name: "gross_premium",
+                                    label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        className: "font-medium text-gray-700",
+                                        children: "Gross Premium"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
+                                        lineNumber: 126,
+                                        columnNumber: 22
+                                    }, void 0),
+                                    rules: [
+                                        {
+                                            required: true,
+                                            message: "Please enter gross premium"
+                                        }
+                                    ],
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
+                                        placeholder: "0.00",
+                                        prefix: "₹",
+                                        size: "large",
+                                        className: "rounded-lg"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
+                                        lineNumber: 129,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
+                                    lineNumber: 124,
+                                    columnNumber: 13
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                    name: "vehicle_number",
+                                    label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        className: "font-medium text-gray-700",
+                                        children: "Vehicle Number"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
+                                        lineNumber: 134,
+                                        columnNumber: 22
+                                    }, void 0),
+                                    rules: [
+                                        {
+                                            required: true,
+                                            message: "Please enter vehicle number"
+                                        }
+                                    ],
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
+                                        placeholder: "UP00XY0000",
+                                        style: {
+                                            textTransform: "uppercase"
+                                        },
+                                        size: "large",
+                                        className: "rounded-lg"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
+                                        lineNumber: 137,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
+                                    lineNumber: 132,
+                                    columnNumber: 13
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                    name: "fuel_type",
+                                    label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        className: "font-medium text-gray-700",
+                                        children: "Fuel Type"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
+                                        lineNumber: 147,
+                                        columnNumber: 22
+                                    }, void 0),
+                                    rules: [
+                                        {
+                                            required: true,
+                                            message: "Please select fuel type"
+                                        }
+                                    ],
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"], {
+                                        placeholder: "Select fuel type",
+                                        size: "large",
+                                        className: "rounded-lg",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "Petrol",
+                                                children: "Petrol"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
+                                                lineNumber: 151,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "Diesel",
+                                                children: "Diesel"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
+                                                lineNumber: 152,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "CNG",
+                                                children: "CNG"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
+                                                lineNumber: 153,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "Electric",
+                                                children: "Electric"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
+                                                lineNumber: 154,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
+                                        lineNumber: 150,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
+                                    lineNumber: 145,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
-                            lineNumber: 75,
+                            lineNumber: 67,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
-                    lineNumber: 65,
+                    lineNumber: 62,
+                    columnNumber: 9
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                    className: "flex flex-col-reverse sm:flex-row justify-end gap-3 pt-4 border-t border-gray-100",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$button$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Button$3e$__["Button"], {
+                            size: "large",
+                            onClick: onCancel,
+                            className: "w-full sm:w-auto px-8 rounded-lg",
+                            children: "Cancel"
+                        }, void 0, false, {
+                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
+                            lineNumber: 162,
+                            columnNumber: 11
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$button$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Button$3e$__["Button"], {
+                            type: "primary",
+                            size: "large",
+                            loading: loading,
+                            onClick: onSubmit,
+                            className: "w-full sm:w-auto px-8 rounded-lg bg-blue-600 hover:bg-blue-700",
+                            children: "Update Policy"
+                        }, void 0, false, {
+                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
+                            lineNumber: 169,
+                            columnNumber: 11
+                        }, ("TURBOPACK compile-time value", void 0))
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormCar.tsx",
+                    lineNumber: 161,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             ]
@@ -822,41 +843,25 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$n
 ;
 const PolicyEditFormBike = ({ form, loading, onSubmit, onCancel })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-        className: "bg-white",
+        className: "bg-white px-2",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"], {
             layout: "vertical",
             form: form,
+            requiredMark: false,
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                    className: "rounded-none sm:rounded-xl shadow-md overflow-hidden mb-4 sm:mb-6",
+                    className: "mb-8",
                     children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                            className: "bg-gradient-to-r from-blue-600 to-blue-500 px-4 sm:px-6 py-3 text-white",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
-                                    className: "font-semibold text-base sm:text-lg m-0",
-                                    children: "Policy Document"
-                                }, void 0, false, {
-                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                    lineNumber: 28,
-                                    columnNumber: 13
-                                }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                    className: "text-xs sm:text-sm font-normal text-blue-100 mt-1 mb-0",
-                                    children: "Upload your bike policy PDF document"
-                                }, void 0, false, {
-                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                    lineNumber: 31,
-                                    columnNumber: 13
-                                }, ("TURBOPACK compile-time value", void 0))
-                            ]
-                        }, void 0, true, {
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
+                            className: "text-lg font-semibold text-gray-800 mb-4 border-l-4 border-blue-600 pl-3",
+                            children: "Policy Document"
+                        }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
                             lineNumber: 27,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                            className: "p-4 sm:p-6 bg-white",
+                            className: "bg-gray-50 rounded-xl p-4 border border-dashed border-gray-300 hover:border-blue-500 transition-all duration-300 group",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
                                 name: "policy_pdf",
                                 valuePropName: "fileList",
@@ -865,65 +870,65 @@ const PolicyEditFormBike = ({ form, loading, onSubmit, onCancel })=>{
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$upload$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Upload$3e$__["Upload"].Dragger, {
                                     beforeUpload: ()=>false,
                                     accept: ".pdf",
-                                    className: "hover:border-blue-500 transition-colors",
-                                    style: {
-                                        padding: "20px"
+                                    className: "!border-0 !bg-transparent",
+                                    showUploadList: {
+                                        showRemoveIcon: true
                                     },
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                            className: "ant-upload-drag-icon text-blue-600 mb-2",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$UploadOutlined$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__UploadOutlined$3e$__["UploadOutlined"], {
-                                                style: {
-                                                    fontSize: 40
-                                                }
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                        className: "py-4",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                className: "w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$UploadOutlined$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__UploadOutlined$3e$__["UploadOutlined"], {
+                                                    style: {
+                                                        fontSize: 28,
+                                                        color: '#2563EB'
+                                                    }
+                                                }, void 0, false, {
+                                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                                                    lineNumber: 48,
+                                                    columnNumber: 21
+                                                }, ("TURBOPACK compile-time value", void 0))
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                                                lineNumber: 47,
+                                                columnNumber: 19
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                                                className: "text-gray-900 text-sm font-medium mb-1",
+                                                children: "Click or drag file to upload"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
                                                 lineNumber: 50,
                                                 columnNumber: 19
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                                                className: "text-gray-500 text-xs text-center",
+                                                children: "PDF format only (Max 20MB)"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                                                lineNumber: 53,
+                                                columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                            lineNumber: 49,
-                                            columnNumber: 17
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                            className: "text-base sm:text-lg font-semibold mb-1",
-                                            children: "Drop your Bike Policy PDF here"
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                            lineNumber: 52,
-                                            columnNumber: 17
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                            className: "text-gray-500 text-xs sm:text-sm mb-0",
-                                            children: [
-                                                "or click to browse",
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                                    lineNumber: 57,
-                                                    columnNumber: 19
-                                                }, ("TURBOPACK compile-time value", void 0)),
-                                                "PDF only · Maximum size 20MB"
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                            lineNumber: 55,
-                                            columnNumber: 17
-                                        }, ("TURBOPACK compile-time value", void 0))
-                                    ]
-                                }, void 0, true, {
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                                        lineNumber: 46,
+                                        columnNumber: 17
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
                                     fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                    lineNumber: 43,
+                                    lineNumber: 38,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                lineNumber: 37,
+                                lineNumber: 32,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                            lineNumber: 36,
+                            lineNumber: 31,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
@@ -933,474 +938,530 @@ const PolicyEditFormBike = ({ form, loading, onSubmit, onCancel })=>{
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                    className: "rounded-none sm:rounded-xl shadow-md overflow-hidden",
+                    className: "mb-6",
                     children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                            className: "bg-gradient-to-r from-blue-600 to-blue-500 px-4 sm:px-6 py-3 text-white",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
-                                    className: "font-semibold text-base sm:text-lg m-0",
-                                    children: "Bike Insurance Policy"
-                                }, void 0, false, {
-                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                    lineNumber: 68,
-                                    columnNumber: 13
-                                }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                    className: "text-xs sm:text-sm font-normal text-blue-100 mt-1 mb-0",
-                                    children: "Enter your bike policy details accurately"
-                                }, void 0, false, {
-                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                    lineNumber: 71,
-                                    columnNumber: 13
-                                }, ("TURBOPACK compile-time value", void 0))
-                            ]
-                        }, void 0, true, {
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
+                            className: "text-lg font-semibold text-gray-800 mb-6 border-l-4 border-blue-600 pl-3",
+                            children: "Bike Insurance Policy"
+                        }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                            lineNumber: 67,
+                            lineNumber: 64,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                            className: "p-4 sm:p-6 bg-white",
+                            className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-4",
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                    className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                            name: "client_name",
-                                            label: "Client Name",
-                                            rules: [
-                                                {
-                                                    required: true,
-                                                    message: "Please enter client name"
-                                                }
-                                            ],
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
-                                                placeholder: "Your full name",
-                                                size: "large"
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                    name: "client_name",
+                                    label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        className: "font-medium text-gray-700",
+                                        children: "Client Name"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                                        lineNumber: 71,
+                                        columnNumber: 22
+                                    }, void 0),
+                                    rules: [
+                                        {
+                                            required: true,
+                                            message: "Please enter client name"
+                                        }
+                                    ],
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
+                                        placeholder: "Your full name",
+                                        size: "large",
+                                        className: "rounded-lg"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                                        lineNumber: 74,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                                    lineNumber: 69,
+                                    columnNumber: 13
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                    name: "insurer_name",
+                                    label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        className: "font-medium text-gray-700",
+                                        children: "Insurer Name"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                                        lineNumber: 79,
+                                        columnNumber: 22
+                                    }, void 0),
+                                    rules: [
+                                        {
+                                            required: true,
+                                            message: "Please select insurer name"
+                                        }
+                                    ],
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"], {
+                                        placeholder: "Select insurer",
+                                        size: "large",
+                                        className: "rounded-lg",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "Reliance Digital",
+                                                children: "Reliance Digital"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                                                lineNumber: 83,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "Bajaj Allianz",
+                                                children: "Bajaj Allianz"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                                                lineNumber: 84,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "Digit",
+                                                children: "Digit"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                                                lineNumber: 85,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "Max Life Insurance",
+                                                children: "Max Life Insurance"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
                                                 lineNumber: 86,
                                                 columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                            lineNumber: 78,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                            name: "insurer_name",
-                                            label: "Insurer Name",
-                                            rules: [
-                                                {
-                                                    required: true,
-                                                    message: "Please select insurer name"
-                                                }
-                                            ],
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"], {
-                                                placeholder: "Select insurer",
-                                                size: "large",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Reliance Digital",
-                                                        children: "Reliance Digital"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                                        lineNumber: 98,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Bajaj Allianz",
-                                                        children: "Bajaj Allianz"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                                        lineNumber: 101,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Digit",
-                                                        children: "Digit"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                                        lineNumber: 104,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Max Life Insurance",
-                                                        children: "Max Life Insurance"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                                        lineNumber: 105,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "New India Assurance",
-                                                        children: "New India Assurance"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                                        lineNumber: 108,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Tata AIG Insurance",
-                                                        children: "Tata AIG Insurance"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                                        lineNumber: 111,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "PPAP",
-                                                        children: "PPAP"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                                        lineNumber: 114,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0))
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                                lineNumber: 97,
-                                                columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                            lineNumber: 89,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                            name: "policy_no",
-                                            label: "Policy Number",
-                                            rules: [
-                                                {
-                                                    required: true,
-                                                    message: "Please enter policy number"
-                                                }
-                                            ],
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
-                                                placeholder: "e.g. BIKE123456",
-                                                size: "large"
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "New India Assurance",
+                                                children: "New India Assurance"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                                lineNumber: 126,
+                                                lineNumber: 87,
                                                 columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                            lineNumber: 118,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                            name: "type_of_business",
-                                            label: "Type of Business",
-                                            rules: [
-                                                {
-                                                    required: true,
-                                                    message: "Please select business type"
-                                                }
-                                            ],
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"], {
-                                                placeholder: "Select type",
-                                                size: "large",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "New",
-                                                        children: "New"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                                        lineNumber: 138,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Port",
-                                                        children: "Port"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                                        lineNumber: 139,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Renewal",
-                                                        children: "Renewal"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                                        lineNumber: 140,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0))
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                                lineNumber: 137,
-                                                columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                            lineNumber: 129,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                            name: "policy_name",
-                                            label: "Policy Name",
-                                            rules: [
-                                                {
-                                                    required: true,
-                                                    message: "Please enter policy name"
-                                                }
-                                            ],
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
-                                                placeholder: "e.g. Comprehensive Bike Insurance",
-                                                size: "large"
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "Tata AIG Insurance",
+                                                children: "Tata AIG Insurance"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                                lineNumber: 152,
+                                                lineNumber: 88,
                                                 columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                            lineNumber: 144,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                            name: "policy_start_date",
-                                            label: "Policy Start Date",
-                                            rules: [
-                                                {
-                                                    required: true,
-                                                    message: "Please select start date"
-                                                }
-                                            ],
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$date$2d$picker$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__DatePicker$3e$__["DatePicker"], {
-                                                className: "w-full",
-                                                format: "DD-MM-YYYY",
-                                                size: "large"
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "PPAP",
+                                                children: "PPAP"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                                lineNumber: 166,
+                                                lineNumber: 89,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                            lineNumber: 158,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                            name: "policy_end_date",
-                                            label: "Policy End Date",
-                                            rules: [
-                                                {
-                                                    required: true,
-                                                    message: "Please select end date"
-                                                }
-                                            ],
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$date$2d$picker$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__DatePicker$3e$__["DatePicker"], {
-                                                className: "w-full",
-                                                format: "DD-MM-YYYY",
-                                                size: "large"
-                                            }, void 0, false, {
-                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                                lineNumber: 179,
-                                                columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                            lineNumber: 173,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                            name: "sum_insured",
-                                            label: "Sum Insured / Vehicle IDV",
-                                            rules: [
-                                                {
-                                                    required: true,
-                                                    message: "Please enter sum insured"
-                                                }
-                                            ],
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
-                                                placeholder: "e.g. 85000.00",
-                                                size: "large",
-                                                type: "number"
-                                            }, void 0, false, {
-                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                                lineNumber: 194,
-                                                columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                            lineNumber: 186,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                            name: "gross_premium",
-                                            label: "Gross Premium",
-                                            rules: [
-                                                {
-                                                    required: true,
-                                                    message: "Please enter gross premium"
-                                                }
-                                            ],
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
-                                                placeholder: "e.g. 3500.00",
-                                                size: "large",
-                                                type: "number"
-                                            }, void 0, false, {
-                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                                lineNumber: 205,
-                                                columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                            lineNumber: 197,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                            name: "vehicle_number",
-                                            label: "Bike Number",
-                                            rules: [
-                                                {
-                                                    required: true,
-                                                    message: "Please enter bike number"
-                                                }
-                                            ],
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
-                                                placeholder: "e.g. DL01AB1234",
-                                                style: {
-                                                    textTransform: "uppercase"
-                                                },
-                                                size: "large"
-                                            }, void 0, false, {
-                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                                lineNumber: 216,
-                                                columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                            lineNumber: 208,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                            name: "fuel_type",
-                                            label: "Fuel Type",
-                                            rules: [
-                                                {
-                                                    required: true,
-                                                    message: "Please select fuel type"
-                                                }
-                                            ],
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"], {
-                                                placeholder: "Select fuel type",
-                                                size: "large",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Petrol",
-                                                        children: "Petrol"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                                        lineNumber: 230,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Electric",
-                                                        children: "Electric"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                                        lineNumber: 231,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "CNG",
-                                                        children: "CNG"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                                        lineNumber: 232,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0))
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                                lineNumber: 229,
-                                                columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                            lineNumber: 223,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                            name: "no_claim_bonus",
-                                            label: "No Claim Bonus (%)",
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
-                                                placeholder: "e.g. 20",
-                                                size: "large",
-                                                type: "number"
-                                            }, void 0, false, {
-                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                                lineNumber: 241,
-                                                columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                            lineNumber: 236,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0))
-                                    ]
-                                }, void 0, true, {
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                                        lineNumber: 82,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
                                     fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
                                     lineNumber: 77,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                    className: "flex flex-col-reverse sm:flex-row justify-center gap-3 mt-6 pb-2",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$button$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Button$3e$__["Button"], {
-                                            size: "large",
-                                            onClick: onCancel,
-                                            className: "w-full sm:w-auto min-w-[120px] rounded-lg",
-                                            children: "Cancel"
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                            lineNumber: 247,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$button$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Button$3e$__["Button"], {
-                                            type: "primary",
-                                            size: "large",
-                                            loading: loading,
-                                            onClick: onSubmit,
-                                            className: "w-full sm:w-auto min-w-[140px] rounded-lg",
-                                            children: "Update Policy"
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                            lineNumber: 254,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0))
-                                    ]
-                                }, void 0, true, {
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                    name: "policy_no",
+                                    label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        className: "font-medium text-gray-700",
+                                        children: "Policy Number"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                                        lineNumber: 95,
+                                        columnNumber: 22
+                                    }, void 0),
+                                    rules: [
+                                        {
+                                            required: true,
+                                            message: "Please enter policy number"
+                                        }
+                                    ],
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
+                                        placeholder: "e.g. BIKE123456",
+                                        size: "large",
+                                        className: "rounded-lg"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                                        lineNumber: 98,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
                                     fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                                    lineNumber: 246,
+                                    lineNumber: 93,
+                                    columnNumber: 13
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                    name: "type_of_business",
+                                    label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        className: "font-medium text-gray-700",
+                                        children: "Type of Business"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                                        lineNumber: 103,
+                                        columnNumber: 22
+                                    }, void 0),
+                                    rules: [
+                                        {
+                                            required: true,
+                                            message: "Please select business type"
+                                        }
+                                    ],
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"], {
+                                        placeholder: "Select type",
+                                        size: "large",
+                                        className: "rounded-lg",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "New",
+                                                children: "New"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                                                lineNumber: 107,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "Port",
+                                                children: "Port"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                                                lineNumber: 108,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "Renewal",
+                                                children: "Renewal"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                                                lineNumber: 109,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                                        lineNumber: 106,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                                    lineNumber: 101,
+                                    columnNumber: 13
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                    name: "policy_name",
+                                    label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        className: "font-medium text-gray-700",
+                                        children: "Policy Name"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                                        lineNumber: 115,
+                                        columnNumber: 22
+                                    }, void 0),
+                                    rules: [
+                                        {
+                                            required: true,
+                                            message: "Please enter policy name"
+                                        }
+                                    ],
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
+                                        placeholder: "e.g. Comprehensive Bike Insurance",
+                                        size: "large",
+                                        className: "rounded-lg"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                                        lineNumber: 118,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                                    lineNumber: 113,
+                                    columnNumber: 13
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                    name: "policy_start_date",
+                                    label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        className: "font-medium text-gray-700",
+                                        children: "Start Date"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                                        lineNumber: 127,
+                                        columnNumber: 22
+                                    }, void 0),
+                                    rules: [
+                                        {
+                                            required: true,
+                                            message: "Please select start date"
+                                        }
+                                    ],
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$date$2d$picker$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__DatePicker$3e$__["DatePicker"], {
+                                        className: "w-full rounded-lg",
+                                        format: "DD-MM-YYYY",
+                                        size: "large"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                                        lineNumber: 130,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                                    lineNumber: 125,
+                                    columnNumber: 13
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                    name: "policy_end_date",
+                                    label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        className: "font-medium text-gray-700",
+                                        children: "End Date"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                                        lineNumber: 135,
+                                        columnNumber: 22
+                                    }, void 0),
+                                    rules: [
+                                        {
+                                            required: true,
+                                            message: "Please select end date"
+                                        }
+                                    ],
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$date$2d$picker$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__DatePicker$3e$__["DatePicker"], {
+                                        className: "w-full rounded-lg",
+                                        format: "DD-MM-YYYY",
+                                        size: "large"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                                        lineNumber: 138,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                                    lineNumber: 133,
+                                    columnNumber: 13
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                    name: "sum_insured",
+                                    label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        className: "font-medium text-gray-700",
+                                        children: "Sum Insured (IDV)"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                                        lineNumber: 143,
+                                        columnNumber: 22
+                                    }, void 0),
+                                    rules: [
+                                        {
+                                            required: true,
+                                            message: "Please enter sum insured"
+                                        }
+                                    ],
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
+                                        placeholder: "e.g. 85000.00",
+                                        size: "large",
+                                        type: "number",
+                                        className: "rounded-lg"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                                        lineNumber: 146,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                                    lineNumber: 141,
+                                    columnNumber: 13
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                    name: "gross_premium",
+                                    label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        className: "font-medium text-gray-700",
+                                        children: "Gross Premium"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                                        lineNumber: 151,
+                                        columnNumber: 22
+                                    }, void 0),
+                                    rules: [
+                                        {
+                                            required: true,
+                                            message: "Please enter gross premium"
+                                        }
+                                    ],
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
+                                        placeholder: "e.g. 3500.00",
+                                        size: "large",
+                                        type: "number",
+                                        className: "rounded-lg"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                                        lineNumber: 154,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                                    lineNumber: 149,
+                                    columnNumber: 13
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                    name: "vehicle_number",
+                                    label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        className: "font-medium text-gray-700",
+                                        children: "Bike Number"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                                        lineNumber: 159,
+                                        columnNumber: 22
+                                    }, void 0),
+                                    rules: [
+                                        {
+                                            required: true,
+                                            message: "Please enter bike number"
+                                        }
+                                    ],
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
+                                        placeholder: "e.g. DL01AB1234",
+                                        style: {
+                                            textTransform: "uppercase"
+                                        },
+                                        size: "large",
+                                        className: "rounded-lg"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                                        lineNumber: 162,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                                    lineNumber: 157,
+                                    columnNumber: 13
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                    name: "fuel_type",
+                                    label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        className: "font-medium text-gray-700",
+                                        children: "Fuel Type"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                                        lineNumber: 172,
+                                        columnNumber: 22
+                                    }, void 0),
+                                    rules: [
+                                        {
+                                            required: true,
+                                            message: "Please select fuel type"
+                                        }
+                                    ],
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"], {
+                                        placeholder: "Select fuel type",
+                                        size: "large",
+                                        className: "rounded-lg",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "Petrol",
+                                                children: "Petrol"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                                                lineNumber: 176,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "Electric",
+                                                children: "Electric"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                                                lineNumber: 177,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "CNG",
+                                                children: "CNG"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                                                lineNumber: 178,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                                        lineNumber: 175,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                                    lineNumber: 170,
+                                    columnNumber: 13
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                    name: "no_claim_bonus",
+                                    label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        className: "font-medium text-gray-700",
+                                        children: "No Claim Bonus (%)"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                                        lineNumber: 184,
+                                        columnNumber: 22
+                                    }, void 0),
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
+                                        placeholder: "e.g. 20",
+                                        size: "large",
+                                        type: "number",
+                                        className: "rounded-lg"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                                        lineNumber: 186,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                                    lineNumber: 182,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                            lineNumber: 76,
+                            lineNumber: 68,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
-                    lineNumber: 66,
+                    lineNumber: 63,
+                    columnNumber: 9
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                    className: "flex flex-col-reverse sm:flex-row justify-end gap-3 pt-4 border-t border-gray-100",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$button$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Button$3e$__["Button"], {
+                            size: "large",
+                            onClick: onCancel,
+                            className: "w-full sm:w-auto px-8 rounded-lg",
+                            children: "Cancel"
+                        }, void 0, false, {
+                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                            lineNumber: 193,
+                            columnNumber: 11
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$button$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Button$3e$__["Button"], {
+                            type: "primary",
+                            size: "large",
+                            loading: loading,
+                            onClick: onSubmit,
+                            className: "w-full sm:w-auto px-8 rounded-lg bg-blue-600 hover:bg-blue-700",
+                            children: "Update Policy"
+                        }, void 0, false, {
+                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                            lineNumber: 200,
+                            columnNumber: 11
+                        }, ("TURBOPACK compile-time value", void 0))
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormBike.tsx",
+                    lineNumber: 192,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             ]
@@ -1439,41 +1500,25 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$n
 ;
 const PolicyEditFormHealth = ({ form, loading, onSubmit, onCancel })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-        className: "bg-white",
+        className: "bg-white px-2",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"], {
             layout: "vertical",
             form: form,
+            requiredMark: false,
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                    className: "rounded-none sm:rounded-xl shadow-md overflow-hidden mb-4 sm:mb-6",
+                    className: "mb-8",
                     children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                            className: "bg-gradient-to-r from-green-600 to-green-500 px-4 sm:px-6 py-3 text-white",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
-                                    className: "font-semibold text-base sm:text-lg m-0",
-                                    children: "Policy Document"
-                                }, void 0, false, {
-                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                    lineNumber: 28,
-                                    columnNumber: 13
-                                }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                    className: "text-xs sm:text-sm font-normal text-green-100 mt-1 mb-0",
-                                    children: "Upload your health policy PDF document"
-                                }, void 0, false, {
-                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                    lineNumber: 31,
-                                    columnNumber: 13
-                                }, ("TURBOPACK compile-time value", void 0))
-                            ]
-                        }, void 0, true, {
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
+                            className: "text-lg font-semibold text-gray-800 mb-4 border-l-4 border-green-600 pl-3",
+                            children: "Policy Document"
+                        }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
                             lineNumber: 27,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                            className: "p-4 sm:p-6 bg-white",
+                            className: "bg-gray-50 rounded-xl p-4 border border-dashed border-gray-300 hover:border-green-500 transition-all duration-300 group",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
                                 name: "policy_pdf",
                                 valuePropName: "fileList",
@@ -1482,65 +1527,65 @@ const PolicyEditFormHealth = ({ form, loading, onSubmit, onCancel })=>{
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$upload$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Upload$3e$__["Upload"].Dragger, {
                                     beforeUpload: ()=>false,
                                     accept: ".pdf",
-                                    className: "hover:border-green-500 transition-colors",
-                                    style: {
-                                        padding: "20px"
+                                    className: "!border-0 !bg-transparent",
+                                    showUploadList: {
+                                        showRemoveIcon: true
                                     },
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                            className: "ant-upload-drag-icon text-green-600 mb-2",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$UploadOutlined$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__UploadOutlined$3e$__["UploadOutlined"], {
-                                                style: {
-                                                    fontSize: 40
-                                                }
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                        className: "py-4",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                className: "w-16 h-16 bg-green-50 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$UploadOutlined$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__UploadOutlined$3e$__["UploadOutlined"], {
+                                                    style: {
+                                                        fontSize: 28,
+                                                        color: '#16A34A'
+                                                    }
+                                                }, void 0, false, {
+                                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                                                    lineNumber: 48,
+                                                    columnNumber: 21
+                                                }, ("TURBOPACK compile-time value", void 0))
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                                                lineNumber: 47,
+                                                columnNumber: 19
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                                                className: "text-gray-900 text-sm font-medium mb-1",
+                                                children: "Click or drag file to upload"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
                                                 lineNumber: 50,
                                                 columnNumber: 19
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                                                className: "text-gray-500 text-xs text-center",
+                                                children: "PDF format only (Max 20MB)"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                                                lineNumber: 53,
+                                                columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                            lineNumber: 49,
-                                            columnNumber: 17
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                            className: "text-base sm:text-lg font-semibold mb-1",
-                                            children: "Drop your Health Policy PDF here"
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                            lineNumber: 52,
-                                            columnNumber: 17
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                            className: "text-gray-500 text-xs sm:text-sm mb-0",
-                                            children: [
-                                                "or click to browse",
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                                    lineNumber: 57,
-                                                    columnNumber: 19
-                                                }, ("TURBOPACK compile-time value", void 0)),
-                                                "PDF only · Maximum size 20MB"
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                            lineNumber: 55,
-                                            columnNumber: 17
-                                        }, ("TURBOPACK compile-time value", void 0))
-                                    ]
-                                }, void 0, true, {
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                                        lineNumber: 46,
+                                        columnNumber: 17
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
                                     fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                    lineNumber: 43,
+                                    lineNumber: 38,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                lineNumber: 37,
+                                lineNumber: 32,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                            lineNumber: 36,
+                            lineNumber: 31,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
@@ -1550,465 +1595,514 @@ const PolicyEditFormHealth = ({ form, loading, onSubmit, onCancel })=>{
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                    className: "rounded-none sm:rounded-xl shadow-md overflow-hidden",
+                    className: "mb-6",
                     children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                            className: "bg-gradient-to-r from-green-600 to-green-500 px-4 sm:px-6 py-3 text-white",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
-                                    className: "font-semibold text-base sm:text-lg m-0",
-                                    children: "Health Insurance Policy"
-                                }, void 0, false, {
-                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                    lineNumber: 68,
-                                    columnNumber: 13
-                                }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                    className: "text-xs sm:text-sm font-normal text-green-100 mt-1 mb-0",
-                                    children: "Enter your health policy details accurately"
-                                }, void 0, false, {
-                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                    lineNumber: 71,
-                                    columnNumber: 13
-                                }, ("TURBOPACK compile-time value", void 0))
-                            ]
-                        }, void 0, true, {
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
+                            className: "text-lg font-semibold text-gray-800 mb-6 border-l-4 border-green-600 pl-3",
+                            children: "Health Insurance Policy"
+                        }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                            lineNumber: 67,
+                            lineNumber: 64,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                            className: "p-4 sm:p-6 bg-white",
+                            className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-4",
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                    className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                            name: "client_name",
-                                            label: "Client Name",
-                                            rules: [
-                                                {
-                                                    required: true,
-                                                    message: "Please enter client name"
-                                                }
-                                            ],
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
-                                                placeholder: "Your full name",
-                                                size: "large"
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                    name: "client_name",
+                                    label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        className: "font-medium text-gray-700",
+                                        children: "Client Name"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                                        lineNumber: 71,
+                                        columnNumber: 22
+                                    }, void 0),
+                                    rules: [
+                                        {
+                                            required: true,
+                                            message: "Please enter client name"
+                                        }
+                                    ],
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
+                                        placeholder: "Your full name",
+                                        size: "large",
+                                        className: "rounded-lg"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                                        lineNumber: 74,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                                    lineNumber: 69,
+                                    columnNumber: 13
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                    name: "insurer_name",
+                                    label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        className: "font-medium text-gray-700",
+                                        children: "Insurer Name"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                                        lineNumber: 79,
+                                        columnNumber: 22
+                                    }, void 0),
+                                    rules: [
+                                        {
+                                            required: true,
+                                            message: "Please select insurer name"
+                                        }
+                                    ],
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"], {
+                                        placeholder: "Select insurer",
+                                        size: "large",
+                                        className: "rounded-lg",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "Reliance Digital",
+                                                children: "Reliance Digital"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                                                lineNumber: 83,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "Bajaj Allianz",
+                                                children: "Bajaj Allianz"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                                                lineNumber: 84,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "Digit",
+                                                children: "Digit"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                                                lineNumber: 85,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "Max Life Insurance",
+                                                children: "Max Life Insurance"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
                                                 lineNumber: 86,
                                                 columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                            lineNumber: 78,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                            name: "insurer_name",
-                                            label: "Insurer Name",
-                                            rules: [
-                                                {
-                                                    required: true,
-                                                    message: "Please select insurer name"
-                                                }
-                                            ],
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"], {
-                                                placeholder: "Select insurer",
-                                                size: "large",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Reliance Digital",
-                                                        children: "Reliance Digital"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                                        lineNumber: 98,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Bajaj Allianz",
-                                                        children: "Bajaj Allianz"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                                        lineNumber: 101,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Digit",
-                                                        children: "Digit"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                                        lineNumber: 104,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Max Life Insurance",
-                                                        children: "Max Life Insurance"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                                        lineNumber: 105,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "New India Assurance",
-                                                        children: "New India Assurance"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                                        lineNumber: 108,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Tata AIG Insurance",
-                                                        children: "Tata AIG Insurance"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                                        lineNumber: 111,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "PPAP",
-                                                        children: "PPAP"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                                        lineNumber: 114,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0))
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                                lineNumber: 97,
-                                                columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                            lineNumber: 89,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                            name: "policy_no",
-                                            label: "Policy Number",
-                                            rules: [
-                                                {
-                                                    required: true,
-                                                    message: "Please enter policy number"
-                                                }
-                                            ],
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
-                                                placeholder: "e.g. HLTH123456",
-                                                size: "large"
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "New India Assurance",
+                                                children: "New India Assurance"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                                lineNumber: 126,
+                                                lineNumber: 87,
                                                 columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                            lineNumber: 118,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                            name: "type_of_business",
-                                            label: "Type of Business",
-                                            rules: [
-                                                {
-                                                    required: true,
-                                                    message: "Please select business type"
-                                                }
-                                            ],
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"], {
-                                                placeholder: "Select type",
-                                                size: "large",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "New",
-                                                        children: "New"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                                        lineNumber: 138,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Port",
-                                                        children: "Port"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                                        lineNumber: 139,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Renewal",
-                                                        children: "Renewal"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                                        lineNumber: 140,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0))
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                                lineNumber: 137,
-                                                columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                            lineNumber: 129,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                            name: "plan_type",
-                                            label: "Plan Type",
-                                            rules: [
-                                                {
-                                                    required: true,
-                                                    message: "Please select plan type"
-                                                }
-                                            ],
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"], {
-                                                placeholder: "Select plan type",
-                                                size: "large",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Family Floater",
-                                                        children: "Family Floater"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                                        lineNumber: 151,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Individual",
-                                                        children: "Individual"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                                        lineNumber: 154,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Multi Individual",
-                                                        children: "Multi Individual"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                                        lineNumber: 155,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Top Up",
-                                                        children: "Top Up"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                                        lineNumber: 158,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Super Top Up",
-                                                        children: "Super Top Up"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                                        lineNumber: 159,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0))
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                                lineNumber: 150,
-                                                columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                            lineNumber: 144,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                            name: "policy_start_date",
-                                            label: "Policy Start Date",
-                                            rules: [
-                                                {
-                                                    required: true,
-                                                    message: "Please select start date"
-                                                }
-                                            ],
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$date$2d$picker$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__DatePicker$3e$__["DatePicker"], {
-                                                className: "w-full",
-                                                format: "DD-MM-YYYY",
-                                                size: "large"
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "Tata AIG Insurance",
+                                                children: "Tata AIG Insurance"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                                lineNumber: 173,
+                                                lineNumber: 88,
                                                 columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                            lineNumber: 165,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                            name: "policy_end_date",
-                                            label: "Policy End Date",
-                                            rules: [
-                                                {
-                                                    required: true,
-                                                    message: "Please select end date"
-                                                }
-                                            ],
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$date$2d$picker$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__DatePicker$3e$__["DatePicker"], {
-                                                className: "w-full",
-                                                format: "DD-MM-YYYY",
-                                                size: "large"
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "PPAP",
+                                                children: "PPAP"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                                lineNumber: 186,
+                                                lineNumber: 89,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                            lineNumber: 180,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                            name: "sum_insured",
-                                            label: "Sum Insured / Assured",
-                                            rules: [
-                                                {
-                                                    required: true,
-                                                    message: "Please enter sum insured"
-                                                }
-                                            ],
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
-                                                placeholder: "e.g. 500000.00",
-                                                size: "large",
-                                                type: "number"
-                                            }, void 0, false, {
-                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                                lineNumber: 201,
-                                                columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                            lineNumber: 193,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                            name: "gross_premium",
-                                            label: "Gross Premium",
-                                            rules: [
-                                                {
-                                                    required: true,
-                                                    message: "Please enter gross premium"
-                                                }
-                                            ],
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
-                                                placeholder: "e.g. 15000.00",
-                                                size: "large",
-                                                type: "number"
-                                            }, void 0, false, {
-                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                                lineNumber: 216,
-                                                columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                            lineNumber: 208,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                            name: "number_of_insured",
-                                            label: "Number of Insured",
-                                            rules: [
-                                                {
-                                                    required: true,
-                                                    message: "Please enter number of insured"
-                                                }
-                                            ],
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
-                                                placeholder: "e.g. 4",
-                                                size: "large",
-                                                type: "number",
-                                                min: "1"
-                                            }, void 0, false, {
-                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                                lineNumber: 227,
-                                                columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                            lineNumber: 219,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                            name: "no_claim_bonus",
-                                            label: "No Claim Bonus",
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
-                                                placeholder: "e.g. 10% or 50000",
-                                                size: "large"
-                                            }, void 0, false, {
-                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                                lineNumber: 240,
-                                                columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                            lineNumber: 235,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0))
-                                    ]
-                                }, void 0, true, {
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                                        lineNumber: 82,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
                                     fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
                                     lineNumber: 77,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                    className: "flex flex-col-reverse sm:flex-row justify-center gap-3 mt-6 pb-2",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$button$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Button$3e$__["Button"], {
-                                            size: "large",
-                                            onClick: onCancel,
-                                            className: "w-full sm:w-auto min-w-[120px] rounded-lg",
-                                            children: "Cancel"
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                            lineNumber: 246,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$button$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Button$3e$__["Button"], {
-                                            type: "primary",
-                                            size: "large",
-                                            loading: loading,
-                                            onClick: onSubmit,
-                                            className: "w-full sm:w-auto min-w-[140px] rounded-lg bg-green-600 hover:bg-green-700",
-                                            children: "Update Policy"
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                            lineNumber: 253,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0))
-                                    ]
-                                }, void 0, true, {
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                    name: "policy_no",
+                                    label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        className: "font-medium text-gray-700",
+                                        children: "Policy Number"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                                        lineNumber: 95,
+                                        columnNumber: 22
+                                    }, void 0),
+                                    rules: [
+                                        {
+                                            required: true,
+                                            message: "Please enter policy number"
+                                        }
+                                    ],
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
+                                        placeholder: "e.g. HLTH123456",
+                                        size: "large",
+                                        className: "rounded-lg"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                                        lineNumber: 98,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
                                     fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                                    lineNumber: 245,
+                                    lineNumber: 93,
+                                    columnNumber: 13
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                    name: "type_of_business",
+                                    label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        className: "font-medium text-gray-700",
+                                        children: "Type of Business"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                                        lineNumber: 103,
+                                        columnNumber: 22
+                                    }, void 0),
+                                    rules: [
+                                        {
+                                            required: true,
+                                            message: "Please select business type"
+                                        }
+                                    ],
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"], {
+                                        placeholder: "Select type",
+                                        size: "large",
+                                        className: "rounded-lg",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "New",
+                                                children: "New"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                                                lineNumber: 107,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "Port",
+                                                children: "Port"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                                                lineNumber: 108,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "Renewal",
+                                                children: "Renewal"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                                                lineNumber: 109,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                                        lineNumber: 106,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                                    lineNumber: 101,
+                                    columnNumber: 13
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                    name: "plan_type",
+                                    label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        className: "font-medium text-gray-700",
+                                        children: "Plan Type"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                                        lineNumber: 115,
+                                        columnNumber: 22
+                                    }, void 0),
+                                    rules: [
+                                        {
+                                            required: true,
+                                            message: "Please select plan type"
+                                        }
+                                    ],
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"], {
+                                        placeholder: "Select plan type",
+                                        size: "large",
+                                        className: "rounded-lg",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "Family Floater",
+                                                children: "Family Floater"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                                                lineNumber: 119,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "Individual",
+                                                children: "Individual"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                                                lineNumber: 120,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "Multi Individual",
+                                                children: "Multi Individual"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                                                lineNumber: 121,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "Top Up",
+                                                children: "Top Up"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                                                lineNumber: 122,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "Super Top Up",
+                                                children: "Super Top Up"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                                                lineNumber: 123,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                                        lineNumber: 118,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                                    lineNumber: 113,
+                                    columnNumber: 13
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                    name: "policy_start_date",
+                                    label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        className: "font-medium text-gray-700",
+                                        children: "Start Date"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                                        lineNumber: 129,
+                                        columnNumber: 22
+                                    }, void 0),
+                                    rules: [
+                                        {
+                                            required: true,
+                                            message: "Please select start date"
+                                        }
+                                    ],
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$date$2d$picker$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__DatePicker$3e$__["DatePicker"], {
+                                        className: "w-full rounded-lg",
+                                        format: "DD-MM-YYYY",
+                                        size: "large"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                                        lineNumber: 132,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                                    lineNumber: 127,
+                                    columnNumber: 13
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                    name: "policy_end_date",
+                                    label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        className: "font-medium text-gray-700",
+                                        children: "End Date"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                                        lineNumber: 137,
+                                        columnNumber: 22
+                                    }, void 0),
+                                    rules: [
+                                        {
+                                            required: true,
+                                            message: "Please select end date"
+                                        }
+                                    ],
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$date$2d$picker$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__DatePicker$3e$__["DatePicker"], {
+                                        className: "w-full rounded-lg",
+                                        format: "DD-MM-YYYY",
+                                        size: "large"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                                        lineNumber: 140,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                                    lineNumber: 135,
+                                    columnNumber: 13
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                    name: "sum_insured",
+                                    label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        className: "font-medium text-gray-700",
+                                        children: "Sum Insured / Assured"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                                        lineNumber: 145,
+                                        columnNumber: 22
+                                    }, void 0),
+                                    rules: [
+                                        {
+                                            required: true,
+                                            message: "Please enter sum insured"
+                                        }
+                                    ],
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
+                                        placeholder: "e.g. 500000.00",
+                                        size: "large",
+                                        type: "number",
+                                        className: "rounded-lg"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                                        lineNumber: 148,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                                    lineNumber: 143,
+                                    columnNumber: 13
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                    name: "gross_premium",
+                                    label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        className: "font-medium text-gray-700",
+                                        children: "Gross Premium"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                                        lineNumber: 153,
+                                        columnNumber: 22
+                                    }, void 0),
+                                    rules: [
+                                        {
+                                            required: true,
+                                            message: "Please enter gross premium"
+                                        }
+                                    ],
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
+                                        placeholder: "e.g. 15000.00",
+                                        size: "large",
+                                        type: "number",
+                                        className: "rounded-lg"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                                        lineNumber: 156,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                                    lineNumber: 151,
+                                    columnNumber: 13
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                    name: "number_of_insured",
+                                    label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        className: "font-medium text-gray-700",
+                                        children: "Number of Insured"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                                        lineNumber: 161,
+                                        columnNumber: 22
+                                    }, void 0),
+                                    rules: [
+                                        {
+                                            required: true,
+                                            message: "Please enter number of insured"
+                                        }
+                                    ],
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
+                                        placeholder: "e.g. 4",
+                                        size: "large",
+                                        type: "number",
+                                        min: "1",
+                                        className: "rounded-lg"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                                        lineNumber: 164,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                                    lineNumber: 159,
+                                    columnNumber: 13
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                    name: "no_claim_bonus",
+                                    label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        className: "font-medium text-gray-700",
+                                        children: "No Claim Bonus"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                                        lineNumber: 175,
+                                        columnNumber: 22
+                                    }, void 0),
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
+                                        placeholder: "e.g. 10% or 50000",
+                                        size: "large",
+                                        className: "rounded-lg"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                                        lineNumber: 177,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                                    lineNumber: 173,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                            lineNumber: 76,
+                            lineNumber: 68,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
-                    lineNumber: 66,
+                    lineNumber: 63,
+                    columnNumber: 9
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                    className: "flex flex-col-reverse sm:flex-row justify-end gap-3 pt-4 border-t border-gray-100",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$button$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Button$3e$__["Button"], {
+                            size: "large",
+                            onClick: onCancel,
+                            className: "w-full sm:w-auto px-8 rounded-lg",
+                            children: "Cancel"
+                        }, void 0, false, {
+                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                            lineNumber: 184,
+                            columnNumber: 11
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$button$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Button$3e$__["Button"], {
+                            type: "primary",
+                            size: "large",
+                            loading: loading,
+                            onClick: onSubmit,
+                            className: "w-full sm:w-auto px-8 rounded-lg bg-green-600 hover:bg-green-700",
+                            children: "Update Policy"
+                        }, void 0, false, {
+                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                            lineNumber: 191,
+                            columnNumber: 11
+                        }, ("TURBOPACK compile-time value", void 0))
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormHealth.tsx",
+                    lineNumber: 183,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             ]
@@ -2047,41 +2141,25 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$n
 ;
 const PolicyEditFormLife = ({ form, loading, onSubmit, onCancel })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-        className: "bg-white",
+        className: "bg-white px-2",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"], {
             layout: "vertical",
             form: form,
+            requiredMark: false,
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                    className: "rounded-none sm:rounded-xl shadow-md overflow-hidden mb-4 sm:mb-6",
+                    className: "mb-8",
                     children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                            className: "bg-gradient-to-r from-purple-600 to-purple-500 px-4 sm:px-6 py-3 text-white",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
-                                    className: "font-semibold text-base sm:text-lg m-0",
-                                    children: "Policy Document"
-                                }, void 0, false, {
-                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                    lineNumber: 28,
-                                    columnNumber: 13
-                                }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                    className: "text-xs sm:text-sm font-normal text-purple-100 mt-1 mb-0",
-                                    children: "Upload your life policy PDF document"
-                                }, void 0, false, {
-                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                    lineNumber: 31,
-                                    columnNumber: 13
-                                }, ("TURBOPACK compile-time value", void 0))
-                            ]
-                        }, void 0, true, {
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
+                            className: "text-lg font-semibold text-gray-800 mb-4 border-l-4 border-purple-600 pl-3",
+                            children: "Policy Document"
+                        }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
                             lineNumber: 27,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                            className: "p-4 sm:p-6 bg-white",
+                            className: "bg-gray-50 rounded-xl p-4 border border-dashed border-gray-300 hover:border-purple-500 transition-all duration-300 group",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
                                 name: "policy_pdf",
                                 valuePropName: "fileList",
@@ -2090,65 +2168,65 @@ const PolicyEditFormLife = ({ form, loading, onSubmit, onCancel })=>{
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$upload$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Upload$3e$__["Upload"].Dragger, {
                                     beforeUpload: ()=>false,
                                     accept: ".pdf",
-                                    className: "hover:border-purple-500 transition-colors",
-                                    style: {
-                                        padding: "20px"
+                                    className: "!border-0 !bg-transparent",
+                                    showUploadList: {
+                                        showRemoveIcon: true
                                     },
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                            className: "ant-upload-drag-icon text-purple-600 mb-2",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$UploadOutlined$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__UploadOutlined$3e$__["UploadOutlined"], {
-                                                style: {
-                                                    fontSize: 40
-                                                }
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                        className: "py-4",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                className: "w-16 h-16 bg-purple-50 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$UploadOutlined$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__UploadOutlined$3e$__["UploadOutlined"], {
+                                                    style: {
+                                                        fontSize: 28,
+                                                        color: '#9333EA'
+                                                    }
+                                                }, void 0, false, {
+                                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                                    lineNumber: 48,
+                                                    columnNumber: 21
+                                                }, ("TURBOPACK compile-time value", void 0))
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                                lineNumber: 47,
+                                                columnNumber: 19
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                                                className: "text-gray-900 text-sm font-medium mb-1",
+                                                children: "Click or drag file to upload"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
                                                 lineNumber: 50,
                                                 columnNumber: 19
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                                                className: "text-gray-500 text-xs text-center",
+                                                children: "PDF format only (Max 20MB)"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                                lineNumber: 53,
+                                                columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                            lineNumber: 49,
-                                            columnNumber: 17
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                            className: "text-base sm:text-lg font-semibold mb-1",
-                                            children: "Drop your Life Policy PDF here"
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                            lineNumber: 52,
-                                            columnNumber: 17
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                            className: "text-gray-500 text-xs sm:text-sm mb-0",
-                                            children: [
-                                                "or click to browse",
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                                    lineNumber: 57,
-                                                    columnNumber: 19
-                                                }, ("TURBOPACK compile-time value", void 0)),
-                                                "PDF only · Maximum size 20MB"
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                            lineNumber: 55,
-                                            columnNumber: 17
-                                        }, ("TURBOPACK compile-time value", void 0))
-                                    ]
-                                }, void 0, true, {
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                        lineNumber: 46,
+                                        columnNumber: 17
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
                                     fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                    lineNumber: 43,
+                                    lineNumber: 38,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                lineNumber: 37,
+                                lineNumber: 32,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                            lineNumber: 36,
+                            lineNumber: 31,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
@@ -2158,523 +2236,593 @@ const PolicyEditFormLife = ({ form, loading, onSubmit, onCancel })=>{
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                    className: "rounded-none sm:rounded-xl shadow-md overflow-hidden",
+                    className: "mb-6",
                     children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                            className: "bg-gradient-to-r from-purple-600 to-purple-500 px-4 sm:px-6 py-3 text-white",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
-                                    className: "font-semibold text-base sm:text-lg m-0",
-                                    children: "Life Insurance Policy"
-                                }, void 0, false, {
-                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                    lineNumber: 68,
-                                    columnNumber: 13
-                                }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                    className: "text-xs sm:text-sm font-normal text-purple-100 mt-1 mb-0",
-                                    children: "Enter your life policy details accurately"
-                                }, void 0, false, {
-                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                    lineNumber: 71,
-                                    columnNumber: 13
-                                }, ("TURBOPACK compile-time value", void 0))
-                            ]
-                        }, void 0, true, {
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
+                            className: "text-lg font-semibold text-gray-800 mb-6 border-l-4 border-purple-600 pl-3",
+                            children: "Life Insurance Policy"
+                        }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                            lineNumber: 67,
+                            lineNumber: 64,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                            className: "p-4 sm:p-6 bg-white",
+                            className: "p-4 bg-gray-50 rounded-xl border border-gray-100 mb-6",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                name: "remarks",
+                                label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                    className: "font-medium text-gray-700",
+                                    children: "Remarks"
+                                }, void 0, false, {
+                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                    lineNumber: 69,
+                                    columnNumber: 47
+                                }, void 0),
+                                className: "mb-0",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"].TextArea, {
+                                    placeholder: "Add any additional notes or comments...",
+                                    className: "rounded-lg border-gray-300",
+                                    rows: 3
+                                }, void 0, false, {
+                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                    lineNumber: 70,
+                                    columnNumber: 17
+                                }, ("TURBOPACK compile-time value", void 0))
+                            }, void 0, false, {
+                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                lineNumber: 69,
+                                columnNumber: 14
+                            }, ("TURBOPACK compile-time value", void 0))
+                        }, void 0, false, {
+                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                            lineNumber: 68,
+                            columnNumber: 11
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                            className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-4",
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                    className: "grid grid-cols-1 gap-4",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                        name: "remarks",
-                                        label: "Remarks",
-                                        className: "mb-4",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"].TextArea, {
-                                            placeholder: "Add any additional notes or comments",
-                                            size: "large",
-                                            rows: 3
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                            lineNumber: 80,
-                                            columnNumber: 17
-                                        }, ("TURBOPACK compile-time value", void 0))
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                    name: "client_name",
+                                    label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        className: "font-medium text-gray-700",
+                                        children: "Client Name"
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                        lineNumber: 79,
+                                        lineNumber: 81,
+                                        columnNumber: 22
+                                    }, void 0),
+                                    rules: [
+                                        {
+                                            required: true,
+                                            message: "Please enter client name"
+                                        }
+                                    ],
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
+                                        placeholder: "Your full name",
+                                        size: "large",
+                                        className: "rounded-lg"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                        lineNumber: 84,
                                         columnNumber: 15
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                    lineNumber: 77,
+                                    lineNumber: 79,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                    className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                            name: "client_name",
-                                            label: "Client Name",
-                                            rules: [
-                                                {
-                                                    required: true,
-                                                    message: "Please enter client name"
-                                                }
-                                            ],
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
-                                                placeholder: "Your full name",
-                                                size: "large"
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                    name: "insurer_name",
+                                    label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        className: "font-medium text-gray-700",
+                                        children: "Insurer Name"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                        lineNumber: 89,
+                                        columnNumber: 22
+                                    }, void 0),
+                                    rules: [
+                                        {
+                                            required: true,
+                                            message: "Please select insurer name"
+                                        }
+                                    ],
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"], {
+                                        placeholder: "Select insurer",
+                                        size: "large",
+                                        className: "rounded-lg",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "Reliance Digital",
+                                                children: "Reliance Digital"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                                lineNumber: 93,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "Bajaj Allianz",
+                                                children: "Bajaj Allianz"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                                lineNumber: 94,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "Digit",
+                                                children: "Digit"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                                lineNumber: 95,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "Max Life Insurance",
+                                                children: "Max Life Insurance"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                                lineNumber: 96,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "New India Assurance",
+                                                children: "New India Assurance"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
                                                 lineNumber: 97,
                                                 columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                            lineNumber: 89,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                            name: "insurer_name",
-                                            label: "Insurer Name",
-                                            rules: [
-                                                {
-                                                    required: true,
-                                                    message: "Please select insurer name"
-                                                }
-                                            ],
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"], {
-                                                placeholder: "Select insurer",
-                                                size: "large",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Reliance Digital",
-                                                        children: "Reliance Digital"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                                        lineNumber: 109,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Bajaj Allianz",
-                                                        children: "Bajaj Allianz"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                                        lineNumber: 112,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Digit",
-                                                        children: "Digit"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                                        lineNumber: 115,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Max Life Insurance",
-                                                        children: "Max Life Insurance"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                                        lineNumber: 116,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "New India Assurance",
-                                                        children: "New India Assurance"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                                        lineNumber: 119,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Tata AIG Insurance",
-                                                        children: "Tata AIG Insurance"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                                        lineNumber: 122,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "PPAP",
-                                                        children: "PPAP"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                                        lineNumber: 125,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0))
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                                lineNumber: 108,
-                                                columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                            lineNumber: 100,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                            name: "policy_no",
-                                            label: "Policy Number",
-                                            rules: [
-                                                {
-                                                    required: true,
-                                                    message: "Please enter policy number"
-                                                }
-                                            ],
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
-                                                placeholder: "e.g. LIFE123456789",
-                                                size: "large"
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "Tata AIG Insurance",
+                                                children: "Tata AIG Insurance"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                                lineNumber: 137,
+                                                lineNumber: 98,
                                                 columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                            lineNumber: 129,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                            name: "policy_name",
-                                            label: "Policy Name",
-                                            rules: [
-                                                {
-                                                    required: true,
-                                                    message: "Please enter policy name"
-                                                }
-                                            ],
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
-                                                placeholder: "e.g. Term Life Insurance",
-                                                size: "large"
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "PPAP",
+                                                children: "PPAP"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                                lineNumber: 148,
+                                                lineNumber: 99,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                            lineNumber: 140,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                            name: "policy_start_date",
-                                            label: "Policy Start Date",
-                                            rules: [
-                                                {
-                                                    required: true,
-                                                    message: "Please select start date"
-                                                }
-                                            ],
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$date$2d$picker$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__DatePicker$3e$__["DatePicker"], {
-                                                className: "w-full",
-                                                format: "DD-MM-YYYY",
-                                                size: "large"
-                                            }, void 0, false, {
-                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                                lineNumber: 159,
-                                                columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                            lineNumber: 151,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                            name: "policy_end_date",
-                                            label: "Policy End Date",
-                                            rules: [
-                                                {
-                                                    required: true,
-                                                    message: "Please select end date"
-                                                }
-                                            ],
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$date$2d$picker$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__DatePicker$3e$__["DatePicker"], {
-                                                className: "w-full",
-                                                format: "DD-MM-YYYY",
-                                                size: "large"
-                                            }, void 0, false, {
-                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                                lineNumber: 172,
-                                                columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                            lineNumber: 166,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                            name: "sum_insured",
-                                            label: "Sum Insured / Assured",
-                                            rules: [
-                                                {
-                                                    required: true,
-                                                    message: "Please enter sum insured"
-                                                }
-                                            ],
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
-                                                placeholder: "e.g. 5000000.00",
-                                                size: "large",
-                                                type: "number"
-                                            }, void 0, false, {
-                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                                lineNumber: 187,
-                                                columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                            lineNumber: 179,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                            name: "policy_term",
-                                            label: "Policy Term (in years)",
-                                            rules: [
-                                                {
-                                                    required: true,
-                                                    message: "Please enter policy term"
-                                                }
-                                            ],
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
-                                                placeholder: "e.g. 20",
-                                                size: "large",
-                                                type: "number",
-                                                min: "1"
-                                            }, void 0, false, {
-                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                                lineNumber: 202,
-                                                columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                            lineNumber: 194,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                            name: "premium_paying_term",
-                                            label: "Premium Paying Term (in years)",
-                                            rules: [
-                                                {
-                                                    required: true,
-                                                    message: "Please enter premium paying term"
-                                                }
-                                            ],
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
-                                                placeholder: "e.g. 15",
-                                                size: "large",
-                                                type: "number",
-                                                min: "1"
-                                            }, void 0, false, {
-                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                                lineNumber: 221,
-                                                columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                            lineNumber: 210,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                            name: "gross_premium",
-                                            label: "Gross Premium",
-                                            rules: [
-                                                {
-                                                    required: true,
-                                                    message: "Please enter gross premium"
-                                                }
-                                            ],
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
-                                                placeholder: "e.g. 25000.00",
-                                                size: "large",
-                                                type: "number"
-                                            }, void 0, false, {
-                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                                lineNumber: 237,
-                                                columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                            lineNumber: 229,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                            name: "policy_status",
-                                            label: "Policy Status",
-                                            rules: [
-                                                {
-                                                    required: true,
-                                                    message: "Please select policy status"
-                                                }
-                                            ],
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"], {
-                                                placeholder: "Select status",
-                                                size: "large",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Active",
-                                                        children: "Active"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                                        lineNumber: 249,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Lapsed",
-                                                        children: "Lapsed"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                                        lineNumber: 250,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Paid-up",
-                                                        children: "Paid-up"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                                        lineNumber: 251,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Matured",
-                                                        children: "Matured"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                                        lineNumber: 252,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Surrendered",
-                                                        children: "Surrendered"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                                        lineNumber: 253,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0))
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                                lineNumber: 248,
-                                                columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                            lineNumber: 240,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                            name: "address_city",
-                                            label: "Address / City",
-                                            rules: [
-                                                {
-                                                    required: true,
-                                                    message: "Please enter address"
-                                                }
-                                            ],
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
-                                                placeholder: "Enter your city or address",
-                                                size: "large"
-                                            }, void 0, false, {
-                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                                lineNumber: 263,
-                                                columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                            lineNumber: 257,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                            name: "pincode",
-                                            label: "Pincode",
-                                            rules: [
-                                                {
-                                                    required: true,
-                                                    message: "Please enter pincode"
-                                                },
-                                                {
-                                                    pattern: /^[0-9]{6}$/,
-                                                    message: "Please enter valid 6-digit pincode"
-                                                }
-                                            ],
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
-                                                placeholder: "e.g. 110001",
-                                                size: "large",
-                                                maxLength: 6
-                                            }, void 0, false, {
-                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                                lineNumber: 278,
-                                                columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                            lineNumber: 266,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0))
-                                    ]
-                                }, void 0, true, {
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                        lineNumber: 92,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
                                     fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                    lineNumber: 88,
+                                    lineNumber: 87,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                    className: "flex flex-col-reverse sm:flex-row justify-center gap-3 mt-6 pb-2",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$button$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Button$3e$__["Button"], {
-                                            size: "large",
-                                            onClick: onCancel,
-                                            className: "w-full sm:w-auto min-w-[120px] rounded-lg",
-                                            children: "Cancel"
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                            lineNumber: 284,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$button$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Button$3e$__["Button"], {
-                                            type: "primary",
-                                            size: "large",
-                                            loading: loading,
-                                            onClick: onSubmit,
-                                            className: "w-full sm:w-auto min-w-[140px] rounded-lg bg-purple-600 hover:bg-purple-700",
-                                            children: "Update Policy"
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                            lineNumber: 291,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0))
-                                    ]
-                                }, void 0, true, {
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                    name: "policy_no",
+                                    label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        className: "font-medium text-gray-700",
+                                        children: "Policy Number"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                        lineNumber: 105,
+                                        columnNumber: 22
+                                    }, void 0),
+                                    rules: [
+                                        {
+                                            required: true,
+                                            message: "Please enter policy number"
+                                        }
+                                    ],
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
+                                        placeholder: "e.g. LIFE123456789",
+                                        size: "large",
+                                        className: "rounded-lg"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                        lineNumber: 108,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
                                     fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                                    lineNumber: 283,
+                                    lineNumber: 103,
+                                    columnNumber: 13
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                    name: "policy_name",
+                                    label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        className: "font-medium text-gray-700",
+                                        children: "Policy Name"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                        lineNumber: 113,
+                                        columnNumber: 22
+                                    }, void 0),
+                                    rules: [
+                                        {
+                                            required: true,
+                                            message: "Please enter policy name"
+                                        }
+                                    ],
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
+                                        placeholder: "e.g. Term Life Insurance",
+                                        size: "large",
+                                        className: "rounded-lg"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                        lineNumber: 116,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                    lineNumber: 111,
+                                    columnNumber: 13
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                    name: "policy_start_date",
+                                    label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        className: "font-medium text-gray-700",
+                                        children: "Start Date"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                        lineNumber: 121,
+                                        columnNumber: 22
+                                    }, void 0),
+                                    rules: [
+                                        {
+                                            required: true,
+                                            message: "Please select start date"
+                                        }
+                                    ],
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$date$2d$picker$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__DatePicker$3e$__["DatePicker"], {
+                                        className: "w-full rounded-lg",
+                                        format: "DD-MM-YYYY",
+                                        size: "large"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                        lineNumber: 124,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                    lineNumber: 119,
+                                    columnNumber: 13
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                    name: "policy_end_date",
+                                    label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        className: "font-medium text-gray-700",
+                                        children: "End Date"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                        lineNumber: 129,
+                                        columnNumber: 22
+                                    }, void 0),
+                                    rules: [
+                                        {
+                                            required: true,
+                                            message: "Please select end date"
+                                        }
+                                    ],
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$date$2d$picker$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__DatePicker$3e$__["DatePicker"], {
+                                        className: "w-full rounded-lg",
+                                        format: "DD-MM-YYYY",
+                                        size: "large"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                        lineNumber: 132,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                    lineNumber: 127,
+                                    columnNumber: 13
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                    name: "sum_insured",
+                                    label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        className: "font-medium text-gray-700",
+                                        children: "Sum Insured / Assured"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                        lineNumber: 137,
+                                        columnNumber: 22
+                                    }, void 0),
+                                    rules: [
+                                        {
+                                            required: true,
+                                            message: "Please enter sum insured"
+                                        }
+                                    ],
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
+                                        placeholder: "e.g. 5000000.00",
+                                        size: "large",
+                                        type: "number",
+                                        className: "rounded-lg"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                        lineNumber: 140,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                    lineNumber: 135,
+                                    columnNumber: 13
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                    name: "policy_term",
+                                    label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        className: "font-medium text-gray-700",
+                                        children: "Policy Term (Years)"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                        lineNumber: 145,
+                                        columnNumber: 22
+                                    }, void 0),
+                                    rules: [
+                                        {
+                                            required: true,
+                                            message: "Please enter policy term"
+                                        }
+                                    ],
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
+                                        placeholder: "e.g. 20",
+                                        size: "large",
+                                        type: "number",
+                                        min: "1",
+                                        className: "rounded-lg"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                        lineNumber: 148,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                    lineNumber: 143,
+                                    columnNumber: 13
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                    name: "premium_paying_term",
+                                    label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        className: "font-medium text-gray-700",
+                                        children: "Premium Paying Term"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                        lineNumber: 153,
+                                        columnNumber: 22
+                                    }, void 0),
+                                    rules: [
+                                        {
+                                            required: true,
+                                            message: "Please enter term"
+                                        }
+                                    ],
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
+                                        placeholder: "e.g. 15",
+                                        size: "large",
+                                        type: "number",
+                                        min: "1",
+                                        className: "rounded-lg"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                        lineNumber: 156,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                    lineNumber: 151,
+                                    columnNumber: 13
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                    name: "gross_premium",
+                                    label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        className: "font-medium text-gray-700",
+                                        children: "Gross Premium"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                        lineNumber: 161,
+                                        columnNumber: 22
+                                    }, void 0),
+                                    rules: [
+                                        {
+                                            required: true,
+                                            message: "Please enter gross premium"
+                                        }
+                                    ],
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
+                                        placeholder: "e.g. 25000.00",
+                                        size: "large",
+                                        type: "number",
+                                        className: "rounded-lg"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                        lineNumber: 164,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                    lineNumber: 159,
+                                    columnNumber: 13
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                    name: "policy_status",
+                                    label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        className: "font-medium text-gray-700",
+                                        children: "Policy Status"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                        lineNumber: 169,
+                                        columnNumber: 22
+                                    }, void 0),
+                                    rules: [
+                                        {
+                                            required: true,
+                                            message: "Please select policy status"
+                                        }
+                                    ],
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"], {
+                                        placeholder: "Select status",
+                                        size: "large",
+                                        className: "rounded-lg",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "Active",
+                                                children: "Active"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                                lineNumber: 173,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "Lapsed",
+                                                children: "Lapsed"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                                lineNumber: 174,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "Paid-up",
+                                                children: "Paid-up"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                                lineNumber: 175,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "Matured",
+                                                children: "Matured"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                                lineNumber: 176,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                value: "Surrendered",
+                                                children: "Surrendered"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                                lineNumber: 177,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                        lineNumber: 172,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                    lineNumber: 167,
+                                    columnNumber: 13
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                    name: "address_city",
+                                    label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        className: "font-medium text-gray-700",
+                                        children: "Address / City"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                        lineNumber: 183,
+                                        columnNumber: 22
+                                    }, void 0),
+                                    rules: [
+                                        {
+                                            required: true,
+                                            message: "Please enter address"
+                                        }
+                                    ],
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
+                                        placeholder: "Enter your city or address",
+                                        size: "large",
+                                        className: "rounded-lg"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                        lineNumber: 186,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                    lineNumber: 181,
+                                    columnNumber: 13
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                    name: "pincode",
+                                    label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                        className: "font-medium text-gray-700",
+                                        children: "Pincode"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                        lineNumber: 191,
+                                        columnNumber: 22
+                                    }, void 0),
+                                    rules: [
+                                        {
+                                            required: true,
+                                            message: "Please enter pincode"
+                                        },
+                                        {
+                                            pattern: /^[0-9]{6}$/,
+                                            message: "Valid 6-digit pincode"
+                                        }
+                                    ],
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
+                                        placeholder: "e.g. 110001",
+                                        size: "large",
+                                        maxLength: 6,
+                                        className: "rounded-lg"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                        lineNumber: 197,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                                    lineNumber: 189,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                            lineNumber: 76,
+                            lineNumber: 78,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
-                    lineNumber: 66,
+                    lineNumber: 63,
+                    columnNumber: 9
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                    className: "flex flex-col-reverse sm:flex-row justify-end gap-3 pt-4 border-t border-gray-100",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$button$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Button$3e$__["Button"], {
+                            size: "large",
+                            onClick: onCancel,
+                            className: "w-full sm:w-auto px-8 rounded-lg",
+                            children: "Cancel"
+                        }, void 0, false, {
+                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                            lineNumber: 204,
+                            columnNumber: 11
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$button$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Button$3e$__["Button"], {
+                            type: "primary",
+                            size: "large",
+                            loading: loading,
+                            onClick: onSubmit,
+                            className: "w-full sm:w-auto px-8 rounded-lg bg-purple-600 hover:bg-purple-700",
+                            children: "Update Policy"
+                        }, void 0, false, {
+                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                            lineNumber: 211,
+                            columnNumber: 11
+                        }, ("TURBOPACK compile-time value", void 0))
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormLife.tsx",
+                    lineNumber: 203,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             ]
@@ -2713,41 +2861,25 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$n
 ;
 const PolicyEditFormTravel = ({ form, loading, onSubmit, onCancel })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-        className: "bg-white",
+        className: "bg-white px-2",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"], {
             layout: "vertical",
             form: form,
+            requiredMark: false,
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                    className: "rounded-none sm:rounded-xl shadow-md overflow-hidden mb-4 sm:mb-6",
+                    className: "mb-8",
                     children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                            className: "bg-gradient-to-r from-cyan-600 to-cyan-500 px-4 sm:px-6 py-3 text-white",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
-                                    className: "font-semibold text-base sm:text-lg m-0",
-                                    children: "Policy Document"
-                                }, void 0, false, {
-                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                    lineNumber: 28,
-                                    columnNumber: 13
-                                }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                    className: "text-xs sm:text-sm font-normal text-cyan-100 mt-1 mb-0",
-                                    children: "Upload your travel policy PDF document"
-                                }, void 0, false, {
-                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                    lineNumber: 31,
-                                    columnNumber: 13
-                                }, ("TURBOPACK compile-time value", void 0))
-                            ]
-                        }, void 0, true, {
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
+                            className: "text-lg font-semibold text-gray-800 mb-4 border-l-4 border-cyan-500 pl-3",
+                            children: "Policy Document"
+                        }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
                             lineNumber: 27,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                            className: "p-4 sm:p-6 bg-white",
+                            className: "bg-gray-50 rounded-xl p-4 border border-dashed border-gray-300 hover:border-cyan-500 transition-all duration-300 group",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
                                 name: "policy_pdf",
                                 valuePropName: "fileList",
@@ -2756,65 +2888,65 @@ const PolicyEditFormTravel = ({ form, loading, onSubmit, onCancel })=>{
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$upload$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Upload$3e$__["Upload"].Dragger, {
                                     beforeUpload: ()=>false,
                                     accept: ".pdf",
-                                    className: "hover:border-cyan-500 transition-colors",
-                                    style: {
-                                        padding: "20px"
+                                    className: "!border-0 !bg-transparent",
+                                    showUploadList: {
+                                        showRemoveIcon: true
                                     },
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                            className: "ant-upload-drag-icon text-cyan-600 mb-2",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$UploadOutlined$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__UploadOutlined$3e$__["UploadOutlined"], {
-                                                style: {
-                                                    fontSize: 40
-                                                }
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                        className: "py-4",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                className: "w-16 h-16 bg-cyan-50 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$UploadOutlined$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__UploadOutlined$3e$__["UploadOutlined"], {
+                                                    style: {
+                                                        fontSize: 28,
+                                                        color: '#06b6d4'
+                                                    }
+                                                }, void 0, false, {
+                                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
+                                                    lineNumber: 48,
+                                                    columnNumber: 21
+                                                }, ("TURBOPACK compile-time value", void 0))
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
+                                                lineNumber: 47,
+                                                columnNumber: 19
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                                                className: "text-gray-900 text-sm font-medium mb-1",
+                                                children: "Click or drag file to upload"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
                                                 lineNumber: 50,
                                                 columnNumber: 19
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                                                className: "text-gray-500 text-xs text-center",
+                                                children: "PDF format only (Max 20MB)"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
+                                                lineNumber: 53,
+                                                columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                            lineNumber: 49,
-                                            columnNumber: 17
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                            className: "text-base sm:text-lg font-semibold mb-1",
-                                            children: "Drop your Travel Policy PDF here"
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                            lineNumber: 52,
-                                            columnNumber: 17
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                            className: "text-gray-500 text-xs sm:text-sm mb-0",
-                                            children: [
-                                                "or click to browse",
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                                    lineNumber: 57,
-                                                    columnNumber: 19
-                                                }, ("TURBOPACK compile-time value", void 0)),
-                                                "PDF only · Maximum size 20MB"
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                            lineNumber: 55,
-                                            columnNumber: 17
-                                        }, ("TURBOPACK compile-time value", void 0))
-                                    ]
-                                }, void 0, true, {
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
+                                        lineNumber: 46,
+                                        columnNumber: 17
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
                                     fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                    lineNumber: 43,
+                                    lineNumber: 38,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                lineNumber: 37,
+                                lineNumber: 32,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                            lineNumber: 36,
+                            lineNumber: 31,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
@@ -2824,55 +2956,133 @@ const PolicyEditFormTravel = ({ form, loading, onSubmit, onCancel })=>{
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                    className: "rounded-none sm:rounded-xl shadow-md overflow-hidden",
+                    className: "mb-6",
                     children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                            className: "bg-gradient-to-r from-cyan-600 to-cyan-500 px-4 sm:px-6 py-3 text-white",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
-                                    className: "font-semibold text-base sm:text-lg m-0",
-                                    children: "Travel Insurance Policy"
-                                }, void 0, false, {
-                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                    lineNumber: 68,
-                                    columnNumber: 13
-                                }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                    className: "text-xs sm:text-sm font-normal text-cyan-100 mt-1 mb-0",
-                                    children: "Enter your travel policy details accurately"
-                                }, void 0, false, {
-                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                    lineNumber: 71,
-                                    columnNumber: 13
-                                }, ("TURBOPACK compile-time value", void 0))
-                            ]
-                        }, void 0, true, {
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
+                            className: "text-lg font-semibold text-gray-800 mb-6 border-l-4 border-cyan-500 pl-3",
+                            children: "Travel Insurance Policy"
+                        }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                            lineNumber: 67,
+                            lineNumber: 64,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                            className: "p-4 sm:p-6 bg-white",
+                            className: "p-4 bg-gray-50 rounded-xl border border-gray-100 mb-6",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                    className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4",
+                                    className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-4",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
                                             name: "client_name",
-                                            label: "Client Name",
+                                            label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                className: "font-medium text-gray-700",
+                                                children: "Client Name"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
+                                                lineNumber: 72,
+                                                columnNumber: 24
+                                            }, void 0),
                                             rules: [
                                                 {
                                                     required: true,
                                                     message: "Please enter client name"
                                                 }
                                             ],
-                                            className: "mb-4",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
                                                 placeholder: "Your full name",
-                                                size: "large"
+                                                size: "large",
+                                                className: "rounded-lg"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                                lineNumber: 86,
+                                                lineNumber: 75,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        }, void 0, false, {
+                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
+                                            lineNumber: 70,
+                                            columnNumber: 15
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                            name: "insurer_name",
+                                            label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                className: "font-medium text-gray-700",
+                                                children: "Insurer Name"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
+                                                lineNumber: 80,
+                                                columnNumber: 24
+                                            }, void 0),
+                                            rules: [
+                                                {
+                                                    required: true,
+                                                    message: "Please select insurer name"
+                                                }
+                                            ],
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"], {
+                                                placeholder: "Select insurer",
+                                                size: "large",
+                                                className: "rounded-lg",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                        value: "Reliance Digital",
+                                                        children: "Reliance Digital"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
+                                                        lineNumber: 84,
+                                                        columnNumber: 19
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                        value: "Bajaj Allianz",
+                                                        children: "Bajaj Allianz"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
+                                                        lineNumber: 85,
+                                                        columnNumber: 19
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                        value: "Digit",
+                                                        children: "Digit"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
+                                                        lineNumber: 86,
+                                                        columnNumber: 19
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                        value: "Max Life Insurance",
+                                                        children: "Max Life Insurance"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
+                                                        lineNumber: 87,
+                                                        columnNumber: 19
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                        value: "New India Assurance",
+                                                        children: "New India Assurance"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
+                                                        lineNumber: 88,
+                                                        columnNumber: 19
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                        value: "Tata AIG Insurance",
+                                                        children: "Tata AIG Insurance"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
+                                                        lineNumber: 89,
+                                                        columnNumber: 19
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                        value: "PPAP",
+                                                        children: "PPAP"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
+                                                        lineNumber: 90,
+                                                        columnNumber: 19
+                                                    }, ("TURBOPACK compile-time value", void 0))
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
+                                                lineNumber: 83,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         }, void 0, false, {
@@ -2881,129 +3091,62 @@ const PolicyEditFormTravel = ({ form, loading, onSubmit, onCancel })=>{
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                            name: "insurer_name",
-                                            label: "Insurer Name",
-                                            rules: [
-                                                {
-                                                    required: true,
-                                                    message: "Please select insurer name"
-                                                }
-                                            ],
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"], {
-                                                placeholder: "Select insurer",
-                                                size: "large",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Reliance Digital",
-                                                        children: "Reliance Digital"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                                        lineNumber: 98,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Bajaj Allianz",
-                                                        children: "Bajaj Allianz"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                                        lineNumber: 101,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Digit",
-                                                        children: "Digit"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                                        lineNumber: 104,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Max Life Insurance",
-                                                        children: "Max Life Insurance"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                                        lineNumber: 105,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "New India Assurance",
-                                                        children: "New India Assurance"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                                        lineNumber: 108,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Tata AIG Insurance",
-                                                        children: "Tata AIG Insurance"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                                        lineNumber: 111,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "PPAP",
-                                                        children: "PPAP"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                                        lineNumber: 114,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0))
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                                lineNumber: 97,
-                                                columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                            lineNumber: 89,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
                                             name: "policy_no",
-                                            label: "Policy Number",
+                                            label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                className: "font-medium text-gray-700",
+                                                children: "Policy Number"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
+                                                lineNumber: 96,
+                                                columnNumber: 24
+                                            }, void 0),
                                             rules: [
                                                 {
                                                     required: true,
                                                     message: "Please enter policy number"
                                                 }
                                             ],
-                                            className: "mb-4",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
                                                 placeholder: "e.g. TRV123456789",
-                                                size: "large"
+                                                size: "large",
+                                                className: "rounded-lg"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                                lineNumber: 126,
+                                                lineNumber: 99,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                            lineNumber: 118,
+                                            lineNumber: 94,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
                                             name: "destination_type",
-                                            label: "Destination Type",
+                                            label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                className: "font-medium text-gray-700",
+                                                children: "Destination Type"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
+                                                lineNumber: 104,
+                                                columnNumber: 24
+                                            }, void 0),
                                             rules: [
                                                 {
                                                     required: true,
                                                     message: "Please select destination type"
                                                 }
                                             ],
-                                            className: "mb-4",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"], {
                                                 placeholder: "Select destination",
                                                 size: "large",
+                                                className: "rounded-lg",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
                                                         value: "Domestic",
                                                         children: "Domestic"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                                        lineNumber: 138,
+                                                        lineNumber: 108,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
@@ -3011,7 +3154,7 @@ const PolicyEditFormTravel = ({ form, loading, onSubmit, onCancel })=>{
                                                         children: "International"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                                        lineNumber: 139,
+                                                        lineNumber: 109,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
@@ -3019,7 +3162,7 @@ const PolicyEditFormTravel = ({ form, loading, onSubmit, onCancel })=>{
                                                         children: "Europe"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                                        lineNumber: 142,
+                                                        lineNumber: 110,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
@@ -3027,7 +3170,7 @@ const PolicyEditFormTravel = ({ form, loading, onSubmit, onCancel })=>{
                                                         children: "Asia"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                                        lineNumber: 143,
+                                                        lineNumber: 111,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
@@ -3035,7 +3178,7 @@ const PolicyEditFormTravel = ({ form, loading, onSubmit, onCancel })=>{
                                                         children: "USA / Canada"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                                        lineNumber: 144,
+                                                        lineNumber: 112,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
@@ -3043,82 +3186,101 @@ const PolicyEditFormTravel = ({ form, loading, onSubmit, onCancel })=>{
                                                         children: "Other"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                                        lineNumber: 147,
+                                                        lineNumber: 113,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                                lineNumber: 137,
+                                                lineNumber: 107,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                            lineNumber: 129,
+                                            lineNumber: 102,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
                                             name: "policy_start_date",
-                                            label: "Policy Start Date",
+                                            label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                className: "font-medium text-gray-700",
+                                                children: "Start Date"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
+                                                lineNumber: 119,
+                                                columnNumber: 24
+                                            }, void 0),
                                             rules: [
                                                 {
                                                     required: true,
                                                     message: "Please select start date"
                                                 }
                                             ],
-                                            className: "mb-4",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$date$2d$picker$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__DatePicker$3e$__["DatePicker"], {
-                                                className: "w-full",
+                                                className: "w-full rounded-lg",
                                                 format: "DD-MM-YYYY",
                                                 size: "large"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                                lineNumber: 159,
+                                                lineNumber: 122,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                            lineNumber: 151,
+                                            lineNumber: 117,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
                                             name: "policy_end_date",
-                                            label: "Policy End Date",
+                                            label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                className: "font-medium text-gray-700",
+                                                children: "End Date"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
+                                                lineNumber: 127,
+                                                columnNumber: 24
+                                            }, void 0),
                                             rules: [
                                                 {
                                                     required: true,
                                                     message: "Please select end date"
                                                 }
                                             ],
-                                            className: "mb-4",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$date$2d$picker$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__DatePicker$3e$__["DatePicker"], {
-                                                className: "w-full",
+                                                className: "w-full rounded-lg",
                                                 format: "DD-MM-YYYY",
                                                 size: "large"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                                lineNumber: 172,
+                                                lineNumber: 130,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                            lineNumber: 166,
+                                            lineNumber: 125,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
                                             name: "sum_insured",
-                                            label: "Sum Insured / Assured (Euro / Dollar)",
+                                            label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                className: "font-medium text-gray-700",
+                                                children: "Sum Insured"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
+                                                lineNumber: 135,
+                                                columnNumber: 24
+                                            }, void 0),
                                             rules: [
                                                 {
                                                     required: true,
                                                     message: "Please enter sum insured"
                                                 }
                                             ],
-                                            className: "mb-4",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
                                                 placeholder: "e.g. 50000",
                                                 size: "large",
                                                 type: "number",
+                                                className: "rounded-lg",
                                                 addonBefore: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
                                                     name: "sum_currency",
                                                     noStyle: true,
@@ -3127,13 +3289,14 @@ const PolicyEditFormTravel = ({ form, loading, onSubmit, onCancel })=>{
                                                         style: {
                                                             width: 80
                                                         },
+                                                        className: "bg-gray-50",
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
                                                                 value: "USD",
                                                                 children: "USD"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                                                lineNumber: 194,
+                                                                lineNumber: 146,
                                                                 columnNumber: 25
                                                             }, void 0),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
@@ -3141,7 +3304,7 @@ const PolicyEditFormTravel = ({ form, loading, onSubmit, onCancel })=>{
                                                                 children: "EUR"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                                                lineNumber: 195,
+                                                                lineNumber: 147,
                                                                 columnNumber: 25
                                                             }, void 0),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
@@ -3149,7 +3312,7 @@ const PolicyEditFormTravel = ({ form, loading, onSubmit, onCancel })=>{
                                                                 children: "INR"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                                                lineNumber: 196,
+                                                                lineNumber: 148,
                                                                 columnNumber: 25
                                                             }, void 0),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
@@ -3157,94 +3320,108 @@ const PolicyEditFormTravel = ({ form, loading, onSubmit, onCancel })=>{
                                                                 children: "GBP"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                                                lineNumber: 197,
+                                                                lineNumber: 149,
                                                                 columnNumber: 25
                                                             }, void 0)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                                        lineNumber: 193,
+                                                        lineNumber: 145,
                                                         columnNumber: 23
                                                     }, void 0)
                                                 }, void 0, false, {
                                                     fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                                    lineNumber: 192,
+                                                    lineNumber: 144,
                                                     columnNumber: 21
                                                 }, void 0)
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                                lineNumber: 187,
+                                                lineNumber: 138,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                            lineNumber: 179,
+                                            lineNumber: 133,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
                                             name: "trip_duration",
-                                            label: "Trip Duration",
+                                            label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                className: "font-medium text-gray-700",
+                                                children: "Trip Duration"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
+                                                lineNumber: 158,
+                                                columnNumber: 24
+                                            }, void 0),
                                             rules: [
                                                 {
                                                     required: true,
                                                     message: "Please enter trip duration"
                                                 }
                                             ],
-                                            className: "mb-4",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
                                                 placeholder: "e.g. 15 days",
-                                                size: "large"
+                                                size: "large",
+                                                className: "rounded-lg"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                                lineNumber: 212,
+                                                lineNumber: 161,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                            lineNumber: 204,
+                                            lineNumber: 156,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
                                             name: "gross_premium",
-                                            label: "Gross Premium",
+                                            label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                className: "font-medium text-gray-700",
+                                                children: "Gross Premium"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
+                                                lineNumber: 166,
+                                                columnNumber: 24
+                                            }, void 0),
                                             rules: [
                                                 {
                                                     required: true,
                                                     message: "Please enter gross premium"
                                                 }
                                             ],
-                                            className: "mb-4",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
                                                 placeholder: "e.g. 2500.00",
                                                 size: "large",
-                                                type: "number"
+                                                type: "number",
+                                                className: "rounded-lg"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                                lineNumber: 223,
+                                                lineNumber: 169,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                            lineNumber: 215,
+                                            lineNumber: 164,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                    lineNumber: 77,
+                                    lineNumber: 69,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                    className: "flex flex-col-reverse sm:flex-row justify-center gap-3 mt-6 pb-2",
+                                    className: "flex flex-col-reverse sm:flex-row justify-end gap-3 pt-4 border-t border-gray-100 mt-4",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$button$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Button$3e$__["Button"], {
                                             size: "large",
                                             onClick: onCancel,
-                                            className: "w-full sm:w-auto min-w-[120px] rounded-lg",
+                                            className: "w-full sm:w-auto px-8 rounded-lg",
                                             children: "Cancel"
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                            lineNumber: 229,
+                                            lineNumber: 175,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$button$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Button$3e$__["Button"], {
@@ -3252,29 +3429,29 @@ const PolicyEditFormTravel = ({ form, loading, onSubmit, onCancel })=>{
                                             size: "large",
                                             loading: loading,
                                             onClick: onSubmit,
-                                            className: "w-full sm:w-auto min-w-[140px] rounded-lg bg-cyan-600 hover:bg-cyan-700",
+                                            className: "w-full sm:w-auto px-8 rounded-lg bg-cyan-600 hover:bg-cyan-700",
                                             children: "Update Policy"
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                            lineNumber: 236,
+                                            lineNumber: 182,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                                    lineNumber: 228,
+                                    lineNumber: 174,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                            lineNumber: 76,
+                            lineNumber: 68,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormTravel.tsx",
-                    lineNumber: 66,
+                    lineNumber: 63,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             ]
@@ -3313,41 +3490,25 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$n
 ;
 const PolicyEditFormOther = ({ form, loading, onSubmit, onCancel })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-        className: "bg-white",
+        className: "bg-white px-2",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"], {
             layout: "vertical",
             form: form,
+            requiredMark: false,
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                    className: "rounded-none sm:rounded-xl shadow-md overflow-hidden mb-4 sm:mb-6",
+                    className: "mb-8",
                     children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                            className: "bg-gradient-to-r from-gray-700 to-gray-600 px-4 sm:px-6 py-3 text-white",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
-                                    className: "font-semibold text-base sm:text-lg m-0",
-                                    children: "Policy Document"
-                                }, void 0, false, {
-                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                    lineNumber: 28,
-                                    columnNumber: 13
-                                }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                    className: "text-xs sm:text-sm font-normal text-gray-200 mt-1 mb-0",
-                                    children: "Upload your policy PDF document"
-                                }, void 0, false, {
-                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                    lineNumber: 31,
-                                    columnNumber: 13
-                                }, ("TURBOPACK compile-time value", void 0))
-                            ]
-                        }, void 0, true, {
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
+                            className: "text-lg font-semibold text-gray-800 mb-4 border-l-4 border-gray-600 pl-3",
+                            children: "Policy Document"
+                        }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
                             lineNumber: 27,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                            className: "p-4 sm:p-6 bg-white",
+                            className: "bg-gray-50 rounded-xl p-4 border border-dashed border-gray-300 hover:border-gray-500 transition-all duration-300 group",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
                                 name: "policy_pdf",
                                 valuePropName: "fileList",
@@ -3356,65 +3517,65 @@ const PolicyEditFormOther = ({ form, loading, onSubmit, onCancel })=>{
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$upload$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Upload$3e$__["Upload"].Dragger, {
                                     beforeUpload: ()=>false,
                                     accept: ".pdf",
-                                    className: "hover:border-gray-500 transition-colors",
-                                    style: {
-                                        padding: "20px"
+                                    className: "!border-0 !bg-transparent",
+                                    showUploadList: {
+                                        showRemoveIcon: true
                                     },
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                            className: "ant-upload-drag-icon text-gray-600 mb-2",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$UploadOutlined$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__UploadOutlined$3e$__["UploadOutlined"], {
-                                                style: {
-                                                    fontSize: 40
-                                                }
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                        className: "py-4",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                className: "w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$UploadOutlined$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__UploadOutlined$3e$__["UploadOutlined"], {
+                                                    style: {
+                                                        fontSize: 28,
+                                                        color: '#4B5563'
+                                                    }
+                                                }, void 0, false, {
+                                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
+                                                    lineNumber: 48,
+                                                    columnNumber: 21
+                                                }, ("TURBOPACK compile-time value", void 0))
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
+                                                lineNumber: 47,
+                                                columnNumber: 19
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                                                className: "text-gray-900 text-sm font-medium mb-1",
+                                                children: "Click or drag file to upload"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
                                                 lineNumber: 50,
                                                 columnNumber: 19
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                                                className: "text-gray-500 text-xs text-center",
+                                                children: "PDF format only (Max 20MB)"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
+                                                lineNumber: 53,
+                                                columnNumber: 19
                                             }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                            lineNumber: 49,
-                                            columnNumber: 17
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                            className: "text-base sm:text-lg font-semibold mb-1",
-                                            children: "Drop your Policy PDF here"
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                            lineNumber: 52,
-                                            columnNumber: 17
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                            className: "text-gray-500 text-xs sm:text-sm mb-0",
-                                            children: [
-                                                "or click to browse",
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                                    lineNumber: 57,
-                                                    columnNumber: 19
-                                                }, ("TURBOPACK compile-time value", void 0)),
-                                                "PDF only · Maximum size 20MB"
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                            lineNumber: 55,
-                                            columnNumber: 17
-                                        }, ("TURBOPACK compile-time value", void 0))
-                                    ]
-                                }, void 0, true, {
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
+                                        lineNumber: 46,
+                                        columnNumber: 17
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
                                     fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                    lineNumber: 43,
+                                    lineNumber: 38,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                lineNumber: 37,
+                                lineNumber: 32,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                            lineNumber: 36,
+                            lineNumber: 31,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
@@ -3424,55 +3585,149 @@ const PolicyEditFormOther = ({ form, loading, onSubmit, onCancel })=>{
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                    className: "rounded-none sm:rounded-xl shadow-md overflow-hidden",
+                    className: "mb-6",
                     children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                            className: "bg-gradient-to-r from-gray-700 to-gray-600 px-4 sm:px-6 py-3 text-white",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
-                                    className: "font-semibold text-base sm:text-lg m-0",
-                                    children: "Other Insurance Policy"
-                                }, void 0, false, {
-                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                    lineNumber: 68,
-                                    columnNumber: 13
-                                }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                    className: "text-xs sm:text-sm font-normal text-gray-200 mt-1 mb-0",
-                                    children: "Enter your policy details accurately"
-                                }, void 0, false, {
-                                    fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                    lineNumber: 71,
-                                    columnNumber: 13
-                                }, ("TURBOPACK compile-time value", void 0))
-                            ]
-                        }, void 0, true, {
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h3", {
+                            className: "text-lg font-semibold text-gray-800 mb-6 border-l-4 border-gray-600 pl-3",
+                            children: "Other Insurance Policy"
+                        }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                            lineNumber: 67,
+                            lineNumber: 64,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                            className: "p-4 sm:p-6 bg-white",
+                            className: "p-4 bg-gray-50 rounded-xl border border-gray-100 mb-6",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                    className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4",
+                                    className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-4",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
                                             name: "policy_nick_name",
-                                            label: "Policy Nick Name",
+                                            label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                className: "font-medium text-gray-700",
+                                                children: "Policy Nick Name"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
+                                                lineNumber: 72,
+                                                columnNumber: 24
+                                            }, void 0),
                                             rules: [
                                                 {
                                                     required: true,
                                                     message: "Please enter policy nick name"
                                                 }
                                             ],
-                                            className: "mb-4",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
                                                 placeholder: "e.g. Home Insurance",
-                                                size: "large"
+                                                size: "large",
+                                                className: "rounded-lg"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                                lineNumber: 86,
+                                                lineNumber: 75,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        }, void 0, false, {
+                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
+                                            lineNumber: 70,
+                                            columnNumber: 15
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
+                                            name: "insurance_category",
+                                            label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                className: "font-medium text-gray-700",
+                                                children: "Insurance Category"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
+                                                lineNumber: 80,
+                                                columnNumber: 24
+                                            }, void 0),
+                                            rules: [
+                                                {
+                                                    required: true,
+                                                    message: "Please select insurance category"
+                                                }
+                                            ],
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"], {
+                                                placeholder: "Select category",
+                                                size: "large",
+                                                className: "rounded-lg",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                        value: "Home Insurance",
+                                                        children: "Home Insurance"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
+                                                        lineNumber: 84,
+                                                        columnNumber: 19
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                        value: "Fire Insurance",
+                                                        children: "Fire Insurance"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
+                                                        lineNumber: 85,
+                                                        columnNumber: 19
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                        value: "Marine Insurance",
+                                                        children: "Marine Insurance"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
+                                                        lineNumber: 86,
+                                                        columnNumber: 19
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                        value: "Property Insurance",
+                                                        children: "Property Insurance"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
+                                                        lineNumber: 87,
+                                                        columnNumber: 19
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                        value: "Liability Insurance",
+                                                        children: "Liability Insurance"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
+                                                        lineNumber: 88,
+                                                        columnNumber: 19
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                        value: "Professional Indemnity",
+                                                        children: "Professional Indemnity"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
+                                                        lineNumber: 89,
+                                                        columnNumber: 19
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                        value: "Cyber Insurance",
+                                                        children: "Cyber Insurance"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
+                                                        lineNumber: 90,
+                                                        columnNumber: 19
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                        value: "Pet Insurance",
+                                                        children: "Pet Insurance"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
+                                                        lineNumber: 91,
+                                                        columnNumber: 19
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
+                                                        value: "Other",
+                                                        children: "Other"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
+                                                        lineNumber: 92,
+                                                        columnNumber: 19
+                                                    }, ("TURBOPACK compile-time value", void 0))
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
+                                                lineNumber: 83,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         }, void 0, false, {
@@ -3481,122 +3736,32 @@ const PolicyEditFormOther = ({ form, loading, onSubmit, onCancel })=>{
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
-                                            name: "insurance_category",
-                                            label: "Insurance Category",
-                                            rules: [
-                                                {
-                                                    required: true,
-                                                    message: "Please select insurance category"
-                                                }
-                                            ],
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"], {
-                                                placeholder: "Select category",
-                                                size: "large",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Home Insurance",
-                                                        children: "Home Insurance"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                                        lineNumber: 101,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Fire Insurance",
-                                                        children: "Fire Insurance"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                                        lineNumber: 104,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Marine Insurance",
-                                                        children: "Marine Insurance"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                                        lineNumber: 107,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Property Insurance",
-                                                        children: "Property Insurance"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                                        lineNumber: 110,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Liability Insurance",
-                                                        children: "Liability Insurance"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                                        lineNumber: 113,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Professional Indemnity",
-                                                        children: "Professional Indemnity"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                                        lineNumber: 116,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Cyber Insurance",
-                                                        children: "Cyber Insurance"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                                        lineNumber: 119,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Pet Insurance",
-                                                        children: "Pet Insurance"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                                        lineNumber: 122,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
-                                                        value: "Other",
-                                                        children: "Other"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                                        lineNumber: 125,
-                                                        columnNumber: 19
-                                                    }, ("TURBOPACK compile-time value", void 0))
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                                lineNumber: 100,
-                                                columnNumber: 17
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        }, void 0, false, {
-                                            fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                            lineNumber: 89,
-                                            columnNumber: 15
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
                                             name: "insurer_name",
-                                            label: "Insurer",
+                                            label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                className: "font-medium text-gray-700",
+                                                children: "Insurer"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
+                                                lineNumber: 98,
+                                                columnNumber: 24
+                                            }, void 0),
                                             rules: [
                                                 {
                                                     required: true,
                                                     message: "Please select insurer"
                                                 }
                                             ],
-                                            className: "mb-4",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"], {
                                                 placeholder: "Select insurer",
                                                 size: "large",
+                                                className: "rounded-lg",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
                                                         value: "ICICI Lombard",
                                                         children: "ICICI Lombard"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                                        lineNumber: 136,
+                                                        lineNumber: 102,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
@@ -3604,7 +3769,7 @@ const PolicyEditFormOther = ({ form, loading, onSubmit, onCancel })=>{
                                                         children: "HDFC ERGO"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                                        lineNumber: 139,
+                                                        lineNumber: 103,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
@@ -3612,7 +3777,7 @@ const PolicyEditFormOther = ({ form, loading, onSubmit, onCancel })=>{
                                                         children: "Bajaj Allianz"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                                        lineNumber: 140,
+                                                        lineNumber: 104,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
@@ -3620,7 +3785,7 @@ const PolicyEditFormOther = ({ form, loading, onSubmit, onCancel })=>{
                                                         children: "TATA AIG"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                                        lineNumber: 143,
+                                                        lineNumber: 105,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
@@ -3628,7 +3793,7 @@ const PolicyEditFormOther = ({ form, loading, onSubmit, onCancel })=>{
                                                         children: "Reliance General"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                                        lineNumber: 144,
+                                                        lineNumber: 106,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
@@ -3636,7 +3801,7 @@ const PolicyEditFormOther = ({ form, loading, onSubmit, onCancel })=>{
                                                         children: "National Insurance"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                                        lineNumber: 147,
+                                                        lineNumber: 107,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
@@ -3644,7 +3809,7 @@ const PolicyEditFormOther = ({ form, loading, onSubmit, onCancel })=>{
                                                         children: "Oriental Insurance"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                                        lineNumber: 150,
+                                                        lineNumber: 108,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
@@ -3652,7 +3817,7 @@ const PolicyEditFormOther = ({ form, loading, onSubmit, onCancel })=>{
                                                         children: "New India Assurance"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                                        lineNumber: 153,
+                                                        lineNumber: 109,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
@@ -3660,7 +3825,7 @@ const PolicyEditFormOther = ({ form, loading, onSubmit, onCancel })=>{
                                                         children: "United India Insurance"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                                        lineNumber: 156,
+                                                        lineNumber: 110,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$select$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Select$3e$__["Select"].Option, {
@@ -3668,190 +3833,243 @@ const PolicyEditFormOther = ({ form, loading, onSubmit, onCancel })=>{
                                                         children: "Other"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                                        lineNumber: 159,
+                                                        lineNumber: 111,
                                                         columnNumber: 19
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                                lineNumber: 135,
+                                                lineNumber: 101,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                            lineNumber: 129,
+                                            lineNumber: 96,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
                                             name: "next_payment_date",
-                                            label: "Next Payment Date",
+                                            label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                className: "font-medium text-gray-700",
+                                                children: "Next Payment Date"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
+                                                lineNumber: 117,
+                                                columnNumber: 24
+                                            }, void 0),
                                             rules: [
                                                 {
                                                     required: true,
                                                     message: "Please select next payment date"
                                                 }
                                             ],
-                                            className: "mb-4",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$date$2d$picker$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__DatePicker$3e$__["DatePicker"], {
-                                                className: "w-full",
+                                                className: "w-full rounded-lg",
                                                 format: "DD-MM-YYYY",
                                                 size: "large"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                                lineNumber: 174,
+                                                lineNumber: 120,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                            lineNumber: 163,
+                                            lineNumber: 115,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
                                             name: "plan_name",
-                                            label: "Plan Name",
+                                            label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                className: "font-medium text-gray-700",
+                                                children: "Plan Name"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
+                                                lineNumber: 125,
+                                                columnNumber: 24
+                                            }, void 0),
                                             rules: [
                                                 {
                                                     required: true,
                                                     message: "Please enter plan name"
                                                 }
                                             ],
-                                            className: "mb-4",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
                                                 placeholder: "e.g. Comprehensive Plan",
-                                                size: "large"
+                                                size: "large",
+                                                className: "rounded-lg"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                                lineNumber: 187,
+                                                lineNumber: 128,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                            lineNumber: 181,
+                                            lineNumber: 123,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
                                             name: "policy_no",
-                                            label: "Policy Number",
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
-                                                placeholder: "e.g. POL123456",
-                                                size: "large"
+                                            label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                className: "font-medium text-gray-700",
+                                                children: "Policy Number"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                                lineNumber: 195,
+                                                lineNumber: 133,
+                                                columnNumber: 24
+                                            }, void 0),
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
+                                                placeholder: "e.g. POL123456",
+                                                size: "large",
+                                                className: "rounded-lg"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
+                                                lineNumber: 135,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                            lineNumber: 190,
+                                            lineNumber: 131,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
                                             name: "policy_start_date",
-                                            label: "Policy Start Date",
-                                            className: "mb-4",
+                                            label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                className: "font-medium text-gray-700",
+                                                children: "Policy Start Date"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
+                                                lineNumber: 140,
+                                                columnNumber: 24
+                                            }, void 0),
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$date$2d$picker$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__DatePicker$3e$__["DatePicker"], {
-                                                className: "w-full",
+                                                className: "w-full rounded-lg",
                                                 format: "DD-MM-YYYY",
                                                 size: "large"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                                lineNumber: 203,
+                                                lineNumber: 142,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                            lineNumber: 198,
+                                            lineNumber: 138,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
                                             name: "policy_end_date",
-                                            label: "Policy End Date",
-                                            className: "mb-4",
+                                            label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                className: "font-medium text-gray-700",
+                                                children: "Policy End Date"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
+                                                lineNumber: 147,
+                                                columnNumber: 24
+                                            }, void 0),
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$date$2d$picker$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__DatePicker$3e$__["DatePicker"], {
-                                                className: "w-full",
+                                                className: "w-full rounded-lg",
                                                 format: "DD-MM-YYYY",
                                                 size: "large"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                                lineNumber: 215,
+                                                lineNumber: 149,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                            lineNumber: 210,
+                                            lineNumber: 145,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
                                             name: "sum_insured",
-                                            label: "Sum Insured",
-                                            className: "mb-4",
+                                            label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                className: "font-medium text-gray-700",
+                                                children: "Sum Insured"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
+                                                lineNumber: 154,
+                                                columnNumber: 24
+                                            }, void 0),
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
                                                 placeholder: "e.g. 1000000.00",
                                                 size: "large",
-                                                type: "number"
+                                                type: "number",
+                                                className: "rounded-lg"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                                lineNumber: 227,
+                                                lineNumber: 156,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                            lineNumber: 222,
+                                            lineNumber: 152,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
                                             name: "gross_premium",
-                                            label: "Gross Premium",
-                                            className: "mb-4",
+                                            label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                className: "font-medium text-gray-700",
+                                                children: "Gross Premium"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
+                                                lineNumber: 161,
+                                                columnNumber: 24
+                                            }, void 0),
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
                                                 placeholder: "e.g. 8000.00",
                                                 size: "large",
-                                                type: "number"
+                                                type: "number",
+                                                className: "rounded-lg"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                                lineNumber: 239,
+                                                lineNumber: 163,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                            lineNumber: 234,
+                                            lineNumber: 159,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"].Item, {
                                             name: "client_name",
-                                            label: "Client Name",
-                                            className: "mb-4",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
-                                                placeholder: "Your full name",
-                                                size: "large"
+                                            label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
+                                                className: "font-medium text-gray-700",
+                                                children: "Client Name"
                                             }, void 0, false, {
                                                 fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                                lineNumber: 247,
+                                                lineNumber: 168,
+                                                columnNumber: 24
+                                            }, void 0),
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
+                                                placeholder: "Your full name",
+                                                size: "large",
+                                                className: "rounded-lg"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
+                                                lineNumber: 170,
                                                 columnNumber: 17
                                             }, ("TURBOPACK compile-time value", void 0))
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                            lineNumber: 242,
+                                            lineNumber: 166,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                    lineNumber: 77,
+                                    lineNumber: 69,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                    className: "flex flex-col-reverse sm:flex-row justify-center gap-3 mt-6 pb-2",
+                                    className: "flex flex-col-reverse sm:flex-row justify-end gap-3 pt-4 border-t border-gray-100 mt-4",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$button$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Button$3e$__["Button"], {
                                             size: "large",
                                             onClick: onCancel,
-                                            className: "w-full sm:w-auto min-w-[120px] rounded-lg",
+                                            className: "w-full sm:w-auto px-8 rounded-lg",
                                             children: "Cancel"
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                            lineNumber: 253,
+                                            lineNumber: 176,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$button$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Button$3e$__["Button"], {
@@ -3859,29 +4077,29 @@ const PolicyEditFormOther = ({ form, loading, onSubmit, onCancel })=>{
                                             size: "large",
                                             loading: loading,
                                             onClick: onSubmit,
-                                            className: "w-full sm:w-auto min-w-[140px] rounded-lg bg-gray-700 hover:bg-gray-800",
+                                            className: "w-full sm:w-auto px-8 rounded-lg bg-gray-700 hover:bg-gray-800",
                                             children: "Update Policy"
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                            lineNumber: 260,
+                                            lineNumber: 183,
                                             columnNumber: 15
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                                    lineNumber: 252,
+                                    lineNumber: 175,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                            lineNumber: 76,
+                            lineNumber: 68,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Downloads/One click/src/components/policies/form/PolicyEditFormOther.tsx",
-                    lineNumber: 66,
+                    lineNumber: 63,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             ]
@@ -3916,6 +4134,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$n
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$button$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Button$3e$__ = __turbopack_context__.i("[project]/Downloads/One click/node_modules/antd/es/button/index.js [ssr] (ecmascript) <locals> <export default as Button>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$modal$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Modal$3e$__ = __turbopack_context__.i("[project]/Downloads/One click/node_modules/antd/es/modal/index.js [ssr] (ecmascript) <export default as Modal>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__ = __turbopack_context__.i("[project]/Downloads/One click/node_modules/antd/es/form/index.js [ssr] (ecmascript) <export default as Form>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$tooltip$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Tooltip$3e$__ = __turbopack_context__.i("[project]/Downloads/One click/node_modules/antd/es/tooltip/index.js [ssr] (ecmascript) <export default as Tooltip>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$EditOutlined$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__EditOutlined$3e$__ = __turbopack_context__.i("[project]/Downloads/One click/node_modules/@ant-design/icons/es/icons/EditOutlined.js [ssr] (ecmascript) <export default as EditOutlined>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$EyeOutlined$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__EyeOutlined$3e$__ = __turbopack_context__.i("[project]/Downloads/One click/node_modules/@ant-design/icons/es/icons/EyeOutlined.js [ssr] (ecmascript) <export default as EyeOutlined>");
 var __TURBOPACK__imported__module__$5b$externals$5d2f$axios__$5b$external$5d$__$28$axios$2c$__esm_import$29$__ = __turbopack_context__.i("[externals]/axios [external] (axios, esm_import)");
 var __TURBOPACK__imported__module__$5b$externals$5d2f$react$2d$hot$2d$toast__$5b$external$5d$__$28$react$2d$hot$2d$toast$2c$__esm_import$29$__ = __turbopack_context__.i("[externals]/react-hot-toast [external] (react-hot-toast, esm_import)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$src$2f$components$2f$home$2f$FilterDropdown$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/One click/src/components/home/FilterDropdown.tsx [ssr] (ecmascript)");
@@ -3936,6 +4157,7 @@ var __turbopack_async_dependencies__ = __turbopack_handle_async_dependencies__([
 ]);
 [__TURBOPACK__imported__module__$5b$externals$5d2f$axios__$5b$external$5d$__$28$axios$2c$__esm_import$29$__, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2d$hot$2d$toast__$5b$external$5d$__$28$react$2d$hot$2d$toast$2c$__esm_import$29$__, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$src$2f$components$2f$home$2f$FilterDropdown$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__] = __turbopack_async_dependencies__.then ? (await __turbopack_async_dependencies__)() : __turbopack_async_dependencies__;
 "use client";
+;
 ;
 ;
 ;
@@ -3988,8 +4210,26 @@ const PoliciesTypeHome = ({ policies: initialPolicies, showFilter = false, onDat
     ]);
     /* ================= EDIT ================= */ const handleEdit = (record)=>{
         setEditingPolicy(record);
+        let fileList = [];
+        const rawUrl = record.file_url || record.policy_pdf || record.image_url;
+        if (rawUrl && rawUrl !== "null" && rawUrl.trim() !== "") {
+            let finalUrl = rawUrl;
+            if (!rawUrl.startsWith("http")) {
+                finalUrl = `${__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$src$2f$api$2f$config$2e$ts__$5b$ssr$5d$__$28$ecmascript$29$__["API_CONFIG"].BASE_URL.replace("/api", "")}/${rawUrl}`;
+            }
+            const fileName = rawUrl.split("/").pop() || "Document.pdf";
+            fileList = [
+                {
+                    uid: "-1",
+                    name: fileName,
+                    status: "done",
+                    url: finalUrl
+                }
+            ];
+        }
         form.setFieldsValue({
             ...record,
+            policy_pdf: fileList,
             policy_start_date: record.policy_start_date ? (0, __TURBOPACK__imported__module__$5b$externals$5d2f$dayjs__$5b$external$5d$__$28$dayjs$2c$__cjs$29$__["default"])(record.policy_start_date) : null,
             policy_end_date: record.policy_end_date ? (0, __TURBOPACK__imported__module__$5b$externals$5d2f$dayjs__$5b$external$5d$__$28$dayjs$2c$__cjs$29$__["default"])(record.policy_end_date) : null
         });
@@ -3999,9 +4239,10 @@ const PoliciesTypeHome = ({ policies: initialPolicies, showFilter = false, onDat
             setLoading(true);
             const values = await form.validateFields();
             const formData = new FormData();
-            // Append ID
+            // Append ID (Send both 'policy_id' and 'id' to be safe for backend compatibility)
             if (editingPolicy?.id) {
                 formData.append("policy_id", editingPolicy.id);
+                formData.append("id", editingPolicy.id);
             }
             // Append User ID (Critical: Found in working Postman payload)
             if (editingPolicy?.user_id) {
@@ -4026,14 +4267,15 @@ const PoliciesTypeHome = ({ policies: initialPolicies, showFilter = false, onDat
             const { policy_pdf, policy_start_date, policy_end_date, ...otherValues } = values;
             Object.keys(otherValues).forEach((key)=>{
                 const val = otherValues[key];
-                if (val !== undefined && val !== null) {
-                    // Clean up leading/trailing spaces from string inputs (found in GET response)
-                    const cleanVal = typeof val === 'string' ? val.trim() : String(val);
-                    formData.append(key, cleanVal);
+                if (val !== undefined && val !== null && val !== "null") {
+                    const cleanVal = typeof val === "string" ? val.trim() : String(val);
+                    if (cleanVal.length > 0) {
+                        formData.append(key, cleanVal);
+                    }
                 }
             });
             console.log("Sending Update Payload (FormData with customAuthorization)");
-            // Use apiClient.upload -> Sends multipart/form-data with customAuthorization header
+            // form-data with customAuthorization header
             const res = await __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$src$2f$api$2f$client$2e$ts__$5b$ssr$5d$__$28$ecmascript$29$__["apiClient"].upload(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$src$2f$api$2f$config$2e$ts__$5b$ssr$5d$__$28$ecmascript$29$__["API_ENDPOINTS"].ADMIN_UPDATE_POLICY, formData);
             if (res.status === "error") {
                 throw new Error(res.message);
@@ -4053,21 +4295,29 @@ const PoliciesTypeHome = ({ policies: initialPolicies, showFilter = false, onDat
         try {
             setLoading(true);
             const formData = new FormData();
+            formData.append("policy_id", record.id);
+            formData.append("id", record.id);
+            formData.append("user_id", record.user_id);
             formData.append("ids[]", record.id);
-            const res = await __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$src$2f$api$2f$client$2e$ts__$5b$ssr$5d$__$28$ecmascript$29$__["apiClient"].put(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$src$2f$api$2f$config$2e$ts__$5b$ssr$5d$__$28$ecmascript$29$__["API_ENDPOINTS"].ADMIN_UPDATE_POLICY, {
-                ids: [
-                    record.id
-                ],
-                verification_status: status,
-                page: currentPage,
-                limit: pageSize
-            });
+            formData.append("policy_status", status); // "1" or "0"
+            formData.append("is_verified", status);
+            // formData.append("policy_status", status === "1" ? "Approved" : "Rejected");
+            if (record.insurer_name) formData.append("insurer_name", record.insurer_name);
+            if (record.client_name) formData.append("client_name", record.client_name);
+            if (record.insurance_category) formData.append("insurance_category", record.insurance_category);
+            if (record.policy_no) formData.append("policy_no", record.policy_no);
+            if (record.sum_insured) formData.append("sum_insured", record.sum_insured);
+            if (record.gross_premium) formData.append("gross_premium", record.gross_premium);
+            if (record.policy_start_date) formData.append("policy_start_date", record.policy_start_date);
+            if (record.policy_end_date) formData.append("policy_end_date", record.policy_end_date);
+            const res = await __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$src$2f$api$2f$client$2e$ts__$5b$ssr$5d$__$28$ecmascript$29$__["apiClient"].upload(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$src$2f$api$2f$config$2e$ts__$5b$ssr$5d$__$28$ecmascript$29$__["API_ENDPOINTS"].ADMIN_UPDATE_POLICY, formData);
             if (res.status === "error") {
                 throw new Error(res.message);
             }
             __TURBOPACK__imported__module__$5b$externals$5d2f$react$2d$hot$2d$toast__$5b$external$5d$__$28$react$2d$hot$2d$toast$2c$__esm_import$29$__["default"].success(status === "1" ? "Approved" : "Rejected");
             fetchFilteredPolicies(filterStatus, currentPage);
         } catch (err) {
+            console.error(err);
             __TURBOPACK__imported__module__$5b$externals$5d2f$react$2d$hot$2d$toast__$5b$external$5d$__$28$react$2d$hot$2d$toast$2c$__esm_import$29$__["default"].error(err?.message || "Update failed");
         } finally{
             setLoading(false);
@@ -4089,7 +4339,7 @@ const PoliciesTypeHome = ({ policies: initialPolicies, showFilter = false, onDat
                     children: text
                 }, void 0, false, {
                     fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                    lineNumber: 225,
+                    lineNumber: 277,
                     columnNumber: 25
                 }, ("TURBOPACK compile-time value", void 0))
         },
@@ -4118,7 +4368,7 @@ const PoliciesTypeHome = ({ policies: initialPolicies, showFilter = false, onDat
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                    lineNumber: 241,
+                    lineNumber: 293,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
         },
@@ -4133,7 +4383,7 @@ const PoliciesTypeHome = ({ policies: initialPolicies, showFilter = false, onDat
                     children: text
                 }, void 0, false, {
                     fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                    lineNumber: 250,
+                    lineNumber: 302,
                     columnNumber: 25
                 }, ("TURBOPACK compile-time value", void 0))
         },
@@ -4148,7 +4398,7 @@ const PoliciesTypeHome = ({ policies: initialPolicies, showFilter = false, onDat
                     children: text
                 }, void 0, false, {
                     fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                    lineNumber: 256,
+                    lineNumber: 308,
                     columnNumber: 25
                 }, ("TURBOPACK compile-time value", void 0))
         },
@@ -4163,7 +4413,7 @@ const PoliciesTypeHome = ({ policies: initialPolicies, showFilter = false, onDat
                     children: text
                 }, void 0, false, {
                     fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                    lineNumber: 262,
+                    lineNumber: 314,
                     columnNumber: 25
                 }, ("TURBOPACK compile-time value", void 0))
         },
@@ -4176,7 +4426,7 @@ const PoliciesTypeHome = ({ policies: initialPolicies, showFilter = false, onDat
                     children: "Approved"
                 }, void 0, false, {
                     fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                    lineNumber: 269,
+                    lineNumber: 321,
                     columnNumber: 11
                 }, ("TURBOPACK compile-time value", void 0)) : v === "0" ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$tag$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Tag$3e$__["Tag"], {
                     color: "red",
@@ -4184,7 +4434,7 @@ const PoliciesTypeHome = ({ policies: initialPolicies, showFilter = false, onDat
                     children: "Rejected"
                 }, void 0, false, {
                     fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                    lineNumber: 273,
+                    lineNumber: 325,
                     columnNumber: 11
                 }, ("TURBOPACK compile-time value", void 0)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$tag$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Tag$3e$__["Tag"], {
                     color: "orange",
@@ -4192,7 +4442,7 @@ const PoliciesTypeHome = ({ policies: initialPolicies, showFilter = false, onDat
                     children: "Pending"
                 }, void 0, false, {
                     fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                    lineNumber: 277,
+                    lineNumber: 329,
                     columnNumber: 11
                 }, ("TURBOPACK compile-time value", void 0))
         },
@@ -4201,19 +4451,73 @@ const PoliciesTypeHome = ({ policies: initialPolicies, showFilter = false, onDat
             fixed: "right",
             width: 100,
             render: (_, r)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$space$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Space$3e$__["Space"], {
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$button$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Button$3e$__["Button"], {
-                        type: "link",
-                        onClick: ()=>handleEdit(r),
-                        className: "text-xs sm:text-sm p-0",
-                        children: "Edit"
-                    }, void 0, false, {
-                        fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                        lineNumber: 288,
-                        columnNumber: 11
-                    }, ("TURBOPACK compile-time value", void 0))
-                }, void 0, false, {
+                    size: "small",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$tooltip$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Tooltip$3e$__["Tooltip"], {
+                            title: "View Document",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$button$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Button$3e$__["Button"], {
+                                type: "link",
+                                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$EyeOutlined$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__EyeOutlined$3e$__["EyeOutlined"], {}, void 0, false, {
+                                    fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
+                                    lineNumber: 344,
+                                    columnNumber: 21
+                                }, void 0),
+                                className: "text-blue-500 hover:text-blue-700",
+                                onClick: ()=>{
+                                    const fileUrl = r.file_url || r.policy_pdf || r.image_url;
+                                    if (fileUrl && fileUrl !== "null" && fileUrl.trim() !== "") {
+                                        // If it's already a full URL (http/https), use it directly
+                                        if (fileUrl.startsWith("http")) {
+                                            window.open(fileUrl, "_blank");
+                                            return;
+                                        }
+                                        let baseUrl = __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$src$2f$api$2f$config$2e$ts__$5b$ssr$5d$__$28$ecmascript$29$__["API_CONFIG"].BASE_URL;
+                                        if (baseUrl.endsWith("/")) {
+                                            baseUrl = baseUrl.slice(0, -1);
+                                        }
+                                        const cleanPath = fileUrl.startsWith("/") ? fileUrl.substring(1) : fileUrl;
+                                        const finalUrl = `${baseUrl}/${cleanPath}`;
+                                        console.log("Opening document:", finalUrl);
+                                        window.open(finalUrl, "_blank");
+                                    } else {
+                                        __TURBOPACK__imported__module__$5b$externals$5d2f$react$2d$hot$2d$toast__$5b$external$5d$__$28$react$2d$hot$2d$toast$2c$__esm_import$29$__["default"].error("No document attached");
+                                    }
+                                }
+                            }, void 0, false, {
+                                fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
+                                lineNumber: 342,
+                                columnNumber: 13
+                            }, ("TURBOPACK compile-time value", void 0))
+                        }, void 0, false, {
+                            fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
+                            lineNumber: 341,
+                            columnNumber: 11
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$tooltip$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Tooltip$3e$__["Tooltip"], {
+                            title: "Edit Policy",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$button$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Button$3e$__["Button"], {
+                                type: "link",
+                                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$EditOutlined$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__EditOutlined$3e$__["EditOutlined"], {}, void 0, false, {
+                                    fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
+                                    lineNumber: 381,
+                                    columnNumber: 21
+                                }, void 0),
+                                className: "text-green-600 hover:text-green-800",
+                                onClick: ()=>handleEdit(r)
+                            }, void 0, false, {
+                                fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
+                                lineNumber: 379,
+                                columnNumber: 13
+                            }, ("TURBOPACK compile-time value", void 0))
+                        }, void 0, false, {
+                            fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
+                            lineNumber: 378,
+                            columnNumber: 11
+                        }, ("TURBOPACK compile-time value", void 0))
+                    ]
+                }, void 0, true, {
                     fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                    lineNumber: 287,
+                    lineNumber: 339,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
         },
@@ -4237,7 +4541,7 @@ const PoliciesTypeHome = ({ policies: initialPolicies, showFilter = false, onDat
                             children: "Approve"
                         }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                            lineNumber: 305,
+                            lineNumber: 396,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0)),
                         r.is_verified !== "0" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$button$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Button$3e$__["Button"], {
@@ -4248,13 +4552,13 @@ const PoliciesTypeHome = ({ policies: initialPolicies, showFilter = false, onDat
                             children: "Reject"
                         }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                            lineNumber: 315,
+                            lineNumber: 406,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                    lineNumber: 303,
+                    lineNumber: 394,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
         }
@@ -4265,7 +4569,7 @@ const PoliciesTypeHome = ({ policies: initialPolicies, showFilter = false, onDat
                 onFilterChange: setFilterStatus
             }, void 0, false, {
                 fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                lineNumber: 331,
+                lineNumber: 422,
                 columnNumber: 22
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -4296,7 +4600,7 @@ const PoliciesTypeHome = ({ policies: initialPolicies, showFilter = false, onDat
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                                lineNumber: 347,
+                                lineNumber: 438,
                                 columnNumber: 15
                             }, void 0),
                         className: "px-4 sm:px-0"
@@ -4304,12 +4608,12 @@ const PoliciesTypeHome = ({ policies: initialPolicies, showFilter = false, onDat
                     className: "policies-table"
                 }, void 0, false, {
                     fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                    lineNumber: 334,
+                    lineNumber: 425,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                lineNumber: 333,
+                lineNumber: 424,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$modal$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Modal$3e$__["Modal"], {
@@ -4339,7 +4643,7 @@ const PoliciesTypeHome = ({ policies: initialPolicies, showFilter = false, onDat
                         onCancel: ()=>setEditingPolicy(null)
                     }, void 0, false, {
                         fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                        lineNumber: 375,
+                        lineNumber: 466,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0)) : editingPolicy?.insurance_category?.toLowerCase() === "health" ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$src$2f$components$2f$policies$2f$form$2f$PolicyEditFormHealth$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                         form: form,
@@ -4348,7 +4652,7 @@ const PoliciesTypeHome = ({ policies: initialPolicies, showFilter = false, onDat
                         onCancel: ()=>setEditingPolicy(null)
                     }, void 0, false, {
                         fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                        lineNumber: 382,
+                        lineNumber: 473,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0)) : editingPolicy?.insurance_category?.toLowerCase() === "life" ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$src$2f$components$2f$policies$2f$form$2f$PolicyEditFormLife$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                         form: form,
@@ -4357,7 +4661,7 @@ const PoliciesTypeHome = ({ policies: initialPolicies, showFilter = false, onDat
                         onCancel: ()=>setEditingPolicy(null)
                     }, void 0, false, {
                         fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                        lineNumber: 389,
+                        lineNumber: 480,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0)) : editingPolicy?.insurance_category?.toLowerCase() === "travel" ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$src$2f$components$2f$policies$2f$form$2f$PolicyEditFormTravel$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                         form: form,
@@ -4366,7 +4670,7 @@ const PoliciesTypeHome = ({ policies: initialPolicies, showFilter = false, onDat
                         onCancel: ()=>setEditingPolicy(null)
                     }, void 0, false, {
                         fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                        lineNumber: 396,
+                        lineNumber: 487,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0)) : editingPolicy?.insurance_category?.toLowerCase() === "other" ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$src$2f$components$2f$policies$2f$form$2f$PolicyEditFormOther$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                         form: form,
@@ -4375,7 +4679,7 @@ const PoliciesTypeHome = ({ policies: initialPolicies, showFilter = false, onDat
                         onCancel: ()=>setEditingPolicy(null)
                     }, void 0, false, {
                         fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                        lineNumber: 403,
+                        lineNumber: 494,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$src$2f$components$2f$policies$2f$form$2f$PolicyEditFormCar$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
                         form: form,
@@ -4384,17 +4688,17 @@ const PoliciesTypeHome = ({ policies: initialPolicies, showFilter = false, onDat
                         onCancel: ()=>setEditingPolicy(null)
                     }, void 0, false, {
                         fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                        lineNumber: 410,
+                        lineNumber: 501,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0))
                 }, void 0, false, {
                     fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                    lineNumber: 373,
+                    lineNumber: 464,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                lineNumber: 357,
+                lineNumber: 448,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]

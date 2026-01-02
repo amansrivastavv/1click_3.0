@@ -508,7 +508,9 @@ const API_ENDPOINTS = {
     ADMIN_GET_USER_POLICIES: "/admin_get_user_policy_v2.php",
     ADMIN_UPDATE_POLICY: "/admin_upload_policy_v2.php",
     //Bar chart Data yearly/monthly/daily
-    GET_USER_CHART_DATA: "/admin_barchart_report.php"
+    GET_USER_CHART_DATA: "/admin_barchart_report.php",
+    //user data
+    GET_USERS_DATA: "/user_policy_data.php"
 };
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);

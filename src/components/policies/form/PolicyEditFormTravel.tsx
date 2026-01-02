@@ -20,20 +20,15 @@ const PolicyEditFormTravel: React.FC<PolicyEditFormTravelProps> = ({
   onCancel,
 }) => {
   return (
-    <div className="bg-white">
-      <Form layout="vertical" form={form}>
+    <div className="bg-white px-2">
+      <Form layout="vertical" form={form} requiredMark={false}>
         {/* ===== Policy Document Section ===== */}
-        <div className="rounded-none sm:rounded-xl shadow-md overflow-hidden mb-4 sm:mb-6">
-          <div className="bg-gradient-to-r from-cyan-600 to-cyan-500 px-4 sm:px-6 py-3 text-white">
-            <h3 className="font-semibold text-base sm:text-lg m-0">
-              Policy Document
-            </h3>
-            <p className="text-xs sm:text-sm font-normal text-cyan-100 mt-1 mb-0">
-              Upload your travel policy PDF document
-            </p>
-          </div>
-
-          <div className="p-4 sm:p-6 bg-white">
+        <div className="mb-8">
+          <h3 className="text-lg font-semibold text-gray-800 mb-4 border-l-4 border-cyan-500 pl-3">
+            Policy Document
+          </h3>
+          
+          <div className="bg-gray-50 rounded-xl p-4 border border-dashed border-gray-300 hover:border-cyan-500 transition-all duration-300 group">
             <Form.Item
               name="policy_pdf"
               valuePropName="fileList"
@@ -43,154 +38,111 @@ const PolicyEditFormTravel: React.FC<PolicyEditFormTravelProps> = ({
               <Upload.Dragger
                 beforeUpload={() => false}
                 accept=".pdf"
-                className="hover:border-cyan-500 transition-colors"
-                style={{ padding: "20px" }}
+                className="!border-0 !bg-transparent"
+                showUploadList={{
+                  showRemoveIcon: true,
+                }}
               >
-                <p className="ant-upload-drag-icon text-cyan-600 mb-2">
-                  <UploadOutlined style={{ fontSize: 40 }} />
-                </p>
-                <p className="text-base sm:text-lg font-semibold mb-1">
-                  Drop your Travel Policy PDF here
-                </p>
-                <p className="text-gray-500 text-xs sm:text-sm mb-0">
-                  or click to browse
-                  <br />
-                  PDF only · Maximum size 20MB
-                </p>
+                <div className="py-4">
+                  <div className="w-16 h-16 bg-cyan-50 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+                    <UploadOutlined style={{ fontSize: 28, color: '#06b6d4' }} />
+                  </div>
+                  <p className="text-gray-900 text-sm font-medium mb-1">
+                    Click or drag file to upload
+                  </p>
+                  <p className="text-gray-500 text-xs text-center">
+                    PDF format only (Max 20MB)
+                  </p>
+                </div>
               </Upload.Dragger>
             </Form.Item>
           </div>
         </div>
 
         {/* ===== Travel Insurance Policy Section ===== */}
-        <div className="rounded-none sm:rounded-xl shadow-md overflow-hidden">
-          <div className="bg-gradient-to-r from-cyan-600 to-cyan-500 px-4 sm:px-6 py-3 text-white">
-            <h3 className="font-semibold text-base sm:text-lg m-0">
-              Travel Insurance Policy
-            </h3>
-            <p className="text-xs sm:text-sm font-normal text-cyan-100 mt-1 mb-0">
-              Enter your travel policy details accurately
-            </p>
-          </div>
+        <div className="mb-6">
+          <h3 className="text-lg font-semibold text-gray-800 mb-6 border-l-4 border-cyan-500 pl-3">
+            Travel Insurance Policy
+          </h3>
 
-          <div className="p-4 sm:p-6 bg-white">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="p-4 bg-gray-50 rounded-xl border border-gray-100 mb-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-4">
               <Form.Item
                 name="client_name"
-                label="Client Name"
-                rules={[
-                  { required: true, message: "Please enter client name" },
-                ]}
-                className="mb-4"
+                label={<span className="font-medium text-gray-700">Client Name</span>}
+                rules={[{ required: true, message: "Please enter client name" }]}
               >
-                <Input placeholder="Your full name" size="large" />
+                <Input placeholder="Your full name" size="large" className="rounded-lg" />
               </Form.Item>
 
               <Form.Item
                 name="insurer_name"
-                label="Insurer Name"
-                rules={[
-                  { required: true, message: "Please select insurer name" },
-                ]}
-                className="mb-4"
+                label={<span className="font-medium text-gray-700">Insurer Name</span>}
+                rules={[{ required: true, message: "Please select insurer name" }]}
               >
-                <Select placeholder="Select insurer" size="large">
-                  <Select.Option value="Reliance Digital">
-                    Reliance Digital
-                  </Select.Option>
-                  <Select.Option value="Bajaj Allianz">
-                    Bajaj Allianz
-                  </Select.Option>
+                <Select placeholder="Select insurer" size="large" className="rounded-lg">
+                  <Select.Option value="Reliance Digital">Reliance Digital</Select.Option>
+                  <Select.Option value="Bajaj Allianz">Bajaj Allianz</Select.Option>
                   <Select.Option value="Digit">Digit</Select.Option>
-                  <Select.Option value="Max Life Insurance">
-                    Max Life Insurance
-                  </Select.Option>
-                  <Select.Option value="New India Assurance">
-                    New India Assurance
-                  </Select.Option>
-                  <Select.Option value="Tata AIG Insurance">
-                    Tata AIG Insurance
-                  </Select.Option>
+                  <Select.Option value="Max Life Insurance">Max Life Insurance</Select.Option>
+                  <Select.Option value="New India Assurance">New India Assurance</Select.Option>
+                  <Select.Option value="Tata AIG Insurance">Tata AIG Insurance</Select.Option>
                   <Select.Option value="PPAP">PPAP</Select.Option>
                 </Select>
               </Form.Item>
 
               <Form.Item
                 name="policy_no"
-                label="Policy Number"
-                rules={[
-                  { required: true, message: "Please enter policy number" },
-                ]}
-                className="mb-4"
+                label={<span className="font-medium text-gray-700">Policy Number</span>}
+                rules={[{ required: true, message: "Please enter policy number" }]}
               >
-                <Input placeholder="e.g. TRV123456789" size="large" />
+                <Input placeholder="e.g. TRV123456789" size="large" className="rounded-lg" />
               </Form.Item>
 
               <Form.Item
                 name="destination_type"
-                label="Destination Type"
-                rules={[
-                  { required: true, message: "Please select destination type" },
-                ]}
-                className="mb-4"
+                label={<span className="font-medium text-gray-700">Destination Type</span>}
+                rules={[{ required: true, message: "Please select destination type" }]}
               >
-                <Select placeholder="Select destination" size="large">
+                <Select placeholder="Select destination" size="large" className="rounded-lg">
                   <Select.Option value="Domestic">Domestic</Select.Option>
-                  <Select.Option value="International">
-                    International
-                  </Select.Option>
+                  <Select.Option value="International">International</Select.Option>
                   <Select.Option value="Europe">Europe</Select.Option>
                   <Select.Option value="Asia">Asia</Select.Option>
-                  <Select.Option value="USA / Canada">
-                    USA / Canada
-                  </Select.Option>
+                  <Select.Option value="USA / Canada">USA / Canada</Select.Option>
                   <Select.Option value="Other">Other</Select.Option>
                 </Select>
               </Form.Item>
 
               <Form.Item
                 name="policy_start_date"
-                label="Policy Start Date"
-                rules={[
-                  { required: true, message: "Please select start date" },
-                ]}
-                className="mb-4"
+                label={<span className="font-medium text-gray-700">Start Date</span>}
+                rules={[{ required: true, message: "Please select start date" }]}
               >
-                <DatePicker
-                  className="w-full"
-                  format="DD-MM-YYYY"
-                  size="large"
-                />
+                <DatePicker className="w-full rounded-lg" format="DD-MM-YYYY" size="large" />
               </Form.Item>
 
               <Form.Item
                 name="policy_end_date"
-                label="Policy End Date"
+                label={<span className="font-medium text-gray-700">End Date</span>}
                 rules={[{ required: true, message: "Please select end date" }]}
-                className="mb-4"
               >
-                <DatePicker
-                  className="w-full"
-                  format="DD-MM-YYYY"
-                  size="large"
-                />
+                <DatePicker className="w-full rounded-lg" format="DD-MM-YYYY" size="large" />
               </Form.Item>
 
               <Form.Item
                 name="sum_insured"
-                label="Sum Insured / Assured (Euro / Dollar)"
-                rules={[
-                  { required: true, message: "Please enter sum insured" },
-                ]}
-                className="mb-4"
+                label={<span className="font-medium text-gray-700">Sum Insured</span>}
+                rules={[{ required: true, message: "Please enter sum insured" }]}
               >
                 <Input
                   placeholder="e.g. 50000"
                   size="large"
                   type="number"
+                  className="rounded-lg"
                   addonBefore={
                     <Form.Item name="sum_currency" noStyle initialValue="USD">
-                      <Select style={{ width: 80 }}>
+                      <Select style={{ width: 80 }} className="bg-gray-50">
                         <Select.Option value="USD">USD</Select.Option>
                         <Select.Option value="EUR">EUR</Select.Option>
                         <Select.Option value="INR">INR</Select.Option>
@@ -203,33 +155,27 @@ const PolicyEditFormTravel: React.FC<PolicyEditFormTravelProps> = ({
 
               <Form.Item
                 name="trip_duration"
-                label="Trip Duration"
-                rules={[
-                  { required: true, message: "Please enter trip duration" },
-                ]}
-                className="mb-4"
+                label={<span className="font-medium text-gray-700">Trip Duration</span>}
+                rules={[{ required: true, message: "Please enter trip duration" }]}
               >
-                <Input placeholder="e.g. 15 days" size="large" />
+                <Input placeholder="e.g. 15 days" size="large" className="rounded-lg" />
               </Form.Item>
 
               <Form.Item
                 name="gross_premium"
-                label="Gross Premium"
-                rules={[
-                  { required: true, message: "Please enter gross premium" },
-                ]}
-                className="mb-4"
+                label={<span className="font-medium text-gray-700">Gross Premium</span>}
+                rules={[{ required: true, message: "Please enter gross premium" }]}
               >
-                <Input placeholder="e.g. 2500.00" size="large" type="number" />
+                <Input placeholder="e.g. 2500.00" size="large" type="number" className="rounded-lg" />
               </Form.Item>
             </div>
 
             {/* ===== Action Buttons ===== */}
-            <div className="flex flex-col-reverse sm:flex-row justify-center gap-3 mt-6 pb-2">
+            <div className="flex flex-col-reverse sm:flex-row justify-end gap-3 pt-4 border-t border-gray-100 mt-4">
               <Button
                 size="large"
                 onClick={onCancel}
-                className="w-full sm:w-auto min-w-[120px] rounded-lg"
+                className="w-full sm:w-auto px-8 rounded-lg"
               >
                 Cancel
               </Button>
@@ -238,7 +184,7 @@ const PolicyEditFormTravel: React.FC<PolicyEditFormTravelProps> = ({
                 size="large"
                 loading={loading}
                 onClick={onSubmit}
-                className="w-full sm:w-auto min-w-[140px] rounded-lg bg-cyan-600 hover:bg-cyan-700"
+                className="w-full sm:w-auto px-8 rounded-lg bg-cyan-600 hover:bg-cyan-700"
               >
                 Update Policy
               </Button>

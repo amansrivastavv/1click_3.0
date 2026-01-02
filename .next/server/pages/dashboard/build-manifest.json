@@ -6,7 +6,7 @@
   "rootMainFiles": [],
   "pages": {
     "/dashboard": [
-      "static/chunks/[root-of-the-server]__3c3ee94f._.js",
+      "static/chunks/[root-of-the-server]__7fd58608._.js",
       "static/chunks/f2ed1_next_dist_compiled_next-devtools_index_3fa62034.js",
       "static/chunks/f2ed1_next_dist_compiled_14a1b450._.js",
       "static/chunks/f2ed1_next_dist_shared_lib_a93b8a32._.js",
@@ -17,7 +17,7 @@
       "static/chunks/f2ed1_antd_es_modal_c78af8a4._.js",
       "static/chunks/f2ed1_antd_es_table_3e55e9be._.js",
       "static/chunks/f2ed1_antd_es_typography_901d5295._.js",
-      "static/chunks/f2ed1_antd_es_9f166426._.js",
+      "static/chunks/f2ed1_antd_es_28abb231._.js",
       "static/chunks/f2ed1_@ant-design_cssinjs_es_f4eadecf._.js",
       "static/chunks/f2ed1_axios_lib_22aba3f6._.js",
       "static/chunks/f2ed1_e51cdb4e._.js",
@@ -25,18 +25,15 @@
       "static/chunks/f2ed1_rc-menu_es_76d045ae._.js",
       "static/chunks/f2ed1_rc-field-form_es_e456890f._.js",
       "static/chunks/f2ed1_rc-select_es_027092a1._.js",
-      "static/chunks/f2ed1_recharts_es6_util_343375bd._.js",
-      "static/chunks/f2ed1_recharts_es6_state_da888007._.js",
-      "static/chunks/f2ed1_recharts_es6_component_49e4684e._.js",
-      "static/chunks/f2ed1_recharts_es6_cartesian_7a62593e._.js",
-      "static/chunks/f2ed1_recharts_es6_de6ed468._.js",
+      "static/chunks/f2ed1_recharts_es6_36a7d4a0._.js",
       "static/chunks/f2ed1_rc-table_es_19af2f20._.js",
       "static/chunks/f2ed1_rc-tree_es_42aefa99._.js",
       "static/chunks/f2ed1_@ant-design_22e47b9f._.js",
       "static/chunks/f2ed1_@rc-component_c7f515ad._.js",
-      "static/chunks/f2ed1_459f8cb8._.js",
+      "static/chunks/f2ed1_5938d237._.js",
+      "static/chunks/f2ed1_antd_dist_reset_e5b880e6.css",
       "static/chunks/Downloads_One click_src_pages_dashboard_index_tsx_2da965e7._.js",
-      "static/chunks/turbopack-Downloads_One click_src_pages_dashboard_index_tsx_1430e571._.js"
+      "static/chunks/turbopack-Downloads_One click_src_pages_dashboard_index_tsx_d506c3f4._.js"
     ]
   },
   "ampFirstPages": []

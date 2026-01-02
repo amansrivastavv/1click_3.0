@@ -6,11 +6,17 @@
   "rootMainFiles": [],
   "pages": {
     "/login": [
-      "static/chunks/bfaafb3f1bdf8f11.js",
-      "static/chunks/6824cf9df9e66b59.js",
-      "static/chunks/65eb5bc48b4fb595.js",
-      "static/chunks/695bbd836f9fdf3e.js",
-      "static/chunks/turbopack-594e50fac4a14551.js"
+      "static/chunks/f2ed1_next_dist_compiled_next-devtools_index_3fa62034.js",
+      "static/chunks/f2ed1_next_dist_compiled_0209e96c._.js",
+      "static/chunks/f2ed1_next_dist_shared_lib_c6bb42d5._.js",
+      "static/chunks/f2ed1_next_dist_client_362a677c._.js",
+      "static/chunks/f2ed1_next_dist_4030072f._.js",
+      "static/chunks/f2ed1_next_48a1bb6e._.js",
+      "static/chunks/f2ed1_react-dom_654af7c3._.js",
+      "static/chunks/f2ed1_14073857._.js",
+      "static/chunks/[root-of-the-server]__cfc6ecbc._.js",
+      "static/chunks/Downloads_One click_src_pages_login_2da965e7._.js",
+      "static/chunks/turbopack-Downloads_One click_src_pages_login_c3e0a799._.js"
     ]
   },
   "ampFirstPages": []

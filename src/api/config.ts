@@ -35,4 +35,15 @@ export const API_ENDPOINTS = {
 
   //Bar chart Data yearly/monthly/daily
   GET_USER_CHART_DATA: "/admin_barchart_report.php",
+
+  //user data
+  GET_USERS_DATA: "/user_policy_data.php",
+
+  //Data
+  GET_read_csv: "/admin_read-csv.php",
+  GET_sync_csv: "/admin_sync_csv.php",
+
+  // Manage Dashboard
+  GET_POLICY_OPTIONS: "/get_policy_options.php",
+  UPDATE_POLICY_OPTIONS: "/admin_update_policy_option.php",
 };

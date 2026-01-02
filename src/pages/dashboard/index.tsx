@@ -27,6 +27,7 @@ import BiaxialBarChartWithApi from "@/components/home/barCharts";
 import { RenewalItem } from "@/components/home/renewalList";
 import { useRouter } from "next/router";
 import { authApi } from "@/api/auth";
+import AdminCsvSync from "@/components/home/data";
 interface DashboardSummary {
   total_users: string;
   total_insurances: string;
@@ -156,12 +157,8 @@ const Dashboard = () => {
           {/* Area Chart & Table */}
 
           <div className="bg-white shadow-md rounded-lg p-6 px-4 min-h-[400px]">
-            <h1 className="text-lg font-semibold mb-4">User Signup Trends</h1>
-            {loading ? (
-              <Skeleton active paragraph={{ rows: 6 }} />
-            ) : (
-              <SimpleAreaChart data={sampleAreaData} height={350} />
-            )}
+            <h1 className="text-lg font-semibold mb-4">Excel Data</h1>
+            {loading ? <AdminCsvSync /> : <AdminCsvSync />}
           </div>
 
           {/* Insurance Table */}

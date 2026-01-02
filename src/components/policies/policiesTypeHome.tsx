@@ -2,7 +2,8 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { Table, Space, Tag, Button, Modal, Form } from "antd";
+import { Table, Space, Tag, Button, Modal, Form, Tooltip } from "antd";
+import { EditOutlined, EyeOutlined } from "@ant-design/icons";
 import type { ColumnsType } from "antd/es/table";
 import axios from "axios";
 import toast from "react-hot-toast";
@@ -40,6 +41,9 @@ interface Policy {
   created_at: string;
   updated_at: string;
   image_url: string;
+  policy_pdf?: string;
+  file_url?: string;
+  insurer_id?: string;
 }
 
 interface Props {
@@ -98,8 +102,33 @@ const PoliciesTypeHome: React.FC<Props> = ({
   const handleEdit = (record: Policy) => {
     setEditingPolicy(record);
 
+    let fileList: { uid: string; name: string; status: string; url: string }[] =
+      [];
+
+    const rawUrl = record.file_url || record.policy_pdf || record.image_url;
+
+    if (rawUrl && rawUrl !== "null" && rawUrl.trim() !== "") {
+      let finalUrl = rawUrl;
+
+      if (!rawUrl.startsWith("http")) {
+        finalUrl = `${API_CONFIG.BASE_URL.replace("/api", "")}/${rawUrl}`;
+      }
+
+      const fileName = rawUrl.split("/").pop() || "Document.pdf";
+
+      fileList = [
+        {
+          uid: "-1",
+          name: fileName,
+          status: "done",
+          url: finalUrl,
+        },
+      ];
+    }
+
     form.setFieldsValue({
       ...record,
+      policy_pdf: fileList as any,
       policy_start_date: record.policy_start_date
         ? dayjs(record.policy_start_date)
         : null,
@@ -109,8 +138,6 @@ const PoliciesTypeHome: React.FC<Props> = ({
     });
   };
 
-
-
   /* ================= UPDATE ================= */
   const handleUpdate = async () => {
     try {
@@ -118,10 +145,11 @@ const PoliciesTypeHome: React.FC<Props> = ({
       const values = await form.validateFields();
 
       const formData = new FormData();
-      
-      // Append ID
+
+      // Append ID (Send both 'policy_id' and 'id' to be safe for backend compatibility)
       if (editingPolicy?.id) {
         formData.append("policy_id", editingPolicy.id);
+        formData.append("id", editingPolicy.id);
       }
 
       // Append User ID (Critical: Found in working Postman payload)
@@ -131,10 +159,16 @@ const PoliciesTypeHome: React.FC<Props> = ({
 
       // Handle dates specifically
       if (values.policy_start_date) {
-        formData.append("policy_start_date", values.policy_start_date.format("YYYY-MM-DD"));
+        formData.append(
+          "policy_start_date",
+          values.policy_start_date.format("YYYY-MM-DD")
+        );
       }
       if (values.policy_end_date) {
-        formData.append("policy_end_date", values.policy_end_date.format("YYYY-MM-DD"));
+        formData.append(
+          "policy_end_date",
+          values.policy_end_date.format("YYYY-MM-DD")
+        );
       }
 
       // Handle File Upload
@@ -147,21 +181,27 @@ const PoliciesTypeHome: React.FC<Props> = ({
       }
 
       // Append other fields
-      const { policy_pdf, policy_start_date, policy_end_date, ...otherValues } = values;
+      const { policy_pdf, policy_start_date, policy_end_date, ...otherValues } =
+        values;
 
-      Object.keys(otherValues).forEach(key => {
+      Object.keys(otherValues).forEach((key) => {
         const val = otherValues[key];
-        if (val !== undefined && val !== null) {
-          // Clean up leading/trailing spaces from string inputs (found in GET response)
-          const cleanVal = typeof val === 'string' ? val.trim() : String(val);
-          formData.append(key, cleanVal);
+
+        if (val !== undefined && val !== null && val !== "null") {
+          const cleanVal = typeof val === "string" ? val.trim() : String(val);
+          if (cleanVal.length > 0) {
+            formData.append(key, cleanVal);
+          }
         }
       });
 
       console.log("Sending Update Payload (FormData with customAuthorization)");
 
-      // Use apiClient.upload -> Sends multipart/form-data with customAuthorization header
-      const res = await apiClient.upload(API_ENDPOINTS.ADMIN_UPDATE_POLICY, formData);
+      // form-data with customAuthorization header
+      const res = await apiClient.upload(
+        API_ENDPOINTS.ADMIN_UPDATE_POLICY,
+        formData
+      );
 
       if (res.status === "error") {
         throw new Error(res.message);
@@ -184,20 +224,31 @@ const PoliciesTypeHome: React.FC<Props> = ({
     try {
       setLoading(true);
 
-      
-      
       const formData = new FormData();
-      formData.append("ids[]", record.id); 
+      formData.append("policy_id", record.id);
+      formData.append("id", record.id); 
+      formData.append("user_id", record.user_id);
       
-      const res = await apiClient.put(
-        API_ENDPOINTS.ADMIN_UPDATE_POLICY,
-        {
-          ids: [record.id],
-          verification_status: status,
-          page: currentPage,
-          limit: pageSize,
-        }
-      );
+  
+      formData.append("ids[]", record.id);
+
+      formData.append("policy_status", status); // "1" or "0"
+      formData.append("is_verified", status); 
+      
+      // formData.append("policy_status", status === "1" ? "Approved" : "Rejected");
+
+      if (record.insurer_name) formData.append("insurer_name", record.insurer_name);
+      
+      if (record.client_name) formData.append("client_name", record.client_name);
+      if (record.insurance_category) formData.append("insurance_category", record.insurance_category);
+      if (record.policy_no) formData.append("policy_no", record.policy_no);
+   
+      if (record.sum_insured) formData.append("sum_insured", record.sum_insured);
+      if (record.gross_premium) formData.append("gross_premium", record.gross_premium);
+      if (record.policy_start_date) formData.append("policy_start_date", record.policy_start_date);
+      if (record.policy_end_date) formData.append("policy_end_date", record.policy_end_date);
+      
+      const res = await apiClient.upload(API_ENDPOINTS.ADMIN_UPDATE_POLICY, formData);
 
       if (res.status === "error") {
         throw new Error(res.message);
@@ -206,6 +257,7 @@ const PoliciesTypeHome: React.FC<Props> = ({
       toast.success(status === "1" ? "Approved" : "Rejected");
       fetchFilteredPolicies(filterStatus, currentPage);
     } catch (err: any) {
+      console.error(err);
       toast.error(err?.message || "Update failed");
     } finally {
       setLoading(false);
@@ -284,14 +336,53 @@ const PoliciesTypeHome: React.FC<Props> = ({
       fixed: "right" as any,
       width: 100,
       render: (_, r) => (
-        <Space>
-          <Button
-            type="link"
-            onClick={() => handleEdit(r)}
-            className="text-xs sm:text-sm p-0"
-          >
-            Edit
-          </Button>
+        <Space size="small">
+          {/* View/Document Button */}
+          <Tooltip title="View Document">
+            <Button
+              type="link"
+              icon={<EyeOutlined />}
+              className="text-blue-500 hover:text-blue-700" // Tailwind color for styling
+              onClick={() => {
+                const fileUrl = r.file_url || r.policy_pdf || r.image_url;
+
+                if (fileUrl && fileUrl !== "null" && fileUrl.trim() !== "") {
+                  // If it's already a full URL (http/https), use it directly
+                  if (fileUrl.startsWith("http")) {
+                    window.open(fileUrl, "_blank");
+                    return;
+                  }
+
+                  let baseUrl = API_CONFIG.BASE_URL;
+
+                  if (baseUrl.endsWith("/")) {
+                    baseUrl = baseUrl.slice(0, -1);
+                  }
+
+                  const cleanPath = fileUrl.startsWith("/")
+                    ? fileUrl.substring(1)
+                    : fileUrl;
+                  const finalUrl = `${baseUrl}/${cleanPath}`;
+
+                  console.log("Opening document:", finalUrl);
+
+                  window.open(finalUrl, "_blank");
+                } else {
+                  toast.error("No document attached");
+                }
+              }}
+            />
+          </Tooltip>
+
+          {/* Edit Button */}
+          <Tooltip title="Edit Policy">
+            <Button
+              type="link"
+              icon={<EditOutlined />}
+              className="text-green-600 hover:text-green-800"
+              onClick={() => handleEdit(r)}
+            />
+          </Tooltip>
         </Space>
       ),
     },
@@ -366,7 +457,7 @@ const PoliciesTypeHome: React.FC<Props> = ({
             maxHeight: "calc(100vh - 100px)",
             overflowY: "auto",
             padding: 0,
-          }
+          },
         }}
         destroyOnClose
       >

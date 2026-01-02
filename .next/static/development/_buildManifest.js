@@ -1,9 +1,21 @@
 self.__BUILD_MANIFEST = {
+  "/": [
+    "./static/chunks/pages/index.js"
+  ],
+  "/_error": [
+    "./static/chunks/pages/_error.js"
+  ],
   "/companies": [
     "./static/chunks/pages/companies.js"
   ],
   "/dashboard": [
     "./static/chunks/pages/dashboard.js"
+  ],
+  "/login": [
+    "./static/chunks/pages/login.js"
+  ],
+  "/manage-dashboard": [
+    "./static/chunks/pages/manage-dashboard.js"
   ],
   "/policies": [
     "./static/chunks/pages/policies.js"
@@ -31,6 +43,7 @@ self.__BUILD_MANIFEST = {
     "/dashboard",
     "/insuranceTypes",
     "/login",
+    "/manage-dashboard",
     "/policies",
     "/upcomingExpiries",
     "/users"
