@@ -178,11 +178,24 @@ const ColorPickerPopover = ({ color, onChange, label })=>{
 };
 // ======================= LIVE PREVIEW CARD =======================
 const CardPreview = ({ values })=>{
+    // Helper to filter NA
+    const getVal = (v)=>{
+        if (!v) return "";
+        const t = v.trim();
+        if (t === "") return "";
+        const upper = t.toUpperCase();
+        return [
+            "NA",
+            "N/A",
+            "NULL",
+            "UNDEFINED"
+        ].includes(upper) ? "" : t;
+    };
     // Default Fallbacks
-    const title = values.title || "Policy Title";
-    const subtitle = values.subtitle || "Policy Subtitle Description";
-    const tag = values.tag || "Tag Text";
-    const badge = values.badge || "Badge";
+    const title = getVal(values.title) || "Policy Title";
+    const subtitle = getVal(values.subtitle);
+    const tag = getVal(values.tag);
+    const badge = getVal(values.badge);
     const image = values.image || "/no-image.png";
     // Color Fallbacks
     const badgeColor = values.badge_color || "#000000";
@@ -198,21 +211,21 @@ const CardPreview = ({ values })=>{
                         size: 16
                     }, void 0, false, {
                         fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                        lineNumber: 87,
+                        lineNumber: 96,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0)),
                     " Live Preview"
                 ]
             }, void 0, true, {
                 fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                lineNumber: 86,
+                lineNumber: 95,
                 columnNumber: 14
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                className: "w-full max-w-[280px] bg-white rounded-xl shadow-sm border border-gray-200 p-4 transition-all duration-200 flex flex-col relative overflow-hidden group hover:shadow-md hover:border-blue-300",
+                className: "w-full max-w-[280px] bg-white rounded-2xl shadow-sm border border-gray-200 p-5 transition-all duration-200 flex flex-col relative overflow-hidden group hover:shadow-lg hover:border-blue-300 h-full",
                 children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                        className: "absolute top-3 right-3 px-2 py-0.5 text-[10px] font-bold rounded shadow-sm z-10",
+                    badge && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                        className: "absolute top-4 right-4 px-2.5 py-1 text-[10px] font-bold rounded-md shadow-sm z-10",
                         style: {
                             backgroundColor: badgeColor,
                             color: "#ffffff"
@@ -220,56 +233,56 @@ const CardPreview = ({ values })=>{
                         children: badge
                     }, void 0, false, {
                         fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                        lineNumber: 93,
-                        columnNumber: 17
+                        lineNumber: 103,
+                        columnNumber: 21
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                        className: "h-32 w-full flex items-center justify-center mb-3 bg-gray-50 rounded-lg overflow-hidden border border-gray-100",
+                        className: "h-36 w-full flex items-center justify-center mb-4 bg-gray-50 rounded-xl overflow-hidden border border-gray-100 shrink-0",
                         children: values.image ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("img", {
                             src: image,
                             className: "h-full object-contain p-2",
                             alt: "preview"
                         }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                            lineNumber: 103,
+                            lineNumber: 114,
                             columnNumber: 25
                         }, ("TURBOPACK compile-time value", void 0)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Image$3e$__["Image"], {
                             className: "text-gray-300",
                             size: 32
                         }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                            lineNumber: 105,
+                            lineNumber: 116,
                             columnNumber: 25
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                        lineNumber: 101,
+                        lineNumber: 112,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                        className: "flex-1 flex flex-col min-h-0",
+                        className: "flex flex-col min-h-0",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
-                                className: "font-bold text-base text-gray-800 leading-tight mb-1 truncate",
+                                className: "font-bold text-lg text-gray-800 leading-tight mb-1 truncate",
                                 title: title,
                                 children: title
                             }, void 0, false, {
                                 fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                lineNumber: 111,
+                                lineNumber: 122,
                                 columnNumber: 21
                             }, ("TURBOPACK compile-time value", void 0)),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                className: "text-xs text-gray-500 line-clamp-2 mb-3 h-8",
+                            subtitle && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                                className: "text-sm text-gray-500 line-clamp-2 mb-1 leading-relaxed",
                                 children: subtitle
                             }, void 0, false, {
                                 fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                lineNumber: 114,
-                                columnNumber: 21
+                                lineNumber: 126,
+                                columnNumber: 25
                             }, ("TURBOPACK compile-time value", void 0)),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                className: "mt-auto flex items-center justify-between",
+                            tag && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                className: "mt-1 flex items-center justify-between",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                    className: "inline-block px-2 py-0.5 text-[10px] font-semibold rounded",
+                                    className: "inline-block px-2.5 py-0.5 text-[11px] font-semibold rounded-md",
                                     style: {
                                         backgroundColor: tagColor,
                                         color: tagTextColor
@@ -277,46 +290,53 @@ const CardPreview = ({ values })=>{
                                     children: tag
                                 }, void 0, false, {
                                     fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                    lineNumber: 119,
-                                    columnNumber: 26
+                                    lineNumber: 133,
+                                    columnNumber: 30
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                lineNumber: 118,
-                                columnNumber: 21
+                                lineNumber: 132,
+                                columnNumber: 25
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                        lineNumber: 110,
+                        lineNumber: 121,
+                        columnNumber: 17
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                        className: "flex-grow min-h-[0.5rem]"
+                    }, void 0, false, {
+                        fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
+                        lineNumber: 144,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$button$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Button$3e$__["Button"], {
                         type: "primary",
-                        className: "mt-3 w-full h-8 text-xs font-medium",
+                        className: "w-full h-9 text-sm font-medium rounded-lg mt-auto",
                         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$pen$2d$line$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Edit3$3e$__["Edit3"], {
-                            size: 14
+                            size: 15
                         }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                            lineNumber: 132,
+                            lineNumber: 150,
                             columnNumber: 27
                         }, void 0),
                         children: "Edit"
                     }, void 0, false, {
                         fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                        lineNumber: 129,
+                        lineNumber: 147,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                lineNumber: 91,
+                lineNumber: 100,
                 columnNumber: 14
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-        lineNumber: 85,
+        lineNumber: 94,
         columnNumber: 9
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -410,7 +430,7 @@ const EditPolicyModal = ({ open, onCancel, item, onSuccess })=>{
                                     children: "Edit Dashboard Card"
                                 }, void 0, false, {
                                     fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                    lineNumber: 239,
+                                    lineNumber: 257,
                                     columnNumber: 17
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -418,13 +438,13 @@ const EditPolicyModal = ({ open, onCancel, item, onSuccess })=>{
                                     children: "Customize the appearance of this card on the main dashboard."
                                 }, void 0, false, {
                                     fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                    lineNumber: 240,
+                                    lineNumber: 258,
                                     columnNumber: 17
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                            lineNumber: 238,
+                            lineNumber: 256,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__["Form"], {
@@ -444,14 +464,14 @@ const EditPolicyModal = ({ open, onCancel, item, onSuccess })=>{
                                                     className: "text-blue-500"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                                    lineNumber: 252,
+                                                    lineNumber: 270,
                                                     columnNumber: 25
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 " Content"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                            lineNumber: 251,
+                                            lineNumber: 269,
                                             columnNumber: 21
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$row$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Row$3e$__["Row"], {
@@ -474,22 +494,22 @@ const EditPolicyModal = ({ open, onCancel, item, onSuccess })=>{
                                                                 className: "text-gray-400"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                                                lineNumber: 258,
+                                                                lineNumber: 276,
                                                                 columnNumber: 61
                                                             }, void 0)
                                                         }, void 0, false, {
                                                             fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                                            lineNumber: 258,
+                                                            lineNumber: 276,
                                                             columnNumber: 33
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                                        lineNumber: 257,
+                                                        lineNumber: 275,
                                                         columnNumber: 29
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 }, void 0, false, {
                                                     fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                                    lineNumber: 256,
+                                                    lineNumber: 274,
                                                     columnNumber: 25
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$col$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Col$3e$__["Col"], {
@@ -504,41 +524,41 @@ const EditPolicyModal = ({ open, onCancel, item, onSuccess })=>{
                                                                 className: "text-gray-400"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                                                lineNumber: 263,
+                                                                lineNumber: 281,
                                                                 columnNumber: 61
                                                             }, void 0)
                                                         }, void 0, false, {
                                                             fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                                            lineNumber: 263,
+                                                            lineNumber: 281,
                                                             columnNumber: 33
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                                        lineNumber: 262,
+                                                        lineNumber: 280,
                                                         columnNumber: 29
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 }, void 0, false, {
                                                     fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                                    lineNumber: 261,
+                                                    lineNumber: 279,
                                                     columnNumber: 25
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                            lineNumber: 255,
+                                            lineNumber: 273,
                                             columnNumber: 21
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                    lineNumber: 250,
+                                    lineNumber: 268,
                                     columnNumber: 17
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$divider$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Divider$3e$__["Divider"], {
                                     className: "my-6 border-gray-100"
                                 }, void 0, false, {
                                     fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                    lineNumber: 269,
+                                    lineNumber: 287,
                                     columnNumber: 17
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -552,14 +572,14 @@ const EditPolicyModal = ({ open, onCancel, item, onSuccess })=>{
                                                     className: "text-purple-500"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                                    lineNumber: 274,
+                                                    lineNumber: 292,
                                                     columnNumber: 25
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 " Visuals"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                            lineNumber: 273,
+                                            lineNumber: 291,
                                             columnNumber: 21
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$row$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Row$3e$__["Row"], {
@@ -574,12 +594,12 @@ const EditPolicyModal = ({ open, onCancel, item, onSuccess })=>{
                                                             className: "mb-1",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {}, void 0, false, {
                                                                 fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                                                lineNumber: 280,
+                                                                lineNumber: 298,
                                                                 columnNumber: 33
                                                             }, ("TURBOPACK compile-time value", void 0))
                                                         }, void 0, false, {
                                                             fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                                            lineNumber: 279,
+                                                            lineNumber: 297,
                                                             columnNumber: 30
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(ColorPickerPopover, {
@@ -594,13 +614,13 @@ const EditPolicyModal = ({ open, onCancel, item, onSuccess })=>{
                                                             }
                                                         }, void 0, false, {
                                                             fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                                            lineNumber: 282,
+                                                            lineNumber: 300,
                                                             columnNumber: 29
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                                    lineNumber: 278,
+                                                    lineNumber: 296,
                                                     columnNumber: 25
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$col$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Col$3e$__["Col"], {
@@ -611,12 +631,12 @@ const EditPolicyModal = ({ open, onCancel, item, onSuccess })=>{
                                                             className: "mb-1",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {}, void 0, false, {
                                                                 fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                                                lineNumber: 293,
+                                                                lineNumber: 311,
                                                                 columnNumber: 33
                                                             }, ("TURBOPACK compile-time value", void 0))
                                                         }, void 0, false, {
                                                             fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                                            lineNumber: 292,
+                                                            lineNumber: 310,
                                                             columnNumber: 29
                                                         }, ("TURBOPACK compile-time value", void 0)),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(ColorPickerPopover, {
@@ -631,19 +651,19 @@ const EditPolicyModal = ({ open, onCancel, item, onSuccess })=>{
                                                             }
                                                         }, void 0, false, {
                                                             fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                                            lineNumber: 295,
+                                                            lineNumber: 313,
                                                             columnNumber: 30
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                                    lineNumber: 291,
+                                                    lineNumber: 309,
                                                     columnNumber: 26
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                            lineNumber: 277,
+                                            lineNumber: 295,
                                             columnNumber: 21
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$row$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Row$3e$__["Row"], {
@@ -656,12 +676,12 @@ const EditPolicyModal = ({ open, onCancel, item, onSuccess })=>{
                                                         className: "mb-1",
                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {}, void 0, false, {
                                                             fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                                            lineNumber: 308,
+                                                            lineNumber: 326,
                                                             columnNumber: 33
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                                        lineNumber: 307,
+                                                        lineNumber: 325,
                                                         columnNumber: 29
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(ColorPickerPopover, {
@@ -676,31 +696,31 @@ const EditPolicyModal = ({ open, onCancel, item, onSuccess })=>{
                                                         }
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                                        lineNumber: 310,
+                                                        lineNumber: 328,
                                                         columnNumber: 30
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                                lineNumber: 306,
+                                                lineNumber: 324,
                                                 columnNumber: 25
                                             }, ("TURBOPACK compile-time value", void 0))
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                            lineNumber: 305,
+                                            lineNumber: 323,
                                             columnNumber: 22
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                    lineNumber: 272,
+                                    lineNumber: 290,
                                     columnNumber: 17
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$divider$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Divider$3e$__["Divider"], {
                                     className: "my-6 border-gray-100"
                                 }, void 0, false, {
                                     fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                    lineNumber: 322,
+                                    lineNumber: 340,
                                     columnNumber: 18
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -713,14 +733,14 @@ const EditPolicyModal = ({ open, onCancel, item, onSuccess })=>{
                                                     className: "text-green-500"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                                    lineNumber: 327,
+                                                    lineNumber: 345,
                                                     columnNumber: 25
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 " Badges & Links"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                            lineNumber: 326,
+                                            lineNumber: 344,
                                             columnNumber: 22
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$row$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Row$3e$__["Row"], {
@@ -737,22 +757,22 @@ const EditPolicyModal = ({ open, onCancel, item, onSuccess })=>{
                                                                 className: "text-gray-400"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                                                lineNumber: 332,
+                                                                lineNumber: 350,
                                                                 columnNumber: 48
                                                             }, void 0)
                                                         }, void 0, false, {
                                                             fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                                            lineNumber: 332,
+                                                            lineNumber: 350,
                                                             columnNumber: 33
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                                        lineNumber: 331,
+                                                        lineNumber: 349,
                                                         columnNumber: 29
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 }, void 0, false, {
                                                     fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                                    lineNumber: 330,
+                                                    lineNumber: 348,
                                                     columnNumber: 25
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$col$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Col$3e$__["Col"], {
@@ -766,22 +786,22 @@ const EditPolicyModal = ({ open, onCancel, item, onSuccess })=>{
                                                                 className: "text-gray-400"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                                                lineNumber: 337,
+                                                                lineNumber: 355,
                                                                 columnNumber: 48
                                                             }, void 0)
                                                         }, void 0, false, {
                                                             fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                                            lineNumber: 337,
+                                                            lineNumber: 355,
                                                             columnNumber: 33
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                                        lineNumber: 336,
+                                                        lineNumber: 354,
                                                         columnNumber: 29
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 }, void 0, false, {
                                                     fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                                    lineNumber: 335,
+                                                    lineNumber: 353,
                                                     columnNumber: 25
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$col$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Col$3e$__["Col"], {
@@ -795,22 +815,22 @@ const EditPolicyModal = ({ open, onCancel, item, onSuccess })=>{
                                                                 className: "text-gray-400"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                                                lineNumber: 342,
+                                                                lineNumber: 360,
                                                                 columnNumber: 48
                                                             }, void 0)
                                                         }, void 0, false, {
                                                             fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                                            lineNumber: 342,
+                                                            lineNumber: 360,
                                                             columnNumber: 33
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                                        lineNumber: 341,
+                                                        lineNumber: 359,
                                                         columnNumber: 29
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 }, void 0, false, {
                                                     fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                                    lineNumber: 340,
+                                                    lineNumber: 358,
                                                     columnNumber: 25
                                                 }, ("TURBOPACK compile-time value", void 0)),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$col$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Col$3e$__["Col"], {
@@ -819,59 +839,61 @@ const EditPolicyModal = ({ open, onCancel, item, onSuccess })=>{
                                                         name: "image",
                                                         label: "Image URL",
                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
+                                                            readOnly: true,
+                                                            className: "cursor-not-allowed text-gray-500 bg-gray-50 hover:bg-gray-50 hover:border-gray-200 focus:border-gray-200 hover:cursor-not-allowed [&_input]:cursor-not-allowed",
                                                             prefix: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Image$3e$__["Image"], {
                                                                 size: 16,
                                                                 className: "text-gray-400"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                                                lineNumber: 347,
-                                                                columnNumber: 48
+                                                                lineNumber: 368,
+                                                                columnNumber: 45
                                                             }, void 0)
                                                         }, void 0, false, {
                                                             fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                                            lineNumber: 347,
+                                                            lineNumber: 365,
                                                             columnNumber: 33
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     }, void 0, false, {
                                                         fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                                        lineNumber: 346,
+                                                        lineNumber: 364,
                                                         columnNumber: 29
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 }, void 0, false, {
                                                     fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                                    lineNumber: 345,
+                                                    lineNumber: 363,
                                                     columnNumber: 25
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                            lineNumber: 329,
+                                            lineNumber: 347,
                                             columnNumber: 21
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                    lineNumber: 325,
+                                    lineNumber: 343,
                                     columnNumber: 17
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                                     className: "h-12"
                                 }, void 0, false, {
                                     fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                    lineNumber: 353,
+                                    lineNumber: 375,
                                     columnNumber: 17
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 " "
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                            lineNumber: 243,
+                            lineNumber: 261,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                    lineNumber: 236,
+                    lineNumber: 254,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -881,7 +903,7 @@ const EditPolicyModal = ({ open, onCancel, item, onSuccess })=>{
                             values: previewData
                         }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                            lineNumber: 359,
+                            lineNumber: 381,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -898,13 +920,13 @@ const EditPolicyModal = ({ open, onCancel, item, onSuccess })=>{
                                         size: 18
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                        lineNumber: 369,
+                                        lineNumber: 391,
                                         columnNumber: 27
                                     }, void 0),
                                     children: "Save Changes"
                                 }, void 0, false, {
                                     fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                    lineNumber: 362,
+                                    lineNumber: 384,
                                     columnNumber: 18
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$button$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Button$3e$__["Button"], {
@@ -915,30 +937,30 @@ const EditPolicyModal = ({ open, onCancel, item, onSuccess })=>{
                                     children: "Cancel"
                                 }, void 0, false, {
                                     fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                                    lineNumber: 373,
+                                    lineNumber: 395,
                                     columnNumber: 17
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                            lineNumber: 361,
+                            lineNumber: 383,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-                    lineNumber: 358,
+                    lineNumber: 380,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-            lineNumber: 234,
+            lineNumber: 252,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/Downloads/One click/src/components/manageDashboard/EditPolicyModal.tsx",
-        lineNumber: 222,
+        lineNumber: 240,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -958,11 +980,9 @@ var __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$run
 var __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__ = __turbopack_context__.i("[externals]/react [external] (react, cjs)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$skeleton$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Skeleton$3e$__ = __turbopack_context__.i("[project]/Downloads/One click/node_modules/antd/es/skeleton/index.js [ssr] (ecmascript) <export default as Skeleton>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$button$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Button$3e$__ = __turbopack_context__.i("[project]/Downloads/One click/node_modules/antd/es/button/index.js [ssr] (ecmascript) <locals> <export default as Button>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__ = __turbopack_context__.i("[project]/Downloads/One click/node_modules/antd/es/input/index.js [ssr] (ecmascript) <export default as Input>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$empty$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Empty$3e$__ = __turbopack_context__.i("[project]/Downloads/One click/node_modules/antd/es/empty/index.js [ssr] (ecmascript) <export default as Empty>");
 var __TURBOPACK__imported__module__$5b$externals$5d2f$axios__$5b$external$5d$__$28$axios$2c$__esm_import$29$__ = __turbopack_context__.i("[externals]/axios [external] (axios, esm_import)");
 var __TURBOPACK__imported__module__$5b$externals$5d2f$react$2d$hot$2d$toast__$5b$external$5d$__$28$react$2d$hot$2d$toast$2c$__esm_import$29$__ = __turbopack_context__.i("[externals]/react-hot-toast [external] (react-hot-toast, esm_import)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$search$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Search$3e$__ = __turbopack_context__.i("[project]/Downloads/One click/node_modules/lucide-react/dist/esm/icons/search.js [ssr] (ecmascript) <export default as Search>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$pen$2d$line$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Edit3$3e$__ = __turbopack_context__.i("[project]/Downloads/One click/node_modules/lucide-react/dist/esm/icons/pen-line.js [ssr] (ecmascript) <export default as Edit3>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Image$3e$__ = __turbopack_context__.i("[project]/Downloads/One click/node_modules/lucide-react/dist/esm/icons/image.js [ssr] (ecmascript) <export default as Image>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$src$2f$api$2f$config$2e$ts__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/One click/src/api/config.ts [ssr] (ecmascript)");
@@ -981,7 +1001,18 @@ var __turbopack_async_dependencies__ = __turbopack_handle_async_dependencies__([
 ;
 ;
 ;
-const showValue = (value)=>value && value.trim() !== "" ? value : "NA";
+const showValue = (value)=>{
+    if (!value) return null;
+    const trimmed = value.trim();
+    if (trimmed === "") return null;
+    const upper = trimmed.toUpperCase();
+    return [
+        "NA",
+        "N/A",
+        "NULL",
+        "UNDEFINED"
+    ].includes(upper) ? null : trimmed;
+};
 const ManageDashboard = ()=>{
     const [data, setData] = (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__["useState"])([]);
     const [filteredData, setFilteredData] = (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__["useState"])([]);
@@ -1034,68 +1065,41 @@ const ManageDashboard = ()=>{
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                 className: "flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h1", {
-                            className: "text-xl font-semibold flex items-center",
-                            children: "Manage Dashboard"
-                        }, void 0, false, {
-                            fileName: "[project]/Downloads/One click/src/pages/manage-dashboard.tsx",
-                            lineNumber: 84,
-                            columnNumber: 11
-                        }, ("TURBOPACK compile-time value", void 0))
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h1", {
+                        className: "text-xl font-semibold flex items-center",
+                        children: "Manage Dashboard"
                     }, void 0, false, {
                         fileName: "[project]/Downloads/One click/src/pages/manage-dashboard.tsx",
-                        lineNumber: 83,
-                        columnNumber: 9
-                    }, ("TURBOPACK compile-time value", void 0)),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                        className: "w-full md:w-80",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$input$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Input$3e$__["Input"], {
-                            placeholder: "Search policies...",
-                            prefix: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$search$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Search$3e$__["Search"], {
-                                className: "text-gray-400",
-                                size: 16
-                            }, void 0, false, {
-                                fileName: "[project]/Downloads/One click/src/pages/manage-dashboard.tsx",
-                                lineNumber: 96,
-                                columnNumber: 21
-                            }, void 0),
-                            allowClear: true,
-                            value: searchText,
-                            onChange: (e)=>setSearchText(e.target.value)
-                        }, void 0, false, {
-                            fileName: "[project]/Downloads/One click/src/pages/manage-dashboard.tsx",
-                            lineNumber: 94,
-                            columnNumber: 11
-                        }, ("TURBOPACK compile-time value", void 0))
-                    }, void 0, false, {
-                        fileName: "[project]/Downloads/One click/src/pages/manage-dashboard.tsx",
-                        lineNumber: 93,
-                        columnNumber: 9
+                        lineNumber: 89,
+                        columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0))
-                ]
-            }, void 0, true, {
+                }, void 0, false, {
+                    fileName: "[project]/Downloads/One click/src/pages/manage-dashboard.tsx",
+                    lineNumber: 88,
+                    columnNumber: 9
+                }, ("TURBOPACK compile-time value", void 0))
+            }, void 0, false, {
                 fileName: "[project]/Downloads/One click/src/pages/manage-dashboard.tsx",
-                lineNumber: 82,
+                lineNumber: 87,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             loading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                className: "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6",
+                className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6",
                 children: [
                     1,
                     2,
                     3,
                     4
                 ].map((i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                        className: "bg-white rounded-xl border border-gray-200 p-4 h-72 flex flex-col gap-4",
+                        className: "bg-white rounded-2xl border border-gray-200 p-5 h-80 flex flex-col gap-4",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$skeleton$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Skeleton$3e$__["Skeleton"].Image, {
                                 active: true,
-                                className: "!w-full !h-32"
+                                className: "!w-full !h-36"
                             }, void 0, false, {
                                 fileName: "[project]/Downloads/One click/src/pages/manage-dashboard.tsx",
-                                lineNumber: 112,
+                                lineNumber: 117,
                                 columnNumber: 15
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$skeleton$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Skeleton$3e$__["Skeleton"], {
@@ -1105,46 +1109,46 @@ const ManageDashboard = ()=>{
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/Downloads/One click/src/pages/manage-dashboard.tsx",
-                                lineNumber: 113,
+                                lineNumber: 118,
                                 columnNumber: 15
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, i, true, {
                         fileName: "[project]/Downloads/One click/src/pages/manage-dashboard.tsx",
-                        lineNumber: 108,
+                        lineNumber: 113,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0)))
             }, void 0, false, {
                 fileName: "[project]/Downloads/One click/src/pages/manage-dashboard.tsx",
-                lineNumber: 106,
+                lineNumber: 111,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0)) : filteredData.length === 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                className: "flex flex-col items-center justify-center py-16 bg-white rounded-xl border border-dashed border-gray-300",
+                className: "flex flex-col items-center justify-center py-16 bg-white rounded-2xl border border-dashed border-gray-300",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$empty$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Empty$3e$__["Empty"], {
                     description: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
                         className: "text-gray-500",
                         children: "No cards found"
                     }, void 0, false, {
                         fileName: "[project]/Downloads/One click/src/pages/manage-dashboard.tsx",
-                        lineNumber: 120,
+                        lineNumber: 125,
                         columnNumber: 26
                     }, void 0)
                 }, void 0, false, {
                     fileName: "[project]/Downloads/One click/src/pages/manage-dashboard.tsx",
-                    lineNumber: 119,
+                    lineNumber: 124,
                     columnNumber: 11
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/Downloads/One click/src/pages/manage-dashboard.tsx",
-                lineNumber: 118,
+                lineNumber: 123,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                 className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6",
                 children: filteredData.map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                        className: "group bg-white rounded-xl p-4 shadow-sm border border-gray-200 hover:shadow-md hover:border-blue-300 transition-all duration-200 flex flex-col relative overflow-hidden",
+                        className: "group bg-white rounded-2xl p-5 shadow-sm border border-gray-200 hover:shadow-lg hover:border-blue-300 transition-all duration-300 flex flex-col relative overflow-hidden h-full",
                         children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                className: "absolute top-3 right-3 px-2 py-0.5 text-[10px] font-bold rounded shadow-sm z-10",
+                            showValue(item.badge) && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                className: "absolute top-4 right-4 px-2.5 py-1 text-[10px] font-bold rounded-md shadow-sm z-10",
                                 style: {
                                     backgroundColor: item.badge_color || "#000000",
                                     color: "#ffffff"
@@ -1152,56 +1156,56 @@ const ManageDashboard = ()=>{
                                 children: showValue(item.badge)
                             }, void 0, false, {
                                 fileName: "[project]/Downloads/One click/src/pages/manage-dashboard.tsx",
-                                lineNumber: 131,
-                                columnNumber: 15
+                                lineNumber: 137,
+                                columnNumber: 17
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                className: "h-32 w-full flex items-center justify-center mb-3 bg-gray-50 rounded-lg overflow-hidden border border-gray-100",
+                                className: "h-36 w-full flex items-center justify-center mb-4 bg-gray-50 rounded-xl overflow-hidden border border-gray-100 shrink-0",
                                 children: item.image ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("img", {
                                     src: item.image,
                                     className: "h-full object-contain p-2",
                                     alt: "card"
                                 }, void 0, false, {
                                     fileName: "[project]/Downloads/One click/src/pages/manage-dashboard.tsx",
-                                    lineNumber: 144,
+                                    lineNumber: 151,
                                     columnNumber: 19
                                 }, ("TURBOPACK compile-time value", void 0)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$image$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Image$3e$__["Image"], {
                                     className: "text-gray-300",
                                     size: 32
                                 }, void 0, false, {
                                     fileName: "[project]/Downloads/One click/src/pages/manage-dashboard.tsx",
-                                    lineNumber: 150,
+                                    lineNumber: 157,
                                     columnNumber: 19
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/Downloads/One click/src/pages/manage-dashboard.tsx",
-                                lineNumber: 142,
+                                lineNumber: 149,
                                 columnNumber: 15
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                className: "flex-1 flex flex-col min-h-0",
+                                className: "flex flex-col min-h-0",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
-                                        className: "font-bold text-base text-gray-800 leading-tight mb-1 truncate",
-                                        title: showValue(item.title),
-                                        children: showValue(item.title)
+                                        className: "font-bold text-lg text-gray-800 leading-tight mb-1 truncate",
+                                        title: showValue(item.title) || "",
+                                        children: showValue(item.title) || "Untitled Policy"
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/One click/src/pages/manage-dashboard.tsx",
-                                        lineNumber: 156,
+                                        lineNumber: 163,
                                         columnNumber: 17
                                     }, ("TURBOPACK compile-time value", void 0)),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                        className: "text-xs text-gray-500 line-clamp-2 mb-3 h-8",
+                                    showValue(item.subtitle) && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                                        className: "text-sm text-gray-500 line-clamp-2 mb-1 leading-relaxed",
                                         children: showValue(item.subtitle)
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/One click/src/pages/manage-dashboard.tsx",
-                                        lineNumber: 162,
-                                        columnNumber: 17
+                                        lineNumber: 170,
+                                        columnNumber: 19
                                     }, ("TURBOPACK compile-time value", void 0)),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                                        className: "mt-auto flex items-center justify-between",
+                                    showValue(item.tag) && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                        className: "mt-1 flex items-center justify-between",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("span", {
-                                            className: "inline-block px-2 py-0.5 text-[10px] font-semibold rounded",
+                                            className: "inline-block px-2.5 py-0.5 text-[11px] font-semibold rounded-md",
                                             style: {
                                                 backgroundColor: item.tag_color || "#f3f4f6",
                                                 color: item.tag_text_color || "#1f2937"
@@ -1209,46 +1213,53 @@ const ManageDashboard = ()=>{
                                             children: showValue(item.tag)
                                         }, void 0, false, {
                                             fileName: "[project]/Downloads/One click/src/pages/manage-dashboard.tsx",
-                                            lineNumber: 167,
-                                            columnNumber: 19
+                                            lineNumber: 177,
+                                            columnNumber: 21
                                         }, ("TURBOPACK compile-time value", void 0))
                                     }, void 0, false, {
                                         fileName: "[project]/Downloads/One click/src/pages/manage-dashboard.tsx",
-                                        lineNumber: 166,
-                                        columnNumber: 17
+                                        lineNumber: 176,
+                                        columnNumber: 19
                                     }, ("TURBOPACK compile-time value", void 0))
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Downloads/One click/src/pages/manage-dashboard.tsx",
-                                lineNumber: 155,
+                                lineNumber: 162,
+                                columnNumber: 15
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                className: "flex-grow min-h-[0.5rem]"
+                            }, void 0, false, {
+                                fileName: "[project]/Downloads/One click/src/pages/manage-dashboard.tsx",
+                                lineNumber: 191,
                                 columnNumber: 15
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$button$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Button$3e$__["Button"], {
                                 type: "primary",
-                                className: "mt-3 w-full h-8 text-xs font-medium",
+                                className: "w-full h-9 text-sm font-medium rounded-lg mt-auto",
                                 icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$pen$2d$line$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Edit3$3e$__["Edit3"], {
-                                    size: 14
+                                    size: 15
                                 }, void 0, false, {
                                     fileName: "[project]/Downloads/One click/src/pages/manage-dashboard.tsx",
-                                    lineNumber: 183,
+                                    lineNumber: 197,
                                     columnNumber: 23
                                 }, void 0),
                                 onClick: ()=>openModal(item),
                                 children: "Edit"
                             }, void 0, false, {
                                 fileName: "[project]/Downloads/One click/src/pages/manage-dashboard.tsx",
-                                lineNumber: 180,
+                                lineNumber: 194,
                                 columnNumber: 15
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, item.id, true, {
                         fileName: "[project]/Downloads/One click/src/pages/manage-dashboard.tsx",
-                        lineNumber: 126,
+                        lineNumber: 131,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0)))
             }, void 0, false, {
                 fileName: "[project]/Downloads/One click/src/pages/manage-dashboard.tsx",
-                lineNumber: 124,
+                lineNumber: 129,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$src$2f$components$2f$manageDashboard$2f$EditPolicyModal$2e$tsx__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1258,13 +1269,13 @@ const ManageDashboard = ()=>{
                 onSuccess: handleUpdateSuccess
             }, void 0, false, {
                 fileName: "[project]/Downloads/One click/src/pages/manage-dashboard.tsx",
-                lineNumber: 194,
+                lineNumber: 208,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/Downloads/One click/src/pages/manage-dashboard.tsx",
-        lineNumber: 80,
+        lineNumber: 85,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };

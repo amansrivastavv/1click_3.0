@@ -25,15 +25,15 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$n
 const { Title, Text } = __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$typography$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"];
 const Cards = ({ icon, title, value, color })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$card$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Card$3e$__["Card"], {
-        className: " w-full  max-w-sm  sm:max-w-md  lg:max-w-lg  xl:max-w-xl  2xl:max-w-2xl shadow-md  rounded-2xl  border-none  bg-white  hover:shadow-lg  transition-all  duration-300 ",
+        className: " w-full shadow-md rounded-2xl border-none bg-white hover:shadow-lg transition-all duration-300 ",
         bodyStyle: {
-            padding: "1.2rem 1.5rem"
+            padding: 0
         },
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-            className: "flex items-center gap-4 sm:gap-6",
+            className: "flex items-center gap-4 p-4 sm:p-5 md:p-6",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                    className: " flex  items-center  justify-center  rounded-full  aspect-square  w-12  sm:w-14  md:w-16 text-white ",
+                    className: " flex items-center justify-center rounded-full w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 text-white shrink-0 ",
                     style: {
                         backgroundColor: color || "#edf1f5"
                     },
@@ -42,19 +42,19 @@ const Cards = ({ icon, title, value, color })=>{
                         children: icon
                     }, void 0, false, {
                         fileName: "[project]/Downloads/One click/src/components/home/cards.tsx",
-                        lineNumber: 50,
+                        lineNumber: 48,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0))
                 }, void 0, false, {
                     fileName: "[project]/Downloads/One click/src/components/home/cards.tsx",
-                    lineNumber: 36,
+                    lineNumber: 31,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                     className: "flex flex-col justify-center",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(Text, {
-                            className: " text-gray-500  text-xs  sm:text-sm  md:text-base  font-medium ",
+                            className: "text-gray-500 text-xs sm:text-sm md:text-base font-medium leading-tight",
                             children: title
                         }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/components/home/cards.tsx",
@@ -63,11 +63,11 @@ const Cards = ({ icon, title, value, color })=>{
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(Title, {
                             level: 4,
-                            className: " !m-0  text-lg  sm:text-xl  md:text-2xl  font-semibold  text-[#1F2143] ",
+                            className: "!m-0 mt-1 text-lg sm:text-xl md:text-2xl font-semibold text-[#1F2143]",
                             children: value
                         }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/components/home/cards.tsx",
-                            lineNumber: 66,
+                            lineNumber: 58,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
@@ -79,7 +79,7 @@ const Cards = ({ icon, title, value, color })=>{
             ]
         }, void 0, true, {
             fileName: "[project]/Downloads/One click/src/components/home/cards.tsx",
-            lineNumber: 34,
+            lineNumber: 29,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {

@@ -8,11 +8,11 @@
   "static/chunks/f2ed1_next_dist_client_2d97a445._.js",
   "static/chunks/f2ed1_next_dist_01d6a2e3._.js",
   "static/chunks/f2ed1_react-dom_654af7c3._.js",
-  "static/chunks/f2ed1_antd_es_66e741c4._.js",
+  "static/chunks/f2ed1_antd_es_ef38df53._.js",
   "static/chunks/f2ed1_@ant-design_cssinjs_es_f4eadecf._.js",
-  "static/chunks/f2ed1_rc-field-form_es_eb8eba07._.js",
   "static/chunks/f2ed1_axios_lib_22aba3f6._.js",
-  "static/chunks/f2ed1_1379c836._.js"
+  "static/chunks/f2ed1_rc-field-form_es_eb8eba07._.js",
+  "static/chunks/f2ed1_d4ef3897._.js"
 ],
     source: "entry"
 });

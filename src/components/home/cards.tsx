@@ -15,64 +15,49 @@ const Cards: React.FC<SummaryCardProps> = ({ icon, title, value, color }) => {
   return (
     <Card
       className="
-        w-full 
-        max-w-sm 
-        sm:max-w-md 
-        lg:max-w-lg 
-        xl:max-w-xl 
-        2xl:max-w-2xl
-        shadow-md 
-        rounded-2xl 
-        border-none 
-        bg-white 
-        hover:shadow-lg 
-        transition-all 
+        w-full
+        shadow-md
+        rounded-2xl
+        border-none
+        bg-white
+        hover:shadow-lg
+        transition-all
         duration-300
       "
-      bodyStyle={{ padding: "1.2rem 1.5rem" }}
+      bodyStyle={{ padding: 0 }}
     >
-      <div className="flex items-center gap-4 sm:gap-6">
-        {/* Icon Circle */}
+      <div className="flex items-center gap-4 p-4 sm:p-5 md:p-6">
+        {/* Icon */}
         <div
           className="
-            flex 
-            items-center 
-            justify-center 
-            rounded-full 
-            aspect-square 
-            w-12 
-            sm:w-14 
+            flex
+            items-center
+            justify-center
+            rounded-full
+            w-12
+            h-12
+            sm:w-14
+            sm:h-14
             md:w-16
+            md:h-16
             text-white
+            shrink-0
           "
           style={{ backgroundColor: color || "#edf1f5" }}
         >
-          <div className="text-xl sm:text-2xl md:text-3xl">{icon}</div>
+          <div className="text-xl sm:text-2xl md:text-3xl">
+            {icon}
+          </div>
         </div>
 
-        {/* Text Content */}
+        {/* Text */}
         <div className="flex flex-col justify-center">
-          <Text
-            className="
-              text-gray-500 
-              text-xs 
-              sm:text-sm 
-              md:text-base 
-              font-medium
-            "
-          >
+          <Text className="text-gray-500 text-xs sm:text-sm md:text-base font-medium leading-tight">
             {title}
           </Text>
           <Title
             level={4}
-            className="
-              !m-0 
-              text-lg 
-              sm:text-xl 
-              md:text-2xl 
-              font-semibold 
-              text-[#1F2143]
-            "
+            className="!m-0 mt-1 text-lg sm:text-xl md:text-2xl font-semibold text-[#1F2143]"
           >
             {value}
           </Title>

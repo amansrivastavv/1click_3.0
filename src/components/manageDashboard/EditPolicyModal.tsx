@@ -69,11 +69,20 @@ const ColorPickerPopover = ({
 // ======================= LIVE PREVIEW CARD =======================
 
 const CardPreview = ({ values }: { values: Partial<InsuranceItem> }) => {
+    // Helper to filter NA
+    const getVal = (v?: string | null) => {
+        if (!v) return "";
+        const t = v.trim();
+        if (t === "") return "";
+        const upper = t.toUpperCase();
+        return ["NA", "N/A", "NULL", "UNDEFINED"].includes(upper) ? "" : t;
+    };
+
     // Default Fallbacks
-    const title = values.title || "Policy Title";
-    const subtitle = values.subtitle || "Policy Subtitle Description";
-    const tag = values.tag || "Tag Text";
-    const badge = values.badge || "Badge";
+    const title = getVal(values.title) || "Policy Title";
+    const subtitle = getVal(values.subtitle);
+    const tag = getVal(values.tag);
+    const badge = getVal(values.badge);
     const image = values.image || "/no-image.png";
     
     // Color Fallbacks
@@ -88,17 +97,19 @@ const CardPreview = ({ values }: { values: Partial<InsuranceItem> }) => {
              </div>
              
              {/* THE CARD (Exact replica of Manage Dashboard) */}
-             <div className="w-full max-w-[280px] bg-white rounded-xl shadow-sm border border-gray-200 p-4 transition-all duration-200 flex flex-col relative overflow-hidden group hover:shadow-md hover:border-blue-300">
+             <div className="w-full max-w-[280px] bg-white rounded-2xl shadow-sm border border-gray-200 p-5 transition-all duration-200 flex flex-col relative overflow-hidden group hover:shadow-lg hover:border-blue-300 h-full">
                 {/* Badge */}
-                <div 
-                    className="absolute top-3 right-3 px-2 py-0.5 text-[10px] font-bold rounded shadow-sm z-10"
-                    style={{ backgroundColor: badgeColor, color: "#ffffff" }}
-                >
-                    {badge}
-                </div>
+                {badge && (
+                    <div 
+                        className="absolute top-4 right-4 px-2.5 py-1 text-[10px] font-bold rounded-md shadow-sm z-10"
+                        style={{ backgroundColor: badgeColor, color: "#ffffff" }}
+                    >
+                        {badge}
+                    </div>
+                )}
 
                 {/* Image */}
-                <div className="h-32 w-full flex items-center justify-center mb-3 bg-gray-50 rounded-lg overflow-hidden border border-gray-100">
+                <div className="h-36 w-full flex items-center justify-center mb-4 bg-gray-50 rounded-xl overflow-hidden border border-gray-100 shrink-0">
                     {values.image ? (
                         <img src={image} className="h-full object-contain p-2" alt="preview" />
                     ) : (
@@ -107,29 +118,36 @@ const CardPreview = ({ values }: { values: Partial<InsuranceItem> }) => {
                 </div>
 
                 {/* Content */}
-                <div className="flex-1 flex flex-col min-h-0">
-                    <h2 className="font-bold text-base text-gray-800 leading-tight mb-1 truncate" title={title}>
+                <div className="flex flex-col min-h-0">
+                    <h2 className="font-bold text-lg text-gray-800 leading-tight mb-1 truncate" title={title}>
                         {title}
                     </h2>
-                    <p className="text-xs text-gray-500 line-clamp-2 mb-3 h-8">
-                        {subtitle}
-                    </p>
+                    {subtitle && (
+                        <p className="text-sm text-gray-500 line-clamp-2 mb-1 leading-relaxed">
+                            {subtitle}
+                        </p>
+                    )}
 
-                    <div className="mt-auto flex items-center justify-between">
-                         <span
-                            className="inline-block px-2 py-0.5 text-[10px] font-semibold rounded"
-                            style={{ backgroundColor: tagColor, color: tagTextColor }}
-                        >
-                            {tag}
-                        </span>
-                    </div>
+                    {tag && (
+                        <div className="mt-1 flex items-center justify-between">
+                             <span
+                                className="inline-block px-2.5 py-0.5 text-[11px] font-semibold rounded-md"
+                                style={{ backgroundColor: tagColor, color: tagTextColor }}
+                            >
+                                {tag}
+                            </span>
+                        </div>
+                    )}
                 </div>
+
+                {/* Spacer to push button to bottom */}
+                <div className="flex-grow min-h-[0.5rem]" />
 
                 {/* Button Mock */}
                 <Button
                     type="primary"
-                    className="mt-3 w-full h-8 text-xs font-medium"
-                    icon={<Edit3 size={14} />}
+                    className="w-full h-9 text-sm font-medium rounded-lg mt-auto"
+                    icon={<Edit3 size={15} />}
                 >
                     Edit
                 </Button>
@@ -344,7 +362,11 @@ const EditPolicyModal = ({
                         </Col>
                         <Col span={24}>
                             <Form.Item name="image" label="Image URL">
-                                <Input prefix={<ImageIcon size={16} className="text-gray-400" />} />
+                                <Input 
+                                    readOnly 
+                                    className="cursor-not-allowed text-gray-500 bg-gray-50 hover:bg-gray-50 hover:border-gray-200 focus:border-gray-200 hover:cursor-not-allowed [&_input]:cursor-not-allowed"
+                                    prefix={<ImageIcon size={16} className="text-gray-400" />} 
+                                />
                             </Form.Item>
                         </Col>
                     </Row>
