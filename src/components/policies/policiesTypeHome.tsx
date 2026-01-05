@@ -2,8 +2,8 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { Table, Space, Tag, Button, Modal, Form, Tooltip } from "antd";
-import { EditOutlined, EyeOutlined } from "@ant-design/icons";
+import { Table, Space, Tag, Button, Modal, Form, Tooltip, Dropdown } from "antd";
+import { EditOutlined, EyeOutlined, MoreOutlined } from "@ant-design/icons";
 import type { ColumnsType } from "antd/es/table";
 import axios from "axios";
 import toast from "react-hot-toast";
@@ -280,11 +280,13 @@ const PoliciesTypeHome: React.FC<Props> = ({
     {
       title: "Client",
       dataIndex: "client_name",
+      ellipsis: true,
       responsive: ["md"] as any,
     },
     {
       title: "Policy No",
       dataIndex: "policy_no",
+      ellipsis: true,
       render: (text) => <span className="text-xs sm:text-sm">{text}</span>,
     },
     {
@@ -309,6 +311,7 @@ const PoliciesTypeHome: React.FC<Props> = ({
     {
       title: "Category",
       dataIndex: "insurance_category",
+      ellipsis: true,
       responsive: ["lg"] as any,
       render: (text) => <span className="text-xs sm:text-sm">{text}</span>,
     },
@@ -344,64 +347,65 @@ const PoliciesTypeHome: React.FC<Props> = ({
 
     },
     {
-      title: "Actions",
+      title: "Action",
       fixed: "right" as any,
-      width: 100,
-      render: (_, r) => (
-        <Space size="small">
-          {/* View/Document Button */}
-          <Tooltip title="View Document">
-            <Button
-              type="link"
-              icon={<EyeOutlined />}
-              className="text-blue-500 hover:text-blue-700" // Tailwind color for styling
-              onClick={() => {
-                const fileUrl = r.file_url || r.policy_pdf || r.image_url;
+      width: 80,
+      render: (_, r) => {
+        const items = [
+            {
+                key: 'view',
+                label: 'View Document',
+                icon: <EyeOutlined />,
+                onClick: () => {
+                    const fileUrl = r.file_url || r.policy_pdf || r.image_url;
 
-                if (fileUrl && fileUrl !== "null" && fileUrl.trim() !== "") {
-                  // If it's already a full URL (http/https), use it directly
-                  if (fileUrl.startsWith("http")) {
-                    window.open(fileUrl, "_blank");
-                    return;
-                  }
+                    if (fileUrl && fileUrl !== "null" && fileUrl.trim() !== "") {
+                        if (fileUrl.startsWith("http")) {
+                            window.open(fileUrl, "_blank");
+                            return;
+                        }
 
-                  let baseUrl = API_CONFIG.BASE_URL;
+                        let baseUrl = API_CONFIG.BASE_URL;
+                        if (baseUrl.endsWith("/")) {
+                            baseUrl = baseUrl.slice(0, -1);
+                        }
 
-                  if (baseUrl.endsWith("/")) {
-                    baseUrl = baseUrl.slice(0, -1);
-                  }
+                        const cleanPath = fileUrl.startsWith("/")
+                            ? fileUrl.substring(1)
+                            : fileUrl;
+                        const finalUrl = `${baseUrl}/${cleanPath}`;
 
-                  const cleanPath = fileUrl.startsWith("/")
-                    ? fileUrl.substring(1)
-                    : fileUrl;
-                  const finalUrl = `${baseUrl}/${cleanPath}`;
-
-                  console.log("Opening document:", finalUrl);
-
-                  window.open(finalUrl, "_blank");
-                } else {
-                  toast.error("No document attached");
+                        console.log("Opening document:", finalUrl);
+                        window.open(finalUrl, "_blank");
+                    } else {
+                        toast.error("No document attached");
+                    }
                 }
-              }}
-            />
-          </Tooltip>
+            },
+            {
+                key: 'edit',
+                label: 'Edit Policy',
+                icon: <EditOutlined />,
+                onClick: () => handleEdit(r)
+            }
+        ];
 
-          {/* Edit Button */}
-          <Tooltip title="Edit Policy">
-            <Button
-              type="link"
-              icon={<EditOutlined />}
-              className="text-green-600 hover:text-green-800"
-              onClick={() => handleEdit(r)}
-            />
-          </Tooltip>
-        </Space>
-      ),
+        return (
+            <Dropdown menu={{ items }} trigger={['click']} placement="bottomRight">
+                <Button 
+                    type="text" 
+                    className="flex items-center justify-center text-gray-500 hover:text-gray-700 hover:bg-gray-100 rounded-full w-8 h-8"
+                >
+                    <MoreOutlined style={{ fontSize: '18px' }} />
+                </Button>
+            </Dropdown>
+        );
+      },
     },
     {
       title: "Verify",
       fixed: "right" as any,
-      width: 140,
+      width: 100,
       render: (_, r) => (
         <Space direction="vertical" size="small" className="w-full">
           {r.is_verified !== "1" && (
@@ -439,7 +443,7 @@ const PoliciesTypeHome: React.FC<Props> = ({
           loading={loading}
           columns={columns}
           dataSource={policies}
-          scroll={{ x: "max-content" }}
+          // scroll={{ x: "max-content" }}
           pagination={{
             current: currentPage,
             pageSize,

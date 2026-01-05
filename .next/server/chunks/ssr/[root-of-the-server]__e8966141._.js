@@ -1058,9 +1058,9 @@ const Layout = ({ children })=>{
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("main", {
-                        className: "flex-1 overflow-auto p-2 md:p-4 lg:p-4 bg-[#edf1f5] rounded mr-2",
+                        className: "flex-1 overflow-auto p-8 bg-[#edf1f5]",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                            className: "max-w-7xl mx-auto rounded-2xl",
+                            className: "w-full mx-auto rounded-2xl",
                             children: children
                         }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/components/layout.tsx",

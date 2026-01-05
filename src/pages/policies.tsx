@@ -77,13 +77,7 @@ const Policies: React.FC = () => {
           {
             title: "Total Policies",
             value: total_records,
-            icon: (
-              <ReloadOutlined
-                style={{
-                  color: "#ffff",
-                }}
-              />
-            ),
+            icon: <ReloadOutlined />,
             color: "#00de81",
           },
           {
@@ -109,7 +103,7 @@ const Policies: React.FC = () => {
   }, []);
 
   return (
-    <div className="container mx-auto px-4 py-6 max-w-7xl">
+    <div>
       <Row gutter={[16, 16]} justify="center">
         {loading
           ? Array.from({ length: 4 }).map((_, index) => (

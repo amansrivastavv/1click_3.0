@@ -1154,20 +1154,13 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$s
 ;
 ;
 const UpcomingExpiries = ()=>{
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
-        style: {
-            padding: "2rem"
-        },
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$src$2f$components$2f$home$2f$insuranceTypeHome$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
             fileName: "[project]/Downloads/One click/src/pages/upcomingExpiries.tsx",
             lineNumber: 7,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0))
-    }, void 0, false, {
-        fileName: "[project]/Downloads/One click/src/pages/upcomingExpiries.tsx",
-        lineNumber: 6,
-        columnNumber: 5
-    }, ("TURBOPACK compile-time value", void 0));
+    }, void 0, false);
 };
 _c = UpcomingExpiries;
 const __TURBOPACK__default__export__ = UpcomingExpiries;

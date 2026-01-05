@@ -1676,75 +1676,90 @@ __turbopack_context__.s([
     ()=>__TURBOPACK__default__export__
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/One click/node_modules/react/jsx-dev-runtime.js [client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$card$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Card$3e$__ = __turbopack_context__.i("[project]/Downloads/One click/node_modules/antd/es/card/index.js [client] (ecmascript) <export default as Card>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$typography$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__ = __turbopack_context__.i("[project]/Downloads/One click/node_modules/antd/es/typography/index.js [client] (ecmascript) <export default as Typography>");
 "use client";
 ;
-;
-const { Title, Text } = __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$typography$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"];
 const Cards = (param)=>{
     let { icon, title, value, color } = param;
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$card$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Card$3e$__["Card"], {
-        className: " w-full shadow-md rounded-2xl border-none bg-white hover:shadow-lg transition-all duration-300 ",
-        bodyStyle: {
-            padding: 0
-        },
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "flex items-center gap-4 p-4 sm:p-5 md:p-6",
-            children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: " flex items-center justify-center rounded-full w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 text-white shrink-0 ",
-                    style: {
-                        backgroundColor: color || "#edf1f5"
-                    },
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "text-xl sm:text-2xl md:text-3xl",
-                        children: icon
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: " group relative bg-white rounded-2xl p-6 shadow-sm border border-gray-100 hover:shadow-xl hover:border-transparent transition-all duration-300 transform hover:-translate-y-1 overflow-hidden ",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute top-0 right-0 -mr-8 -mt-8 w-32 h-32 rounded-full opacity-[0.08] transition-all duration-500 group-hover:scale-150",
+                style: {
+                    backgroundColor: color || "#3b82f6"
+                }
+            }, void 0, false, {
+                fileName: "[project]/Downloads/One click/src/components/home/cards.tsx",
+                lineNumber: 33,
+                columnNumber: 7
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "flex items-center justify-between relative z-10",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "flex flex-col",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "text-gray-500 text-xs font-bold uppercase tracking-wider mb-2",
+                                children: title
+                            }, void 0, false, {
+                                fileName: "[project]/Downloads/One click/src/components/home/cards.tsx",
+                                lineNumber: 40,
+                                columnNumber: 11
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                className: "text-3xl font-bold text-gray-800 tracking-tight",
+                                children: value
+                            }, void 0, false, {
+                                fileName: "[project]/Downloads/One click/src/components/home/cards.tsx",
+                                lineNumber: 43,
+                                columnNumber: 11
+                            }, ("TURBOPACK compile-time value", void 0))
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/Downloads/One click/src/components/home/cards.tsx",
+                        lineNumber: 39,
+                        columnNumber: 9
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: " flex items-center justify-center rounded-xl w-14 h-14 shadow-inner transition-transform duration-300 group-hover:scale-110 group-hover:rotate-3 ",
+                        style: {
+                            backgroundColor: color ? "".concat(color, "15") : "#f3f4f6",
+                            color: color || "#6b7280"
+                        },
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "text-2xl",
+                            children: icon
+                        }, void 0, false, {
+                            fileName: "[project]/Downloads/One click/src/components/home/cards.tsx",
+                            lineNumber: 67,
+                            columnNumber: 11
+                        }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/Downloads/One click/src/components/home/cards.tsx",
                         lineNumber: 48,
-                        columnNumber: 11
+                        columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
-                }, void 0, false, {
-                    fileName: "[project]/Downloads/One click/src/components/home/cards.tsx",
-                    lineNumber: 31,
-                    columnNumber: 9
-                }, ("TURBOPACK compile-time value", void 0)),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex flex-col justify-center",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Text, {
-                            className: "text-gray-500 text-xs sm:text-sm md:text-base font-medium leading-tight",
-                            children: title
-                        }, void 0, false, {
-                            fileName: "[project]/Downloads/One click/src/components/home/cards.tsx",
-                            lineNumber: 55,
-                            columnNumber: 11
-                        }, ("TURBOPACK compile-time value", void 0)),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Title, {
-                            level: 4,
-                            className: "!m-0 mt-1 text-lg sm:text-xl md:text-2xl font-semibold text-[#1F2143]",
-                            children: value
-                        }, void 0, false, {
-                            fileName: "[project]/Downloads/One click/src/components/home/cards.tsx",
-                            lineNumber: 58,
-                            columnNumber: 11
-                        }, ("TURBOPACK compile-time value", void 0))
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/Downloads/One click/src/components/home/cards.tsx",
-                    lineNumber: 54,
-                    columnNumber: 9
-                }, ("TURBOPACK compile-time value", void 0))
-            ]
-        }, void 0, true, {
-            fileName: "[project]/Downloads/One click/src/components/home/cards.tsx",
-            lineNumber: 29,
-            columnNumber: 7
-        }, ("TURBOPACK compile-time value", void 0))
-    }, void 0, false, {
+                ]
+            }, void 0, true, {
+                fileName: "[project]/Downloads/One click/src/components/home/cards.tsx",
+                lineNumber: 38,
+                columnNumber: 7
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute bottom-0 left-0 h-1 w-0 group-hover:w-full transition-all duration-500 ease-out",
+                style: {
+                    backgroundColor: color || "#3b82f6"
+                }
+            }, void 0, false, {
+                fileName: "[project]/Downloads/One click/src/components/home/cards.tsx",
+                lineNumber: 72,
+                columnNumber: 7
+            }, ("TURBOPACK compile-time value", void 0))
+        ]
+    }, void 0, true, {
         fileName: "[project]/Downloads/One click/src/components/home/cards.tsx",
-        lineNumber: 16,
+        lineNumber: 13,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -1809,8 +1824,7 @@ const PoliciesComponents = ()=>{
                         value: pending_count,
                         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$UserOutlined$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__UserOutlined$3e$__["UserOutlined"], {
                             style: {
-                                fontSize: 24,
-                                color: "#fff"
+                                fontSize: 24
                             }
                         }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/components/policies/PoliciesComponents.tsx",
@@ -1824,13 +1838,12 @@ const PoliciesComponents = ()=>{
                         value: approved_count,
                         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$CheckCircleOutlined$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CheckCircleOutlined$3e$__["CheckCircleOutlined"], {
                             style: {
-                                fontSize: 24,
-                                color: "#fff"
+                                fontSize: 24
                             }
                         }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/components/policies/PoliciesComponents.tsx",
-                            lineNumber: 77,
-                            columnNumber: 15
+                            lineNumber: 76,
+                            columnNumber: 19
                         }, ("TURBOPACK compile-time value", void 0)),
                         color: "#00de81"
                     },
@@ -1839,13 +1852,12 @@ const PoliciesComponents = ()=>{
                         value: rejected_count,
                         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$CloseCircleOutlined$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CloseCircleOutlined$3e$__["CloseCircleOutlined"], {
                             style: {
-                                fontSize: 24,
-                                color: "#fff"
+                                fontSize: 24
                             }
                         }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/components/policies/PoliciesComponents.tsx",
-                            lineNumber: 85,
-                            columnNumber: 15
+                            lineNumber: 82,
+                            columnNumber: 19
                         }, ("TURBOPACK compile-time value", void 0)),
                         color: "#ff4d4f"
                     },
@@ -1854,13 +1866,12 @@ const PoliciesComponents = ()=>{
                         value: total_records,
                         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$ReloadOutlined$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ReloadOutlined$3e$__["ReloadOutlined"], {
                             style: {
-                                fontSize: 24,
-                                color: "#fff"
+                                fontSize: 24
                             }
                         }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/components/policies/PoliciesComponents.tsx",
-                            lineNumber: 93,
-                            columnNumber: 15
+                            lineNumber: 88,
+                            columnNumber: 19
                         }, ("TURBOPACK compile-time value", void 0)),
                         color: "#00de81"
                     }
@@ -1882,7 +1893,7 @@ const PoliciesComponents = ()=>{
         }
     }["PoliciesComponents.useEffect"], []);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "space-y-8 bg-[#edf1f5] p-6",
+        className: "space-y-8",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$row$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Row$3e$__["Row"], {
             gutter: [
                 16,
@@ -1901,12 +1912,12 @@ const PoliciesComponents = ()=>{
                         }
                     }, void 0, false, {
                         fileName: "[project]/Downloads/One click/src/components/policies/PoliciesComponents.tsx",
-                        lineNumber: 121,
+                        lineNumber: 115,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0))
                 }, index, false, {
                     fileName: "[project]/Downloads/One click/src/components/policies/PoliciesComponents.tsx",
-                    lineNumber: 120,
+                    lineNumber: 114,
                     columnNumber: 15
                 }, ("TURBOPACK compile-time value", void 0))) : stats.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$col$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Col$3e$__["Col"], {
                     xs: 24,
@@ -1920,22 +1931,22 @@ const PoliciesComponents = ()=>{
                         color: item.color
                     }, void 0, false, {
                         fileName: "[project]/Downloads/One click/src/components/policies/PoliciesComponents.tsx",
-                        lineNumber: 126,
+                        lineNumber: 120,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0))
                 }, index, false, {
                     fileName: "[project]/Downloads/One click/src/components/policies/PoliciesComponents.tsx",
-                    lineNumber: 125,
+                    lineNumber: 119,
                     columnNumber: 15
                 }, ("TURBOPACK compile-time value", void 0)))
         }, void 0, false, {
             fileName: "[project]/Downloads/One click/src/components/policies/PoliciesComponents.tsx",
-            lineNumber: 117,
+            lineNumber: 111,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/Downloads/One click/src/components/policies/PoliciesComponents.tsx",
-        lineNumber: 116,
+        lineNumber: 110,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -2820,60 +2831,40 @@ const Dashboard = ()=>{
                                 {
                                     title: "Pending Policies",
                                     value: d.total_users,
-                                    icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$UserOutlined$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__UserOutlined$3e$__["UserOutlined"], {
-                                        style: {
-                                            fontSize: "24px",
-                                            color: "#fff"
-                                        }
-                                    }, void 0, false, {
+                                    icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$UserOutlined$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__UserOutlined$3e$__["UserOutlined"], {}, void 0, false, {
                                         fileName: "[project]/Downloads/One click/src/pages/dashboard/index.tsx",
-                                        lineNumber: 84,
-                                        columnNumber: 17
+                                        lineNumber: 83,
+                                        columnNumber: 21
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     color: "#1f2add"
                                 },
                                 {
                                     title: "Total Insurances",
                                     value: d.total_insurances,
-                                    icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$FileProtectOutlined$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__FileProtectOutlined$3e$__["FileProtectOutlined"], {
-                                        style: {
-                                            fontSize: "24px",
-                                            color: "#fff"
-                                        }
-                                    }, void 0, false, {
+                                    icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$FileProtectOutlined$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__FileProtectOutlined$3e$__["FileProtectOutlined"], {}, void 0, false, {
                                         fileName: "[project]/Downloads/One click/src/pages/dashboard/index.tsx",
-                                        lineNumber: 92,
-                                        columnNumber: 17
+                                        lineNumber: 89,
+                                        columnNumber: 21
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     color: "#00de81"
                                 },
                                 {
                                     title: "Expiring Soon",
                                     value: d.expiring_insurances,
-                                    icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$ReloadOutlined$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ReloadOutlined$3e$__["ReloadOutlined"], {
-                                        style: {
-                                            fontSize: "24px",
-                                            color: "#fff"
-                                        }
-                                    }, void 0, false, {
+                                    icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$ReloadOutlined$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ReloadOutlined$3e$__["ReloadOutlined"], {}, void 0, false, {
                                         fileName: "[project]/Downloads/One click/src/pages/dashboard/index.tsx",
-                                        lineNumber: 102,
-                                        columnNumber: 17
+                                        lineNumber: 95,
+                                        columnNumber: 21
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     color: "#faad14"
                                 },
                                 {
                                     title: "Renewal Soon",
                                     value: 14,
-                                    icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$CalendarOutlined$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CalendarOutlined$3e$__["CalendarOutlined"], {
-                                        style: {
-                                            fontSize: "24px",
-                                            color: "#fff"
-                                        }
-                                    }, void 0, false, {
+                                    icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$CalendarOutlined$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CalendarOutlined$3e$__["CalendarOutlined"], {}, void 0, false, {
                                         fileName: "[project]/Downloads/One click/src/pages/dashboard/index.tsx",
-                                        lineNumber: 110,
-                                        columnNumber: 17
+                                        lineNumber: 101,
+                                        columnNumber: 21
                                     }, ("TURBOPACK compile-time value", void 0)),
                                     color: "#ff4d4f"
                                 }
@@ -2893,11 +2884,11 @@ const Dashboard = ()=>{
     ]);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "p-4 lg:p-8 space-y-8",
+            className: "space-y-8",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$src$2f$components$2f$policies$2f$PoliciesComponents$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/Downloads/One click/src/pages/dashboard/index.tsx",
-                    lineNumber: 129,
+                    lineNumber: 119,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2907,12 +2898,12 @@ const Dashboard = ()=>{
                             className: "bg-white shadow-md rounded-lg p-6 px-4 min-h-[400px]",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$src$2f$components$2f$home$2f$DrillDownBarChart$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                 fileName: "[project]/Downloads/One click/src/pages/dashboard/index.tsx",
-                                lineNumber: 141,
+                                lineNumber: 131,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/pages/dashboard/index.tsx",
-                            lineNumber: 140,
+                            lineNumber: 130,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2923,7 +2914,7 @@ const Dashboard = ()=>{
                                     children: "Notifications by Channel"
                                 }, void 0, false, {
                                     fileName: "[project]/Downloads/One click/src/pages/dashboard/index.tsx",
-                                    lineNumber: 147,
+                                    lineNumber: 137,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 loading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$skeleton$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Skeleton$3e$__["Skeleton"], {
@@ -2933,20 +2924,20 @@ const Dashboard = ()=>{
                                     }
                                 }, void 0, false, {
                                     fileName: "[project]/Downloads/One click/src/pages/dashboard/index.tsx",
-                                    lineNumber: 151,
+                                    lineNumber: 141,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$src$2f$components$2f$home$2f$pieChart$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                                     data: sampleData2,
                                     height: 350
                                 }, void 0, false, {
                                     fileName: "[project]/Downloads/One click/src/pages/dashboard/index.tsx",
-                                    lineNumber: 153,
+                                    lineNumber: 143,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Downloads/One click/src/pages/dashboard/index.tsx",
-                            lineNumber: 146,
+                            lineNumber: 136,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2957,22 +2948,22 @@ const Dashboard = ()=>{
                                     children: "Excel Data"
                                 }, void 0, false, {
                                     fileName: "[project]/Downloads/One click/src/pages/dashboard/index.tsx",
-                                    lineNumber: 160,
+                                    lineNumber: 150,
                                     columnNumber: 13
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 loading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$src$2f$components$2f$home$2f$data$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                     fileName: "[project]/Downloads/One click/src/pages/dashboard/index.tsx",
-                                    lineNumber: 161,
+                                    lineNumber: 151,
                                     columnNumber: 24
                                 }, ("TURBOPACK compile-time value", void 0)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$src$2f$components$2f$home$2f$data$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                     fileName: "[project]/Downloads/One click/src/pages/dashboard/index.tsx",
-                                    lineNumber: 161,
+                                    lineNumber: 151,
                                     columnNumber: 43
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Downloads/One click/src/pages/dashboard/index.tsx",
-                            lineNumber: 159,
+                            lineNumber: 149,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2984,22 +2975,22 @@ const Dashboard = ()=>{
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/Downloads/One click/src/pages/dashboard/index.tsx",
-                                lineNumber: 167,
+                                lineNumber: 157,
                                 columnNumber: 15
                             }, ("TURBOPACK compile-time value", void 0)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$src$2f$components$2f$home$2f$insuranceTypeHome$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                 fileName: "[project]/Downloads/One click/src/pages/dashboard/index.tsx",
-                                lineNumber: 169,
+                                lineNumber: 159,
                                 columnNumber: 15
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/pages/dashboard/index.tsx",
-                            lineNumber: 165,
+                            lineNumber: 155,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Downloads/One click/src/pages/dashboard/index.tsx",
-                    lineNumber: 131,
+                    lineNumber: 121,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3010,24 +3001,24 @@ const Dashboard = ()=>{
                         }
                     }, void 0, false, {
                         fileName: "[project]/Downloads/One click/src/pages/dashboard/index.tsx",
-                        lineNumber: 177,
+                        lineNumber: 167,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$src$2f$components$2f$home$2f$renewalList$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                         data: renewals
                     }, void 0, false, {
                         fileName: "[project]/Downloads/One click/src/pages/dashboard/index.tsx",
-                        lineNumber: 179,
+                        lineNumber: 169,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0))
                 }, void 0, false, {
                     fileName: "[project]/Downloads/One click/src/pages/dashboard/index.tsx",
-                    lineNumber: 175,
+                    lineNumber: 165,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/Downloads/One click/src/pages/dashboard/index.tsx",
-            lineNumber: 128,
+            lineNumber: 118,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false);

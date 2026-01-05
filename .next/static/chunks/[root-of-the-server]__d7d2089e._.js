@@ -479,75 +479,90 @@ __turbopack_context__.s([
     ()=>__TURBOPACK__default__export__
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/One click/node_modules/react/jsx-dev-runtime.js [client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$card$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Card$3e$__ = __turbopack_context__.i("[project]/Downloads/One click/node_modules/antd/es/card/index.js [client] (ecmascript) <export default as Card>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$typography$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__ = __turbopack_context__.i("[project]/Downloads/One click/node_modules/antd/es/typography/index.js [client] (ecmascript) <export default as Typography>");
 "use client";
 ;
-;
-const { Title, Text } = __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$typography$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"];
 const Cards = (param)=>{
     let { icon, title, value, color } = param;
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$card$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Card$3e$__["Card"], {
-        className: " w-full shadow-md rounded-2xl border-none bg-white hover:shadow-lg transition-all duration-300 ",
-        bodyStyle: {
-            padding: 0
-        },
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "flex items-center gap-4 p-4 sm:p-5 md:p-6",
-            children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: " flex items-center justify-center rounded-full w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 text-white shrink-0 ",
-                    style: {
-                        backgroundColor: color || "#edf1f5"
-                    },
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "text-xl sm:text-2xl md:text-3xl",
-                        children: icon
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: " group relative bg-white rounded-2xl p-6 shadow-sm border border-gray-100 hover:shadow-xl hover:border-transparent transition-all duration-300 transform hover:-translate-y-1 overflow-hidden ",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute top-0 right-0 -mr-8 -mt-8 w-32 h-32 rounded-full opacity-[0.08] transition-all duration-500 group-hover:scale-150",
+                style: {
+                    backgroundColor: color || "#3b82f6"
+                }
+            }, void 0, false, {
+                fileName: "[project]/Downloads/One click/src/components/home/cards.tsx",
+                lineNumber: 33,
+                columnNumber: 7
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "flex items-center justify-between relative z-10",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "flex flex-col",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "text-gray-500 text-xs font-bold uppercase tracking-wider mb-2",
+                                children: title
+                            }, void 0, false, {
+                                fileName: "[project]/Downloads/One click/src/components/home/cards.tsx",
+                                lineNumber: 40,
+                                columnNumber: 11
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                className: "text-3xl font-bold text-gray-800 tracking-tight",
+                                children: value
+                            }, void 0, false, {
+                                fileName: "[project]/Downloads/One click/src/components/home/cards.tsx",
+                                lineNumber: 43,
+                                columnNumber: 11
+                            }, ("TURBOPACK compile-time value", void 0))
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/Downloads/One click/src/components/home/cards.tsx",
+                        lineNumber: 39,
+                        columnNumber: 9
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: " flex items-center justify-center rounded-xl w-14 h-14 shadow-inner transition-transform duration-300 group-hover:scale-110 group-hover:rotate-3 ",
+                        style: {
+                            backgroundColor: color ? "".concat(color, "15") : "#f3f4f6",
+                            color: color || "#6b7280"
+                        },
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "text-2xl",
+                            children: icon
+                        }, void 0, false, {
+                            fileName: "[project]/Downloads/One click/src/components/home/cards.tsx",
+                            lineNumber: 67,
+                            columnNumber: 11
+                        }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/Downloads/One click/src/components/home/cards.tsx",
                         lineNumber: 48,
-                        columnNumber: 11
+                        columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
-                }, void 0, false, {
-                    fileName: "[project]/Downloads/One click/src/components/home/cards.tsx",
-                    lineNumber: 31,
-                    columnNumber: 9
-                }, ("TURBOPACK compile-time value", void 0)),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex flex-col justify-center",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Text, {
-                            className: "text-gray-500 text-xs sm:text-sm md:text-base font-medium leading-tight",
-                            children: title
-                        }, void 0, false, {
-                            fileName: "[project]/Downloads/One click/src/components/home/cards.tsx",
-                            lineNumber: 55,
-                            columnNumber: 11
-                        }, ("TURBOPACK compile-time value", void 0)),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Title, {
-                            level: 4,
-                            className: "!m-0 mt-1 text-lg sm:text-xl md:text-2xl font-semibold text-[#1F2143]",
-                            children: value
-                        }, void 0, false, {
-                            fileName: "[project]/Downloads/One click/src/components/home/cards.tsx",
-                            lineNumber: 58,
-                            columnNumber: 11
-                        }, ("TURBOPACK compile-time value", void 0))
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/Downloads/One click/src/components/home/cards.tsx",
-                    lineNumber: 54,
-                    columnNumber: 9
-                }, ("TURBOPACK compile-time value", void 0))
-            ]
-        }, void 0, true, {
-            fileName: "[project]/Downloads/One click/src/components/home/cards.tsx",
-            lineNumber: 29,
-            columnNumber: 7
-        }, ("TURBOPACK compile-time value", void 0))
-    }, void 0, false, {
+                ]
+            }, void 0, true, {
+                fileName: "[project]/Downloads/One click/src/components/home/cards.tsx",
+                lineNumber: 38,
+                columnNumber: 7
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute bottom-0 left-0 h-1 w-0 group-hover:w-full transition-all duration-500 ease-out",
+                style: {
+                    backgroundColor: color || "#3b82f6"
+                }
+            }, void 0, false, {
+                fileName: "[project]/Downloads/One click/src/components/home/cards.tsx",
+                lineNumber: 72,
+                columnNumber: 7
+            }, ("TURBOPACK compile-time value", void 0))
+        ]
+    }, void 0, true, {
         fileName: "[project]/Downloads/One click/src/components/home/cards.tsx",
-        lineNumber: 16,
+        lineNumber: 13,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -6776,9 +6791,10 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$n
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$button$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Button$3e$__ = __turbopack_context__.i("[project]/Downloads/One click/node_modules/antd/es/button/index.js [client] (ecmascript) <locals> <export default as Button>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$modal$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Modal$3e$__ = __turbopack_context__.i("[project]/Downloads/One click/node_modules/antd/es/modal/index.js [client] (ecmascript) <export default as Modal>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$form$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Form$3e$__ = __turbopack_context__.i("[project]/Downloads/One click/node_modules/antd/es/form/index.js [client] (ecmascript) <export default as Form>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$tooltip$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Tooltip$3e$__ = __turbopack_context__.i("[project]/Downloads/One click/node_modules/antd/es/tooltip/index.js [client] (ecmascript) <export default as Tooltip>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$dropdown$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Dropdown$3e$__ = __turbopack_context__.i("[project]/Downloads/One click/node_modules/antd/es/dropdown/index.js [client] (ecmascript) <export default as Dropdown>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$EditOutlined$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__EditOutlined$3e$__ = __turbopack_context__.i("[project]/Downloads/One click/node_modules/@ant-design/icons/es/icons/EditOutlined.js [client] (ecmascript) <export default as EditOutlined>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$EyeOutlined$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__EyeOutlined$3e$__ = __turbopack_context__.i("[project]/Downloads/One click/node_modules/@ant-design/icons/es/icons/EyeOutlined.js [client] (ecmascript) <export default as EyeOutlined>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$MoreOutlined$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MoreOutlined$3e$__ = __turbopack_context__.i("[project]/Downloads/One click/node_modules/@ant-design/icons/es/icons/MoreOutlined.js [client] (ecmascript) <export default as MoreOutlined>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$axios$2f$lib$2f$axios$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/One click/node_modules/axios/lib/axios.js [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2d$hot$2d$toast$2f$dist$2f$index$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/One click/node_modules/react-hot-toast/dist/index.mjs [client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$src$2f$components$2f$home$2f$FilterDropdown$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Downloads/One click/src/components/home/FilterDropdown.tsx [client] (ecmascript)");
@@ -6983,6 +6999,7 @@ const PoliciesTypeHome = (param)=>{
         {
             title: "Client",
             dataIndex: "client_name",
+            ellipsis: true,
             responsive: [
                 "md"
             ]
@@ -6990,12 +7007,13 @@ const PoliciesTypeHome = (param)=>{
         {
             title: "Policy No",
             dataIndex: "policy_no",
+            ellipsis: true,
             render: (text)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                     className: "text-xs sm:text-sm",
                     children: text
                 }, void 0, false, {
                     fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                    lineNumber: 288,
+                    lineNumber: 290,
                     columnNumber: 25
                 }, ("TURBOPACK compile-time value", void 0))
         },
@@ -7024,13 +7042,14 @@ const PoliciesTypeHome = (param)=>{
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                    lineNumber: 304,
+                    lineNumber: 306,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
         },
         {
             title: "Category",
             dataIndex: "insurance_category",
+            ellipsis: true,
             responsive: [
                 "lg"
             ],
@@ -7039,7 +7058,7 @@ const PoliciesTypeHome = (param)=>{
                     children: text
                 }, void 0, false, {
                     fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                    lineNumber: 313,
+                    lineNumber: 316,
                     columnNumber: 25
                 }, ("TURBOPACK compile-time value", void 0))
         },
@@ -7054,7 +7073,7 @@ const PoliciesTypeHome = (param)=>{
                     children: text
                 }, void 0, false, {
                     fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                    lineNumber: 319,
+                    lineNumber: 322,
                     columnNumber: 25
                 }, ("TURBOPACK compile-time value", void 0))
         },
@@ -7069,7 +7088,7 @@ const PoliciesTypeHome = (param)=>{
                     children: text
                 }, void 0, false, {
                     fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                    lineNumber: 325,
+                    lineNumber: 328,
                     columnNumber: 25
                 }, ("TURBOPACK compile-time value", void 0))
         },
@@ -7087,7 +7106,7 @@ const PoliciesTypeHome = (param)=>{
                         children: "Approved"
                     }, void 0, false, {
                         fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                        lineNumber: 335,
+                        lineNumber: 338,
                         columnNumber: 20
                     }, ("TURBOPACK compile-time value", void 0));
                 }
@@ -7097,7 +7116,7 @@ const PoliciesTypeHome = (param)=>{
                     children: "Rejected"
                 }, void 0, false, {
                     fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                    lineNumber: 339,
+                    lineNumber: 342,
                     columnNumber: 11
                 }, ("TURBOPACK compile-time value", void 0)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$tag$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Tag$3e$__["Tag"], {
                     color: "orange",
@@ -7105,90 +7124,92 @@ const PoliciesTypeHome = (param)=>{
                     children: "Pending"
                 }, void 0, false, {
                     fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                    lineNumber: 341,
+                    lineNumber: 344,
                     columnNumber: 11
                 }, ("TURBOPACK compile-time value", void 0));
             }
         },
         {
-            title: "Actions",
+            title: "Action",
             fixed: "right",
-            width: 100,
-            render: (_, r)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$space$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Space$3e$__["Space"], {
-                    size: "small",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$tooltip$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Tooltip$3e$__["Tooltip"], {
-                            title: "View Document",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$button$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Button$3e$__["Button"], {
-                                type: "link",
-                                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$EyeOutlined$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__EyeOutlined$3e$__["EyeOutlined"], {}, void 0, false, {
-                                    fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                                    lineNumber: 356,
-                                    columnNumber: 21
-                                }, void 0),
-                                className: "text-blue-500 hover:text-blue-700",
-                                onClick: ()=>{
-                                    const fileUrl = r.file_url || r.policy_pdf || r.image_url;
-                                    if (fileUrl && fileUrl !== "null" && fileUrl.trim() !== "") {
-                                        // If it's already a full URL (http/https), use it directly
-                                        if (fileUrl.startsWith("http")) {
-                                            window.open(fileUrl, "_blank");
-                                            return;
-                                        }
-                                        let baseUrl = __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$src$2f$api$2f$config$2e$ts__$5b$client$5d$__$28$ecmascript$29$__["API_CONFIG"].BASE_URL;
-                                        if (baseUrl.endsWith("/")) {
-                                            baseUrl = baseUrl.slice(0, -1);
-                                        }
-                                        const cleanPath = fileUrl.startsWith("/") ? fileUrl.substring(1) : fileUrl;
-                                        const finalUrl = "".concat(baseUrl, "/").concat(cleanPath);
-                                        console.log("Opening document:", finalUrl);
-                                        window.open(finalUrl, "_blank");
-                                    } else {
-                                        __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2d$hot$2d$toast$2f$dist$2f$index$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__["default"].error("No document attached");
-                                    }
-                                }
-                            }, void 0, false, {
-                                fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                                lineNumber: 354,
-                                columnNumber: 13
-                            }, ("TURBOPACK compile-time value", void 0))
-                        }, void 0, false, {
+            width: 80,
+            render: (_, r)=>{
+                const items = [
+                    {
+                        key: 'view',
+                        label: 'View Document',
+                        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$EyeOutlined$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__EyeOutlined$3e$__["EyeOutlined"], {}, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                            lineNumber: 353,
-                            columnNumber: 11
+                            lineNumber: 358,
+                            columnNumber: 23
                         }, ("TURBOPACK compile-time value", void 0)),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$tooltip$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Tooltip$3e$__["Tooltip"], {
-                            title: "Edit Policy",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$button$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Button$3e$__["Button"], {
-                                type: "link",
-                                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$EditOutlined$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__EditOutlined$3e$__["EditOutlined"], {}, void 0, false, {
-                                    fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                                    lineNumber: 393,
-                                    columnNumber: 21
-                                }, void 0),
-                                className: "text-green-600 hover:text-green-800",
-                                onClick: ()=>handleEdit(r)
-                            }, void 0, false, {
-                                fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                                lineNumber: 391,
-                                columnNumber: 13
-                            }, ("TURBOPACK compile-time value", void 0))
+                        onClick: ()=>{
+                            const fileUrl = r.file_url || r.policy_pdf || r.image_url;
+                            if (fileUrl && fileUrl !== "null" && fileUrl.trim() !== "") {
+                                if (fileUrl.startsWith("http")) {
+                                    window.open(fileUrl, "_blank");
+                                    return;
+                                }
+                                let baseUrl = __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$src$2f$api$2f$config$2e$ts__$5b$client$5d$__$28$ecmascript$29$__["API_CONFIG"].BASE_URL;
+                                if (baseUrl.endsWith("/")) {
+                                    baseUrl = baseUrl.slice(0, -1);
+                                }
+                                const cleanPath = fileUrl.startsWith("/") ? fileUrl.substring(1) : fileUrl;
+                                const finalUrl = "".concat(baseUrl, "/").concat(cleanPath);
+                                console.log("Opening document:", finalUrl);
+                                window.open(finalUrl, "_blank");
+                            } else {
+                                __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2d$hot$2d$toast$2f$dist$2f$index$2e$mjs__$5b$client$5d$__$28$ecmascript$29$__["default"].error("No document attached");
+                            }
+                        }
+                    },
+                    {
+                        key: 'edit',
+                        label: 'Edit Policy',
+                        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$EditOutlined$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__EditOutlined$3e$__["EditOutlined"], {}, void 0, false, {
+                            fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
+                            lineNumber: 388,
+                            columnNumber: 23
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        onClick: ()=>handleEdit(r)
+                    }
+                ];
+                return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$dropdown$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Dropdown$3e$__["Dropdown"], {
+                    menu: {
+                        items
+                    },
+                    trigger: [
+                        'click'
+                    ],
+                    placement: "bottomRight",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$button$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Button$3e$__["Button"], {
+                        type: "text",
+                        className: "flex items-center justify-center text-gray-500 hover:text-gray-700 hover:bg-gray-100 rounded-full w-8 h-8",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$MoreOutlined$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MoreOutlined$3e$__["MoreOutlined"], {
+                            style: {
+                                fontSize: '18px'
+                            }
                         }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                            lineNumber: 390,
-                            columnNumber: 11
+                            lineNumber: 399,
+                            columnNumber: 21
                         }, ("TURBOPACK compile-time value", void 0))
-                    ]
-                }, void 0, true, {
+                    }, void 0, false, {
+                        fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
+                        lineNumber: 395,
+                        columnNumber: 17
+                    }, ("TURBOPACK compile-time value", void 0))
+                }, void 0, false, {
                     fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                    lineNumber: 351,
-                    columnNumber: 9
-                }, ("TURBOPACK compile-time value", void 0))
+                    lineNumber: 394,
+                    columnNumber: 13
+                }, ("TURBOPACK compile-time value", void 0));
+            }
         },
         {
             title: "Verify",
             fixed: "right",
-            width: 140,
+            width: 100,
             render: (_, r)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$space$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Space$3e$__["Space"], {
                     direction: "vertical",
                     size: "small",
@@ -7205,7 +7226,7 @@ const PoliciesTypeHome = (param)=>{
                             children: "Approve"
                         }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                            lineNumber: 408,
+                            lineNumber: 412,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0)),
                         r.is_verified !== "0" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$button$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Button$3e$__["Button"], {
@@ -7216,13 +7237,13 @@ const PoliciesTypeHome = (param)=>{
                             children: "Reject"
                         }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                            lineNumber: 418,
+                            lineNumber: 422,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                    lineNumber: 406,
+                    lineNumber: 410,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
         }
@@ -7233,7 +7254,7 @@ const PoliciesTypeHome = (param)=>{
                 onFilterChange: setFilterStatus
             }, void 0, false, {
                 fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                lineNumber: 434,
+                lineNumber: 438,
                 columnNumber: 22
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7243,9 +7264,7 @@ const PoliciesTypeHome = (param)=>{
                     loading: loading,
                     columns: columns,
                     dataSource: policies,
-                    scroll: {
-                        x: "max-content"
-                    },
+                    // scroll={{ x: "max-content" }}
                     pagination: {
                         current: currentPage,
                         pageSize,
@@ -7264,7 +7283,7 @@ const PoliciesTypeHome = (param)=>{
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                                lineNumber: 450,
+                                lineNumber: 454,
                                 columnNumber: 15
                             }, void 0),
                         className: "px-4 sm:px-0"
@@ -7272,12 +7291,12 @@ const PoliciesTypeHome = (param)=>{
                     className: "policies-table"
                 }, void 0, false, {
                     fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                    lineNumber: 437,
+                    lineNumber: 441,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                lineNumber: 436,
+                lineNumber: 440,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$modal$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Modal$3e$__["Modal"], {
@@ -7321,7 +7340,7 @@ const PoliciesTypeHome = (param)=>{
                         onCancel: ()=>setEditingPolicy(null)
                     }, void 0, false, {
                         fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                        lineNumber: 493,
+                        lineNumber: 497,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0)) : (editingPolicy === null || editingPolicy === void 0 ? void 0 : (_editingPolicy_insurance_category1 = editingPolicy.insurance_category) === null || _editingPolicy_insurance_category1 === void 0 ? void 0 : _editingPolicy_insurance_category1.toLowerCase()) === "health" ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$src$2f$components$2f$policies$2f$form$2f$PolicyEditFormHealth$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                         form: form,
@@ -7330,7 +7349,7 @@ const PoliciesTypeHome = (param)=>{
                         onCancel: ()=>setEditingPolicy(null)
                     }, void 0, false, {
                         fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                        lineNumber: 500,
+                        lineNumber: 504,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0)) : (editingPolicy === null || editingPolicy === void 0 ? void 0 : (_editingPolicy_insurance_category2 = editingPolicy.insurance_category) === null || _editingPolicy_insurance_category2 === void 0 ? void 0 : _editingPolicy_insurance_category2.toLowerCase()) === "life" ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$src$2f$components$2f$policies$2f$form$2f$PolicyEditFormLife$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                         form: form,
@@ -7339,7 +7358,7 @@ const PoliciesTypeHome = (param)=>{
                         onCancel: ()=>setEditingPolicy(null)
                     }, void 0, false, {
                         fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                        lineNumber: 507,
+                        lineNumber: 511,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0)) : (editingPolicy === null || editingPolicy === void 0 ? void 0 : (_editingPolicy_insurance_category3 = editingPolicy.insurance_category) === null || _editingPolicy_insurance_category3 === void 0 ? void 0 : _editingPolicy_insurance_category3.toLowerCase()) === "travel" ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$src$2f$components$2f$policies$2f$form$2f$PolicyEditFormTravel$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                         form: form,
@@ -7348,7 +7367,7 @@ const PoliciesTypeHome = (param)=>{
                         onCancel: ()=>setEditingPolicy(null)
                     }, void 0, false, {
                         fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                        lineNumber: 514,
+                        lineNumber: 518,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0)) : (editingPolicy === null || editingPolicy === void 0 ? void 0 : (_editingPolicy_insurance_category4 = editingPolicy.insurance_category) === null || _editingPolicy_insurance_category4 === void 0 ? void 0 : _editingPolicy_insurance_category4.toLowerCase()) === "other" ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$src$2f$components$2f$policies$2f$form$2f$PolicyEditFormOther$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                         form: form,
@@ -7357,7 +7376,7 @@ const PoliciesTypeHome = (param)=>{
                         onCancel: ()=>setEditingPolicy(null)
                     }, void 0, false, {
                         fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                        lineNumber: 521,
+                        lineNumber: 525,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$src$2f$components$2f$policies$2f$form$2f$PolicyEditFormCar$2e$tsx__$5b$client$5d$__$28$ecmascript$29$__["default"], {
                         form: form,
@@ -7366,17 +7385,17 @@ const PoliciesTypeHome = (param)=>{
                         onCancel: ()=>setEditingPolicy(null)
                     }, void 0, false, {
                         fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                        lineNumber: 528,
+                        lineNumber: 532,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0))
                 }, void 0, false, {
                     fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                    lineNumber: 491,
+                    lineNumber: 495,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/Downloads/One click/src/components/policies/policiesTypeHome.tsx",
-                lineNumber: 460,
+                lineNumber: 464,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
@@ -7468,14 +7487,10 @@ const Policies = ()=>{
                     {
                         title: "Total Policies",
                         value: total_records,
-                        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$ReloadOutlined$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ReloadOutlined$3e$__["ReloadOutlined"], {
-                            style: {
-                                color: "#ffff"
-                            }
-                        }, void 0, false, {
+                        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$ReloadOutlined$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ReloadOutlined$3e$__["ReloadOutlined"], {}, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/pages/policies.tsx",
-                            lineNumber: 81,
-                            columnNumber: 15
+                            lineNumber: 80,
+                            columnNumber: 19
                         }, ("TURBOPACK compile-time value", void 0)),
                         color: "#00de81"
                     },
@@ -7484,7 +7499,7 @@ const Policies = ()=>{
                         value: rejectedCount,
                         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$CalendarOutlined$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CalendarOutlined$3e$__["CalendarOutlined"], {}, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/pages/policies.tsx",
-                            lineNumber: 92,
+                            lineNumber: 86,
                             columnNumber: 19
                         }, ("TURBOPACK compile-time value", void 0)),
                         color: "#ff4d4f"
@@ -7506,7 +7521,6 @@ const Policies = ()=>{
         }
     }["Policies.useEffect"], []);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "container mx-auto px-4 py-6 max-w-7xl",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$row$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Row$3e$__["Row"], {
                 gutter: [
@@ -7530,17 +7544,17 @@ const Policies = ()=>{
                                 active: true
                             }, void 0, false, {
                                 fileName: "[project]/Downloads/One click/src/pages/policies.tsx",
-                                lineNumber: 124,
+                                lineNumber: 118,
                                 columnNumber: 19
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/pages/policies.tsx",
-                            lineNumber: 117,
+                            lineNumber: 111,
                             columnNumber: 17
                         }, ("TURBOPACK compile-time value", void 0))
                     }, index, false, {
                         fileName: "[project]/Downloads/One click/src/pages/policies.tsx",
-                        lineNumber: 116,
+                        lineNumber: 110,
                         columnNumber: 15
                     }, ("TURBOPACK compile-time value", void 0))) : stats.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$antd$2f$es$2f$col$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Col$3e$__["Col"], {
                         xs: 24,
@@ -7553,17 +7567,17 @@ const Policies = ()=>{
                             color: item.color
                         }, void 0, false, {
                             fileName: "[project]/Downloads/One click/src/pages/policies.tsx",
-                            lineNumber: 130,
+                            lineNumber: 124,
                             columnNumber: 17
                         }, ("TURBOPACK compile-time value", void 0))
                     }, index, false, {
                         fileName: "[project]/Downloads/One click/src/pages/policies.tsx",
-                        lineNumber: 129,
+                        lineNumber: 123,
                         columnNumber: 15
                     }, ("TURBOPACK compile-time value", void 0)))
             }, void 0, false, {
                 fileName: "[project]/Downloads/One click/src/pages/policies.tsx",
-                lineNumber: 113,
+                lineNumber: 107,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$One__click$2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7574,18 +7588,18 @@ const Policies = ()=>{
                     onDataChange: fetchDashboardData
                 }, void 0, false, {
                     fileName: "[project]/Downloads/One click/src/pages/policies.tsx",
-                    lineNumber: 140,
+                    lineNumber: 134,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/Downloads/One click/src/pages/policies.tsx",
-                lineNumber: 139,
+                lineNumber: 133,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/Downloads/One click/src/pages/policies.tsx",
-        lineNumber: 112,
+        lineNumber: 106,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };

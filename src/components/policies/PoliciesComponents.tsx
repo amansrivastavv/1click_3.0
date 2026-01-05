@@ -67,31 +67,25 @@ const PoliciesComponents: React.FC = () => {
           {
             title: "Pending Policies",
             value: pending_count,
-            icon: <UserOutlined style={{ fontSize: 24, color: "#fff" }} />,
+            icon: <UserOutlined style={{ fontSize: 24 }} />,
             color: "#f39c12", // Orange for pending
           },
           {
             title: "Approved Policies",
             value: approved_count,
-            icon: (
-              <CheckCircleOutlined style={{ fontSize: 24, color: "#fff" }} />
-            ),
+            icon: <CheckCircleOutlined style={{ fontSize: 24 }} />,
             color: "#00de81", // Green for approved
           },
           {
             title: "Rejected Policies",
             value: rejected_count,
-            icon: (
-              <CloseCircleOutlined style={{ fontSize: 24, color: "#fff" }} />
-            ),
+            icon: <CloseCircleOutlined style={{ fontSize: 24 }} />,
             color: "#ff4d4f", // Red for rejected
           },
           {
             title: "Total Policies",
             value: total_records,
-            icon: (
-              <ReloadOutlined style={{ fontSize: 24, color: "#fff" }} />
-            ),
+            icon: <ReloadOutlined style={{ fontSize: 24 }} />,
             color: "#00de81",
           },
         ]);
@@ -113,7 +107,7 @@ const PoliciesComponents: React.FC = () => {
   }, []);
 
   return (
-    <div className="space-y-8 bg-[#edf1f5] p-6">
+    <div className="space-y-8">
       <Row gutter={[16, 24]}>
         {loading
           ? Array.from({ length: 4 }).map((_, index) => (

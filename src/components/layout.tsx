@@ -59,8 +59,8 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         <Toaster toastOptions={globalToastOptions} />
 
         {/* Main content */}
-        <main className="flex-1 overflow-auto p-2 md:p-4 lg:p-4 bg-[#edf1f5] rounded mr-2">
-          <div className="max-w-7xl mx-auto rounded-2xl">{children}</div>
+        <main className="flex-1 overflow-auto p-8 bg-[#edf1f5]">
+          <div className="w-full mx-auto rounded-2xl">{children}</div>
         </main>
       </div>
     </div>

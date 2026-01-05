@@ -80,35 +80,25 @@ const Dashboard = () => {
             {
               title: "Pending Policies",
               value: d.total_users,
-              icon: (
-                <UserOutlined style={{ fontSize: "24px", color: "#fff" }} />
-              ),
+              icon: <UserOutlined />,
               color: "#1f2add",
             },
             {
               title: "Total Insurances",
               value: d.total_insurances,
-              icon: (
-                <FileProtectOutlined
-                  style={{ fontSize: "24px", color: "#fff" }}
-                />
-              ),
+              icon: <FileProtectOutlined />,
               color: "#00de81",
             },
             {
               title: "Expiring Soon",
               value: d.expiring_insurances,
-              icon: (
-                <ReloadOutlined style={{ fontSize: "24px", color: "#fff" }} />
-              ),
+              icon: <ReloadOutlined />,
               color: "#faad14",
             },
             {
               title: "Renewal Soon",
               value: 14,
-              icon: (
-                <CalendarOutlined style={{ fontSize: "24px", color: "#fff" }} />
-              ),
+              icon: <CalendarOutlined />,
               color: "#ff4d4f",
             },
           ]);
@@ -125,7 +115,7 @@ const Dashboard = () => {
 
   return (
     <>
-      <div className="p-4 lg:p-8 space-y-8">
+      <div className="space-y-8">
         <PolicyComponents />
         {/* <BiaxialBarChartWithApi /> */}
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-4 w-full">
