@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/LENOVO/Downloads/One%20click/src/pages/index.tsx"],"sourcesContent":["import { useEffect } from \"react\";\nimport { useRouter } from \"next/router\";\n\nexport default function Home() {\n  const router = useRouter();\n\n  useEffect(() => {\n    router.replace(\"/login\");\n  }, [router]);\n\n  return null;\n}\n"],"names":[],"mappings":";;;;AAAA;AACA;;;AAEe,SAAS;IACtB,MAAM,SAAS,IAAA,+JAAS;IAExB,IAAA,gHAAS,EAAC;QACR,OAAO,OAAO,CAAC;IACjB,GAAG;QAAC;KAAO;IAEX,OAAO;AACT","debugId":null}}]
-}

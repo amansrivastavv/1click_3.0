@@ -1,32 +1,31 @@
 {
   "pages": {
     "/_app": [
-      "static/chunks/f2ed1_next_dist_compiled_next-devtools_index_3fa62034.js",
-      "static/chunks/f2ed1_next_dist_compiled_a2a2d215._.js",
-      "static/chunks/f2ed1_next_dist_shared_lib_d8f48158._.js",
-      "static/chunks/f2ed1_next_dist_client_0f7ba93f._.js",
-      "static/chunks/f2ed1_next_dist_4030072f._.js",
-      "static/chunks/f2ed1_next_7539612c._.js",
-      "static/chunks/f2ed1_react-dom_654af7c3._.js",
-      "static/chunks/f2ed1_rc-field-form_es_f848ff11._.js",
-      "static/chunks/f2ed1_antd_es_2267f49d._.js",
-      "static/chunks/f2ed1_@ant-design_cssinjs_es_0b6519cb._.js",
-      "static/chunks/f2ed1_rc-menu_es_4e06bf99._.js",
-      "static/chunks/f2ed1_@rc-component_98e55b77._.js",
-      "static/chunks/f2ed1_@ant-design_3ff2524e._.js",
-      "static/chunks/f2ed1_00cada93._.js",
-      "static/chunks/[root-of-the-server]__0f9cd907._.js",
-      "static/chunks/Downloads_One click_src_styles_globals_60b7d338.css",
-      "static/chunks/Downloads_One click_src_pages__app_2da965e7._.js",
-      "static/chunks/turbopack-Downloads_One click_src_pages__app_1748547c._.js"
+      "static/chunks/05e1a83a467be143.js",
+      "static/chunks/3c7bef27c2ad733c.js",
+      "static/chunks/a05647e6b7620c5a.js",
+      "static/chunks/cf9d0e36d803a904.js",
+      "static/chunks/cb30c005f1f8e28d.js",
+      "static/chunks/aa07b8cb58c7f1b7.js",
+      "static/chunks/4f89cc560d7721b7.js",
+      "static/chunks/9590b19b1bfe9a64.js",
+      "static/chunks/41a92156cc9c29f9.js",
+      "static/chunks/2726172960b45fc0.css",
+      "static/chunks/turbopack-5fdfb7fa1423c03e.js"
+    ],
+    "/_error": [
+      "static/chunks/3a862082ba507bf0.js",
+      "static/chunks/cb30c005f1f8e28d.js",
+      "static/chunks/4f89cc560d7721b7.js",
+      "static/chunks/turbopack-f9156f3d88657d44.js"
     ]
   },
   "devFiles": [],
   "ampDevFiles": [],
   "polyfillFiles": [],
   "lowPriorityFiles": [
-    "static/development/_ssgManifest.js",
-    "static/development/_buildManifest.js"
+    "static/9M77BF7Yxp0zPFyPWMZ85/_ssgManifest.js",
+    "static/9M77BF7Yxp0zPFyPWMZ85/_buildManifest.js"
   ],
   "rootMainFiles": [],
   "ampFirstPages": []

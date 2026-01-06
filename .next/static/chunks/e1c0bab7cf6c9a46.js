@@ -1,0 +1,13 @@
+__turbopack_load_page_chunks__("/manage-dashboard", [
+  "static/chunks/4ab6baefb8a4c454.js",
+  "static/chunks/ac2395df3228c5b2.js",
+  "static/chunks/7194dd59d0561455.js",
+  "static/chunks/fda297a5ef68110b.js",
+  "static/chunks/352eb95b24e36655.js",
+  "static/chunks/8b8bdb9e1c6fa8fb.js",
+  "static/chunks/13dc6e1bb289ef64.js",
+  "static/chunks/cb30c005f1f8e28d.js",
+  "static/chunks/c0d4a7c4404855af.js",
+  "static/chunks/4f89cc560d7721b7.js",
+  "static/chunks/turbopack-707d7c0a282172aa.js"
+])

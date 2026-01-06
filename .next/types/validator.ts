@@ -27,18 +27,6 @@ type PagesPageConfig = {
 
 
 
-// Validate ../../src/pages/_app.tsx
-{
-  const handler = {} as typeof import("../../src/pages/_app.js")
-  handler satisfies PagesPageConfig
-}
-
-// Validate ../../src/pages/_document.tsx
-{
-  const handler = {} as typeof import("../../src/pages/_document.js")
-  handler satisfies PagesPageConfig
-}
-
 // Validate ../../src/pages/companies.tsx
 {
   const handler = {} as typeof import("../../src/pages/companies.js")

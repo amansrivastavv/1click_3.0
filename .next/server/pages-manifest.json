@@ -1,12 +1,15 @@
 {
-  "/": "pages/index.js",
+  "/": "pages/index.html",
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/companies": "pages/companies.js",
-  "/dashboard": "pages/dashboard.js",
-  "/login": "pages/login.js",
-  "/manage-dashboard": "pages/manage-dashboard.js",
-  "/policies": "pages/policies.js",
-  "/upcomingExpiries": "pages/upcomingExpiries.js",
-  "/users": "pages/users.js"
+  "/_error": "pages/_error.js",
+  "/companies": "pages/companies.html",
+  "/dashboard": "pages/dashboard.html",
+  "/insuranceTypes": "pages/insuranceTypes.html",
+  "/login": "pages/login.html",
+  "/manage-dashboard": "pages/manage-dashboard.html",
+  "/policies": "pages/policies.html",
+  "/upcomingExpiries": "pages/upcomingExpiries.html",
+  "/users": "pages/users.html",
+  "/404": "pages/404.html"
 }

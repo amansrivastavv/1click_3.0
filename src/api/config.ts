@@ -22,12 +22,12 @@ export const API_ENDPOINTS = {
   VIEW_UPCOMMING: "/admin_getUserInsurances_v2.php",
 
   //For notification send
-  NOTIFICATIONS_SEND: "/firebase_notificationv2.php?user_id=5",
+  NOTIFICATIONS_SEND: "/firebase_notificationv2.php",
 
   //For Send Email
-  EMAIL_SEND: "/email_notificationv2.php?user_id=8&policy_id=1",
-  SMS_SEND: "/email_notificationv2.php?user_id=8&policy_id=1",
-  WHATSAPP_SEND: "/email_notificationv2.php?user_id=8&policy_id=1",
+  EMAIL_SEND: "/email_notificationv2.php",
+  SMS_SEND: "/email_notificationv2.php",
+  WHATSAPP_SEND: "/email_notificationv2.php",
 
   //for bar chart
   GETBAR_CHART: "/admin_get_user_registration_chart.php",
